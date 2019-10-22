@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression suite 1]">
+  <listeners>
+    <listener class-name="com.test.automation.FMSV12_Japan.customListener.Listener"/>
+    <listener class-name="com.test.automation.FMSV12_Japan.customListener.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="ChromeBrowser(failed)">
+    <parameter name="Browser_Name" value="chrome"/>
+    <classes>
+      <class name="com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifySubmitButtonColor_BeforeClick"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode -->
+    </classes>
+  </test> <!-- ChromeBrowser(failed) -->
+</suite> <!-- Failed suite [Regression suite 1] -->

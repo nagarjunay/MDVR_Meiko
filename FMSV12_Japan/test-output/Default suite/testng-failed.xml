@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.test.automation.FMSV12_Japan.dashboard.TC007_VerifyingStateOfVehicle">
+        <methods>
+          <include name="MovingVehiclesReport"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="movingState"/>
+        </methods>
+      </class> <!-- com.test.automation.FMSV12_Japan.dashboard.TC007_VerifyingStateOfVehicle -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="14" passed="12">
+  <reporter-output>
+    <line>
+      <![CDATA[Test is started:VerifyRememberMe_CheckBox]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started Verifying Remember me check box is checked]]>
+    </line>
+    <line>
+      <![CDATA[Checked 'Remember Me' checkbox as it is unchecked[[ChromeDriver: chrome on XP (38fcfe60ee368efe9c10a080683566d9)] -> css selector: div[class='checker']]]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started Verifying Remember me check box is checked]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyRememberMe_CheckBox_22_10_2019_01_36_28.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyRememberMe_CheckBox_22_10_2019_01_36_28.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_36_28.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_36_28.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[Test is started:verifySubmitButtonColor_AfterClick]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started Verifying submit button color]]>
+    </line>
+    <line>
+      <![CDATA[Entered login id====>>Hello and object is[[ChromeDriver: chrome on XP (38fcfe60ee368efe9c10a080683566d9)] -> id: username]]]>
+    </line>
+    <line>
+      <![CDATA[Entered password====>> and object is[[ChromeDriver: chrome on XP (38fcfe60ee368efe9c10a080683566d9)] -> xpath: //*[@id="password"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (38fcfe60ee368efe9c10a080683566d9)] -> css selector: button[type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[Verifying submit button color: #1d943b]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished Verifying submit button color]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifySubmitButtonColor_AfterClick_22_10_2019_01_36_29.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifySubmitButtonColor_AfterClick_22_10_2019_01_36_29.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_36_29.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_36_29.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[Test is started:verifySubmitButtonColor_BeforeClick]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started Verifying submit button color]]>
+    </line>
+    <line>
+      <![CDATA[Retrying testverifySubmitButtonColor_BeforeClickwith status nullfor the1time(s).]]>
+    </line>
+    <line>
+      <![CDATA[Test is skipped:verifySubmitButtonColor_BeforeClick]]>
+    </line>
+    <line>
+      <![CDATA[Test is started:verifySubmitButtonColor_BeforeClick]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started Verifying submit button color]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifySubmitButtonColor_BeforeClick_22_10_2019_01_36_30.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifySubmitButtonColor_BeforeClick_22_10_2019_01_36_30.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_36_30.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_36_30.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[Test is started:verifyLogin]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started verify login]]>
+    </line>
+    <line>
+      <![CDATA[Entered login id====>>Demo and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> id: username]]]>
+    </line>
+    <line>
+      <![CDATA[Entered password====>> and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> xpath: //*[@id="password"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> css selector: button[type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_36_58.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_36_58.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_36_58.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_36_58.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[Test is started:verifyLogin]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started verify login]]>
+    </line>
+    <line>
+      <![CDATA[Entered login id====>> and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> id: username]]]>
+    </line>
+    <line>
+      <![CDATA[Entered password====>>Info@123 and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> xpath: //*[@id="password"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> css selector: button[type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_36_59.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_36_59.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_37_00.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_37_00.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[Test is started:verifyLogin]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started verify login]]>
+    </line>
+    <line>
+      <![CDATA[Entered login id====>>helloo and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> id: username]]]>
+    </line>
+    <line>
+      <![CDATA[Entered password====>>ift and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> xpath: //*[@id="password"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> css selector: button[type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_37_22.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_37_22.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_37_22.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_37_22.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[Test is started:verifyLogin]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started verify login]]>
+    </line>
+    <line>
+      <![CDATA[Entered login id====>>meiko and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> id: username]]]>
+    </line>
+    <line>
+      <![CDATA[Entered password====>>hhh12312 and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> xpath: //*[@id="password"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> css selector: button[type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_37_45.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_37_45.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_37_45.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_37_45.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[Test is started:verifyLogin]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started verify login]]>
+    </line>
+    <line>
+      <![CDATA[Entered login id====>>ffffg and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> id: username]]]>
+    </line>
+    <line>
+      <![CDATA[Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> xpath: //*[@id="password"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> css selector: button[type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_38_07.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_38_07.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_38_07.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_38_07.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[Test is started:verifyLogin]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started verify login]]>
+    </line>
+    <line>
+      <![CDATA[Entered login id====>>fp-ifttest and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> id: username]]]>
+    </line>
+    <line>
+      <![CDATA[Entered password====>>iftt and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> xpath: //*[@id="password"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> css selector: button[type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_38_30.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_38_30.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_38_30.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_38_30.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[Test is started:verifyMeikoLogo]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started Verifying Login page Meiko logo]]>
+    </line>
+    <line>
+      <![CDATA[Checking logo is present or not]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished Verifying Login page Meiko logo]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyMeikoLogo_22_10_2019_01_38_56.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyMeikoLogo_22_10_2019_01_38_56.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_38_56.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_38_56.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[Test is started:verifyForgotPassword]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started Verifying Remember Me check box]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on forgot password hyper link id====>>[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: a[id='forget-password']] and object is[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: a[id='forget-password']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on submit button id====>>[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished Verifying Remember Me check box ]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyForgotPassword_22_10_2019_01_39_23.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyForgotPassword_22_10_2019_01_39_23.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_39_24.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_39_24.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[Test is started:verifyForgotPasswordwith_InvalidMailId]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started Verifying Remember Me check box]]>
+    </line>
+    <line>
+      <![CDATA[Entered invaid email id====>>[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: input[id='email']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on submit button id====>>[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished Verifying Remember Me check box ]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyForgotPasswordwith_InvalidMailId_22_10_2019_01_39_24.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyForgotPasswordwith_InvalidMailId_22_10_2019_01_39_24.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_39_25.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_39_25.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[Test is started:verifyForgotPasswordwith_ValidMailId]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started Verifying Remember Me check box]]>
+    </line>
+    <line>
+      <![CDATA[Entered invaid email id====>>[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: input[id='email']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on submit button id====>>[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished Verifying Remember Me check box ]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyForgotPasswordwith_ValidMailId_22_10_2019_01_39_47.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyForgotPasswordwith_ValidMailId_22_10_2019_01_39_47.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_39_47.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_39_47.png' height='100' width='100'/></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression suite 1" duration-ms="227262" started-at="2019-10-22T08:06:01Z" finished-at="2019-10-22T08:09:48Z">
+    <groups>
+    </groups>
+    <test name="ChromeBrowser" duration-ms="227172" started-at="2019-10-22T08:06:01Z" finished-at="2019-10-22T08:09:48Z">
+      <class name="com.test.automation.FMSV12_Japan.loginpage.TC011_VerifyLoginPageMeikoLogo">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC011_VerifyLoginPageMeikoLogo@6356695f]" name="setUp" is-config="true" duration-ms="25071" started-at="2019-10-22T08:08:31Z" finished-at="2019-10-22T08:08:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC011_VerifyLoginPageMeikoLogo@6356695f]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2019-10-22T08:08:56Z" finished-at="2019-10-22T08:08:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC011_VerifyLoginPageMeikoLogo.verifyMeikoLogo() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyMeikoLogo()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC011_VerifyLoginPageMeikoLogo@6356695f]" name="verifyMeikoLogo" duration-ms="52" started-at="2019-10-22T08:08:56Z" finished-at="2019-10-22T08:08:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test is started:verifyMeikoLogo]]>
+            </line>
+            <line>
+              <![CDATA[=========>Started Verifying Login page Meiko logo]]>
+            </line>
+            <line>
+              <![CDATA[Checking logo is present or not]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished Verifying Login page Meiko logo]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyMeikoLogo_22_10_2019_01_38_56.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyMeikoLogo_22_10_2019_01_38_56.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMeikoLogo -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC011_VerifyLoginPageMeikoLogo@6356695f]" name="afterMethod" is-config="true" duration-ms="319" started-at="2019-10-22T08:08:56Z" finished-at="2019-10-22T08:08:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMeikoLogo status=SUCCESS method=TC011_VerifyLoginPageMeikoLogo.verifyMeikoLogo()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC011_VerifyLoginPageMeikoLogo@6356695f] output=Test is started:verifyMeikoLogo]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_38_56.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_38_56.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC011_VerifyLoginPageMeikoLogo@6356695f]" name="endTest" is-config="true" duration-ms="739" started-at="2019-10-22T08:08:57Z" finished-at="2019-10-22T08:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.automation.FMSV12_Japan.loginpage.TC011_VerifyLoginPageMeikoLogo -->
+      <class name="com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="setUp" is-config="true" duration-ms="24995" started-at="2019-10-22T08:06:32Z" finished-at="2019-10-22T08:06:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-22T08:06:57Z" finished-at="2019-10-22T08:06:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="verifyLogin" duration-ms="833" started-at="2019-10-22T08:06:57Z" data-provider="getDataFromExcel" finished-at="2019-10-22T08:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[@for='password']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Password is required.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is started:verifyLogin]]>
+            </line>
+            <line>
+              <![CDATA[=========>Started verify login]]>
+            </line>
+            <line>
+              <![CDATA[Entered login id====>>Demo and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> id: username]]]>
+            </line>
+            <line>
+              <![CDATA[Entered password====>> and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> xpath: //*[@id="password"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> css selector: button[type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_36_58.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_36_58.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="afterMethod" is-config="true" duration-ms="333" started-at="2019-10-22T08:06:58Z" finished-at="2019-10-22T08:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27] output=Test is started:verifyLogin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_36_58.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_36_58.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-22T08:06:59Z" finished-at="2019-10-22T08:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="verifyLogin" duration-ms="600" started-at="2019-10-22T08:06:59Z" data-provider="getDataFromExcel" finished-at="2019-10-22T08:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Info@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[@for='username']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username is required.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is started:verifyLogin]]>
+            </line>
+            <line>
+              <![CDATA[=========>Started verify login]]>
+            </line>
+            <line>
+              <![CDATA[Entered login id====>> and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> id: username]]]>
+            </line>
+            <line>
+              <![CDATA[Entered password====>>Info@123 and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> xpath: //*[@id="password"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> css selector: button[type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_36_59.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_36_59.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="afterMethod" is-config="true" duration-ms="329" started-at="2019-10-22T08:07:00Z" finished-at="2019-10-22T08:07:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27] output=Test is started:verifyLogin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_37_00.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_37_00.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-22T08:07:00Z" finished-at="2019-10-22T08:07:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="verifyLogin" duration-ms="22099" started-at="2019-10-22T08:07:00Z" data-provider="getDataFromExcel" finished-at="2019-10-22T08:07:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[helloo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ift]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//div[@class='alert alert-danger ']/span]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Not a valid login!Unauthorized user]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is started:verifyLogin]]>
+            </line>
+            <line>
+              <![CDATA[=========>Started verify login]]>
+            </line>
+            <line>
+              <![CDATA[Entered login id====>>helloo and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> id: username]]]>
+            </line>
+            <line>
+              <![CDATA[Entered password====>>ift and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> xpath: //*[@id="password"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> css selector: button[type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_37_22.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_37_22.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="afterMethod" is-config="true" duration-ms="333" started-at="2019-10-22T08:07:22Z" finished-at="2019-10-22T08:07:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27] output=Test is started:verifyLogin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_37_22.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_37_22.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-22T08:07:23Z" finished-at="2019-10-22T08:07:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="verifyLogin" duration-ms="21830" started-at="2019-10-22T08:07:23Z" data-provider="getDataFromExcel" finished-at="2019-10-22T08:07:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meiko]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hhh12312]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//div[@class='alert alert-danger ']/span]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Password is wrong]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is started:verifyLogin]]>
+            </line>
+            <line>
+              <![CDATA[=========>Started verify login]]>
+            </line>
+            <line>
+              <![CDATA[Entered login id====>>meiko and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> id: username]]]>
+            </line>
+            <line>
+              <![CDATA[Entered password====>>hhh12312 and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> xpath: //*[@id="password"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> css selector: button[type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_37_45.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_37_45.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="afterMethod" is-config="true" duration-ms="333" started-at="2019-10-22T08:07:45Z" finished-at="2019-10-22T08:07:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27] output=Test is started:verifyLogin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_37_45.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_37_45.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-22T08:07:45Z" finished-at="2019-10-22T08:07:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="verifyLogin" duration-ms="21788" started-at="2019-10-22T08:07:45Z" data-provider="getDataFromExcel" finished-at="2019-10-22T08:08:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ffffg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[welcome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//div[@class='alert alert-danger ']/span]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Not a valid login!Unauthorized user]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is started:verifyLogin]]>
+            </line>
+            <line>
+              <![CDATA[=========>Started verify login]]>
+            </line>
+            <line>
+              <![CDATA[Entered login id====>>ffffg and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> id: username]]]>
+            </line>
+            <line>
+              <![CDATA[Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> xpath: //*[@id="password"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> css selector: button[type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_38_07.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_38_07.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="afterMethod" is-config="true" duration-ms="347" started-at="2019-10-22T08:08:07Z" finished-at="2019-10-22T08:08:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27] output=Test is started:verifyLogin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_38_07.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_38_07.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-22T08:08:08Z" finished-at="2019-10-22T08:08:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="verifyLogin" duration-ms="21800" started-at="2019-10-22T08:08:08Z" data-provider="getDataFromExcel" finished-at="2019-10-22T08:08:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fp-ifttest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iftt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//div[@class='alert alert-danger ']/span]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Not a valid login!Unauthorized user]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is started:verifyLogin]]>
+            </line>
+            <line>
+              <![CDATA[=========>Started verify login]]>
+            </line>
+            <line>
+              <![CDATA[Entered login id====>>fp-ifttest and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> id: username]]]>
+            </line>
+            <line>
+              <![CDATA[Entered password====>>iftt and object is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> xpath: //*[@id="password"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (6d4229e7fb0fc0fa98559a5a8041392b)] -> css selector: button[type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_38_30.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_22_10_2019_01_38_30.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="afterMethod" is-config="true" duration-ms="329" started-at="2019-10-22T08:08:30Z" finished-at="2019-10-22T08:08:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27] output=Test is started:verifyLogin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_38_30.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_38_30.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@5ffead27]" name="endTest" is-config="true" duration-ms="784" started-at="2019-10-22T08:08:30Z" finished-at="2019-10-22T08:08:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin -->
+      <class name="com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d]" name="setUp" is-config="true" duration-ms="26359" started-at="2019-10-22T08:06:01Z" finished-at="2019-10-22T08:06:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2019-10-22T08:06:27Z" finished-at="2019-10-22T08:06:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode.VerifyRememberMe_CheckBox()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyRememberMe_CheckBox()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d]" name="VerifyRememberMe_CheckBox" duration-ms="251" started-at="2019-10-22T08:06:27Z" finished-at="2019-10-22T08:06:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test is started:VerifyRememberMe_CheckBox]]>
+            </line>
+            <line>
+              <![CDATA[=========>Started Verifying Remember me check box is checked]]>
+            </line>
+            <line>
+              <![CDATA[Checked 'Remember Me' checkbox as it is unchecked[[ChromeDriver: chrome on XP (38fcfe60ee368efe9c10a080683566d9)] -> css selector: div[class='checker']]]]>
+            </line>
+            <line>
+              <![CDATA[=========>Started Verifying Remember me check box is checked]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyRememberMe_CheckBox_22_10_2019_01_36_28.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyRememberMe_CheckBox_22_10_2019_01_36_28.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyRememberMe_CheckBox -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d]" name="afterMethod" is-config="true" duration-ms="333" started-at="2019-10-22T08:06:28Z" finished-at="2019-10-22T08:06:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyRememberMe_CheckBox status=SUCCESS method=TC012_VerfyingSubmitButtonColorCode.VerifyRememberMe_CheckBox()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d] output=Test is started:VerifyRememberMe_CheckBox]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_36_28.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_36_28.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2019-10-22T08:06:28Z" finished-at="2019-10-22T08:06:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode.verifySubmitButtonColor_AfterClick() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifySubmitButtonColor_AfterClick()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d]" name="verifySubmitButtonColor_AfterClick" duration-ms="606" started-at="2019-10-22T08:06:28Z" finished-at="2019-10-22T08:06:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test is started:verifySubmitButtonColor_AfterClick]]>
+            </line>
+            <line>
+              <![CDATA[=========>Started Verifying submit button color]]>
+            </line>
+            <line>
+              <![CDATA[Entered login id====>>Hello and object is[[ChromeDriver: chrome on XP (38fcfe60ee368efe9c10a080683566d9)] -> id: username]]]>
+            </line>
+            <line>
+              <![CDATA[Entered password====>> and object is[[ChromeDriver: chrome on XP (38fcfe60ee368efe9c10a080683566d9)] -> xpath: //*[@id="password"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (38fcfe60ee368efe9c10a080683566d9)] -> css selector: button[type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[Verifying submit button color: #1d943b]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished Verifying submit button color]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifySubmitButtonColor_AfterClick_22_10_2019_01_36_29.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifySubmitButtonColor_AfterClick_22_10_2019_01_36_29.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySubmitButtonColor_AfterClick -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d]" name="afterMethod" is-config="true" duration-ms="369" started-at="2019-10-22T08:06:29Z" finished-at="2019-10-22T08:06:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySubmitButtonColor_AfterClick status=SUCCESS method=TC012_VerfyingSubmitButtonColorCode.verifySubmitButtonColor_AfterClick()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d] output=Test is started:verifySubmitButtonColor_AfterClick]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_36_29.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_36_29.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-22T08:06:30Z" finished-at="2019-10-22T08:06:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode.verifySubmitButtonColor_BeforeClick() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="verifySubmitButtonColor_BeforeClick()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d]" name="verifySubmitButtonColor_BeforeClick" duration-ms="50" started-at="2019-10-22T08:06:30Z" finished-at="2019-10-22T08:06:30Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [#253a73] but found [#1d943b]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [#253a73] but found [#1d943b]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode.verifySubmitButtonColor_BeforeClick(TC012_VerfyingSubmitButtonColorCode.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test is started:verifySubmitButtonColor_BeforeClick]]>
+            </line>
+            <line>
+              <![CDATA[=========>Started Verifying submit button color]]>
+            </line>
+            <line>
+              <![CDATA[Retrying testverifySubmitButtonColor_BeforeClickwith status nullfor the1time(s).]]>
+            </line>
+            <line>
+              <![CDATA[Test is skipped:verifySubmitButtonColor_BeforeClick]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySubmitButtonColor_BeforeClick -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-22T08:06:30Z" finished-at="2019-10-22T08:06:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySubmitButtonColor_BeforeClick status=SKIP method=TC012_VerfyingSubmitButtonColorCode.verifySubmitButtonColor_BeforeClick()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d] output=Test is started:verifySubmitButtonColor_BeforeClick]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-22T08:06:30Z" finished-at="2019-10-22T08:06:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode.verifySubmitButtonColor_BeforeClick() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="verifySubmitButtonColor_BeforeClick()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d]" name="verifySubmitButtonColor_BeforeClick" duration-ms="41" started-at="2019-10-22T08:06:30Z" finished-at="2019-10-22T08:06:30Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [#253a73] but found [#1d943b]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [#253a73] but found [#1d943b]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode.verifySubmitButtonColor_BeforeClick(TC012_VerfyingSubmitButtonColorCode.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:838)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1009)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test is started:verifySubmitButtonColor_BeforeClick]]>
+            </line>
+            <line>
+              <![CDATA[=========>Started Verifying submit button color]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifySubmitButtonColor_BeforeClick_22_10_2019_01_36_30.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifySubmitButtonColor_BeforeClick_22_10_2019_01_36_30.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySubmitButtonColor_BeforeClick -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d]" name="afterMethod" is-config="true" duration-ms="331" started-at="2019-10-22T08:06:30Z" finished-at="2019-10-22T08:06:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySubmitButtonColor_BeforeClick status=FAILURE method=TC012_VerfyingSubmitButtonColorCode.verifySubmitButtonColor_BeforeClick()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d] output=Test is started:verifySubmitButtonColor_BeforeClick]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_36_30.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_36_30.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode@4567f35d]" name="endTest" is-config="true" duration-ms="1016" started-at="2019-10-22T08:06:30Z" finished-at="2019-10-22T08:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode -->
+      <class name="com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword@4f18837a]" name="setUp" is-config="true" duration-ms="25303" started-at="2019-10-22T08:08:58Z" finished-at="2019-10-22T08:09:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword@4f18837a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-22T08:09:23Z" finished-at="2019-10-22T08:09:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword.verifyForgotPassword() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyForgotPassword()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword@4f18837a]" name="verifyForgotPassword" duration-ms="298" started-at="2019-10-22T08:09:23Z" finished-at="2019-10-22T08:09:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test is started:verifyForgotPassword]]>
+            </line>
+            <line>
+              <![CDATA[=========>Started Verifying Remember Me check box]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on forgot password hyper link id====>>[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: a[id='forget-password']] and object is[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: a[id='forget-password']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on submit button id====>>[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished Verifying Remember Me check box ]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyForgotPassword_22_10_2019_01_39_23.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyForgotPassword_22_10_2019_01_39_23.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPassword -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword@4f18837a]" name="afterMethod" is-config="true" duration-ms="338" started-at="2019-10-22T08:09:24Z" finished-at="2019-10-22T08:09:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyForgotPassword status=SUCCESS method=TC013_VerfiyForgotPassword.verifyForgotPassword()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword@4f18837a] output=Test is started:verifyForgotPassword]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_39_24.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_39_24.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword@4f18837a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-22T08:09:24Z" finished-at="2019-10-22T08:09:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword.verifyForgotPasswordwith_InvalidMailId() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyForgotPasswordwith_InvalidMailId()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword@4f18837a]" name="verifyForgotPasswordwith_InvalidMailId" duration-ms="327" started-at="2019-10-22T08:09:24Z" finished-at="2019-10-22T08:09:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test is started:verifyForgotPasswordwith_InvalidMailId]]>
+            </line>
+            <line>
+              <![CDATA[=========>Started Verifying Remember Me check box]]>
+            </line>
+            <line>
+              <![CDATA[Entered invaid email id====>>[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: input[id='email']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on submit button id====>>[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished Verifying Remember Me check box ]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyForgotPasswordwith_InvalidMailId_22_10_2019_01_39_24.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyForgotPasswordwith_InvalidMailId_22_10_2019_01_39_24.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordwith_InvalidMailId -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword@4f18837a]" name="afterMethod" is-config="true" duration-ms="323" started-at="2019-10-22T08:09:25Z" finished-at="2019-10-22T08:09:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyForgotPasswordwith_InvalidMailId status=SUCCESS method=TC013_VerfiyForgotPassword.verifyForgotPasswordwith_InvalidMailId()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword@4f18837a] output=Test is started:verifyForgotPasswordwith_InvalidMailId]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_39_25.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_39_25.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword@4f18837a]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-22T08:09:25Z" finished-at="2019-10-22T08:09:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword.verifyForgotPasswordwith_ValidMailId() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyForgotPasswordwith_ValidMailId()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword@4f18837a]" name="verifyForgotPasswordwith_ValidMailId" duration-ms="21831" started-at="2019-10-22T08:09:25Z" finished-at="2019-10-22T08:09:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test is started:verifyForgotPasswordwith_ValidMailId]]>
+            </line>
+            <line>
+              <![CDATA[=========>Started Verifying Remember Me check box]]>
+            </line>
+            <line>
+              <![CDATA[Entered invaid email id====>>[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: input[id='email']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on submit button id====>>[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (bad9c58a8a374c940e7a0ff039ef7d06)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished Verifying Remember Me check box ]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyForgotPasswordwith_ValidMailId_22_10_2019_01_39_47.png'> <img src='C:\Users\nagarjuna\git\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyForgotPasswordwith_ValidMailId_22_10_2019_01_39_47.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordwith_ValidMailId -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword@4f18837a]" name="afterMethod" is-config="true" duration-ms="332" started-at="2019-10-22T08:09:47Z" finished-at="2019-10-22T08:09:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyForgotPasswordwith_ValidMailId status=SUCCESS method=TC013_VerfiyForgotPassword.verifyForgotPasswordwith_ValidMailId()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword@4f18837a] output=Test is started:verifyForgotPasswordwith_ValidMailId]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_39_47.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-22_10_2019_01_39_47.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword@4f18837a]" name="endTest" is-config="true" duration-ms="708" started-at="2019-10-22T08:09:47Z" finished-at="2019-10-22T08:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword -->
+    </test> <!-- ChromeBrowser -->
+    <test name="FirefoxBrowser" duration-ms="3" started-at="2019-10-22T08:09:48Z" finished-at="2019-10-22T08:09:48Z">
+    </test> <!-- FirefoxBrowser -->
+    <test name="IEBrowser" duration-ms="2" started-at="2019-10-22T08:09:48Z" finished-at="2019-10-22T08:09:48Z">
+    </test> <!-- IEBrowser -->
+  </suite> <!-- Regression suite 1 -->
+</testng-results>

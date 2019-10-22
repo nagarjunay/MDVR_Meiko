@@ -1,0 +1,51 @@
+package com.test.automation.FMSV12_Japan.uiActions;
+
+/**
+ * @author nagarjuna
+ *
+ */
+
+import java.util.ArrayList;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
+
+import com.relevantcodes.extentreports.LogStatus;
+import com.test.automation.FMSV12_Japan.testBase.TestBase;
+
+public class UserProfile_DropDown extends TestBase {
+
+	public static final Logger log = Logger.getLogger(UserProfile_DropDown.class.getName());
+
+	public WebDriver driver;
+
+	public UserProfile_DropDown(WebDriver driver) {
+
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+
+	public void Mouse_over() {
+
+		log("Performing mouse over on user profile dropdown");
+		test.log(LogStatus.INFO, "Performing mouse over on user profile dropdown");
+		mouse_movement(driver, "//li[@class='dropdown user']");
+	}
+
+	public ArrayList<Object> verify_drop_down() {
+
+		log("Verifying dropdown list in user profile");
+		test.log(LogStatus.INFO, "Verifying dropdown list in user profile");
+		ArrayList<Object> values = dropdown("//ul[@class='dropdown-menu']/li/a[string-length(text()) > 0]");
+		return values;
+	}
+
+	public void log(String data) {
+
+		log.info(data);
+		Reporter.log(data);
+	}
+
+}
