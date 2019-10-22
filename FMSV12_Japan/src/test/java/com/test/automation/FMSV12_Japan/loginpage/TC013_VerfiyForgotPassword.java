@@ -40,17 +40,17 @@ public class TC013_VerfiyForgotPassword extends TestBase {
 
 	@Test
 	public void verifyForgotPasswordwith_InvalidMailId() throws Exception {
-		log("=========>Started Verifying Remember Me check box");
+		log("=========>Started Verifying Invalid mail Id");
 		login = new LoginPage(driver);
 		login.forgotPassword1();
-		log("=========>Finished Verifying Remember Me check box ");
+		log("=========>Finished Verifying Invalid mail Id");
 	}
 	
 	@Test
 	public void verifyForgotPasswordwith_ValidMailId() throws Exception {
-		log("=========>Started Verifying Remember Me check box");
+		log("=========>Started Verifying Valid mail Id");
 		login = new LoginPage(driver);
 		login.forgotPassword2();
-		log("=========>Finished Verifying Remember Me check box ");
+		log("=========>Finished Verifying Valid mail Id");
 	}
 }

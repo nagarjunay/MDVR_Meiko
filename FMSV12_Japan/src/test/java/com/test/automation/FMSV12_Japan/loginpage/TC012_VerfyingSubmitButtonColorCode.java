@@ -33,35 +33,6 @@ ColorCodeVerification color;
 
 	}
 
-	@Test
-	public void verifySubmitButtonColor_BeforeClick() throws Exception {
-		log("=========>Started Verifying submit button color Before click");
-		login = new LoginPage(driver);
-		color = new ColorCodeVerification(driver);
-		String hexcolor =color.ColorVerify("button[type='submit']", "background-color");
-		System.out.println(hexcolor);
-		String expected = "#253a73";
-		Assert.assertEquals(hexcolor, expected);
-		log("Verifying submit button color: "+ hexcolor);
-		test.log(LogStatus.INFO, "Verifying submit button color: "+ hexcolor);
-		log("=========>Finished Verifying submit button color Before click");
-	}
-	
-	@Test
-	public void verifySubmitButtonColor_AfterClick() throws Exception {
-		log("=========>Started Verifying submit button color After click");
-		login = new LoginPage(driver);
-		login.loginToApplication("Hello", "");
-		color = new ColorCodeVerification(driver);
-		String hexcolor =color.ColorVerify("button[type='submit']", "background-color");
-		System.out.println(hexcolor);
-		String expected = "#1d943b";
-		Assert.assertEquals(hexcolor, expected);
-		log("Verifying submit button color: "+ hexcolor);
-		test.log(LogStatus.INFO, "Verifying submit button color: "+ hexcolor);
-		log("=========>Finished Verifying submit button color After click");
-		
-	}
 	
 	@Test
 	public void VerifyRememberMe_CheckBox() {
@@ -71,7 +42,18 @@ ColorCodeVerification color;
 		log("=========>Started Verifying Remember me check box is checked");
 	}
 	
-	
+	@Test
+	public void verifySubmitButtonColor_BeforeClick() throws Exception {
+		log("=========>Started Verifying submit button color Before click");
+		color = new ColorCodeVerification(driver);
+		String hexcolor =color.ColorVerify("button[type='submit']", "background-color");
+		System.out.println(hexcolor);
+		String expected = "#253a73";
+		Assert.assertEquals(hexcolor, expected);
+		log("Verifying submit button color: "+ hexcolor);
+		test.log(LogStatus.INFO, "Verifying submit button color: "+ hexcolor);
+		log("=========>Finished Verifying submit button color Before click");
+	}
 	
 	
 }

@@ -14,14 +14,16 @@
 	<test name="ChromeBrowser">
 		<parameter name="Browser_Name" value="chrome"></parameter>
 		<classes>
-		       <class
-				name="com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode"/>
 			   <class
 				name="com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin"/> 
 				<class
 				name="com.test.automation.FMSV12_Japan.loginpage.TC011_VerifyLoginPageMeikoLogo"/> 
 				<class
 				name="com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword"/>
+				<class
+				name="com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode"/>
+				<class
+				name="com.test.automation.FMSV12_Japan.loginpage.TC014_VerifyingSubmitButtonColorAfterClick"/>
 				
 			  <!--  <class
 				name="com.test.automation.FMSV12_Japan.loginpage.TC005_ChangePassword"/> -->
