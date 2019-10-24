@@ -13,9 +13,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
@@ -33,9 +31,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.Reporter;
@@ -43,12 +39,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
-
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
 
@@ -104,8 +97,8 @@ public class TestBase {
 	@Parameters("Browser_Name")
 	public void selectBrowser(String browser) {
 		if (browser.equalsIgnoreCase("chrome")) {
-			WebDriverManager.chromedriver().setup();
-			//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
+			//WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 			log.info("creating object of " + browser);
 			ChromeOptions copts = new ChromeOptions();
 			/* copts.addArguments("--disable-infobars"); */
@@ -118,8 +111,8 @@ public class TestBase {
 			driver = new ChromeDriver(copts);
 
 		} else if (browser.equalsIgnoreCase("firefox")) {
-			WebDriverManager.firefoxdriver().setup();
-			//System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriverr.exe");
+			//WebDriverManager.firefoxdriver().setup();
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriverr.exe");
 			log.info("creating object of " + browser);
 			FirefoxOptions opts = new FirefoxOptions();
 			opts.addArguments("-private");
@@ -128,8 +121,8 @@ public class TestBase {
 		    
 
 		} else if (browser.equalsIgnoreCase("IE")) {
-			WebDriverManager.iedriver().setup();
-			//System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "/drivers/IEDriverServerr.exe");
+			//WebDriverManager.iedriver().setup();
+			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "/drivers/IEDriverServerr.exe");
 			log.info("creating object of " + browser);
 			driver = new InternetExplorerDriver();
 		}
