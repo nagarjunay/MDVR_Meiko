@@ -77,15 +77,15 @@ public class TestBase {
 	static {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyy_hh_mm_ss");
-		/*
-		 * extent = new ExtentReports(System.getProperty("user.dir") +
-		 * "/src/main/java/com/test/automation/VRRLogistics/report/VRRLogistics.html",
-		 * false);
-		 */
-		extent = new ExtentReports(
+		
+		 extent = new ExtentReports(System.getProperty("user.dir") +
+		  "src\\main\\java\\com\\test\\automation\\FMSV12_Japan\\report\\Meiko_Report.html",
+		 false);
+		 
+		/*extent = new ExtentReports(
 				System.getProperty("user.dir") + "/src/main/java/com/test/automation/FMSV12_Japan/report/FMSV12_Japan_"
 						+ formater.format(calendar.getTime()) + ".html",
-				true);
+				true);*/
 	}
 
 	/* This method loads the data from the config file from main java folder */
@@ -124,6 +124,8 @@ public class TestBase {
 			FirefoxOptions opts = new FirefoxOptions();
 			opts.addArguments("-private");
 			driver = new FirefoxDriver(opts);
+			
+		    
 
 		} else if (browser.equalsIgnoreCase("IE")) {
 			WebDriverManager.iedriver().setup();
@@ -137,7 +139,7 @@ public class TestBase {
 	public void getUrl(String url) {
 		log.info("navigating to" + url);
 		driver.get(url);
-		driver.manage().window().maximize();
+		driver.manage().window().fullscreen();
 		log.info("Window Maximized");
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 	}

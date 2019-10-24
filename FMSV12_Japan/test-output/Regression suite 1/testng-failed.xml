@@ -5,18 +5,18 @@
     <listener class-name="com.test.automation.FMSV12_Japan.customListener.Listener"/>
     <listener class-name="com.test.automation.FMSV12_Japan.customListener.RetryListener"/>
   </listeners>
-  <test thread-count="5" name="ChromeBrowser(failed)">
-    <parameter name="Browser_Name" value="chrome"/>
+  <test thread-count="5" name="IEBrowser(failed)">
+    <parameter name="Browser_Name" value="IE"/>
     <classes>
-      <class name="com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode">
+      <class name="com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword">
         <methods>
+          <include name="verifyForgotPasswordwith_InvalidMailId"/>
           <include name="setUp"/>
-          <include name="verifySubmitButtonColor_BeforeClick"/>
           <include name="endTest"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode -->
+      </class> <!-- com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword -->
     </classes>
-  </test> <!-- ChromeBrowser(failed) -->
+  </test> <!-- IEBrowser(failed) -->
 </suite> <!-- Failed suite [Regression suite 1] -->

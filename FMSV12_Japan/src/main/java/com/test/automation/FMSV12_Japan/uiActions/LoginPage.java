@@ -31,7 +31,7 @@ public class LoginPage extends TestBase {
 	 * @FindBy(xpath = "//*[@id=\"usernamee\"]") }) WebElement loginId;
 	 */
 
-	@FindAll({ @FindBy(id = "username"), @FindBy(xpath = "//*[@id=\"usernamee\"]") })
+	@FindAll({ @FindBy(id = "username"), @FindBy(xpath = "//*[@id='usernamee']") })
 	WebElement loginId;
 
 	@FindBy(xpath = "//*[@id=\"password\"]")
@@ -62,6 +62,8 @@ public class LoginPage extends TestBase {
 	public void loginToApplication1(String loginid, String password, String xpath, String expected_message)
 			throws InterruptedException {
 
+		log.info("Login page Title: " + driver.getTitle());
+		test.log(LogStatus.INFO, "Login page Title: " + driver.getTitle());
 		loginId.clear();
 		loginId.sendKeys(loginid);
 		log("Entered login id====>>" + loginid + " and object is" + loginId.toString());
@@ -73,7 +75,10 @@ public class LoginPage extends TestBase {
 		expliciteWait(submitButton, 20);
 		submitButton.click();
 		log("Clicked on submit button is" + submitButton.toString());
-		test.log(LogStatus.INFO, "Clicked on submit button button");
+		test.log(LogStatus.INFO, "Clicked on submit button");
+		log("Button text: " + submitButton.getAttribute("innerHTML"));
+		test.log(LogStatus.INFO, "Button text: " + submitButton.getAttribute("innerHTML"));
+		
 
 	}
 
@@ -90,7 +95,8 @@ public class LoginPage extends TestBase {
 		expliciteWait(submitButton, 20);
 		submitButton.click();
 		log("Clicked on submit button is" + submitButton.toString());
-		test.log(LogStatus.INFO, "Clicked on submit button button");
+		test.log(LogStatus.INFO, "Clicked on submit button");
+		
 
 	}
 
@@ -115,7 +121,7 @@ public class LoginPage extends TestBase {
 		log("Clicked on submit button id====>>" + forgotpassSubmitButton + " and object is" + forgotpassSubmitButton.toString());
 		test.log(LogStatus.INFO, "Clicked on submit button id====>>" + forgotpassSubmitButton);
 		String actual_error= driver.findElement(By.cssSelector("body > div.content > form.forget-form > div.form-group.has-error > span")).getText();
-	    String expected_error="Email is required.";
+	    String expected_error="Eメールは必須です。";
 	    Assert.assertEquals(actual_error, expected_error);
 	}  
 	
