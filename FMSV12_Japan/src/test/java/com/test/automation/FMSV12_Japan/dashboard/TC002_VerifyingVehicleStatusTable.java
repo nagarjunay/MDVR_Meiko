@@ -18,6 +18,7 @@ import com.test.automation.FMSV12_Japan.uiActions.DashBoard_VehicleStatus;
 import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
 
 
+
 public class TC002_VerifyingVehicleStatusTable extends TestBase {
 
 	public static final Logger log = Logger.getLogger(TC002_VerifyingVehicleStatusTable.class.getName());

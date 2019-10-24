@@ -39,13 +39,6 @@
 			<version>0.9</version>
 		</dependency>
 
-		<dependency>
-			<groupId>io.github.bonigarcia</groupId>
-			<artifactId>webdrivermanager</artifactId>
-			<version>3.7.1</version>
-			<scope>test</scope>
-		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
 		<dependency>
 			<groupId>io.qameta.allure</groupId>
@@ -107,6 +100,8 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
+                    <fork>true</fork>
+                    <executable>C:\Program Files\Java\jdk1.8.0_171\bin\javac</executable>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -115,8 +110,8 @@
 				<version>2.19.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<!-- <suiteXmlFile>testNG.xml</suiteXmlFile> -->
-						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+						<suiteXmlFile>testNG.xml</suiteXmlFile>
+						<!-- <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> -->
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
