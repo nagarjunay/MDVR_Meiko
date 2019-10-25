@@ -71,8 +71,7 @@ public class TestBase {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyy_hh_mm_ss");
 		
-		 extent = new ExtentReports(System.getProperty("user.dir") +
-		  "src\\main\\java\\com\\test\\automation\\FMSV12_Japan\\report\\Meiko_Report.html",
+		 extent = new ExtentReports(System.getProperty("user.dir")+"/src/main/java/com/test/automation/FMSV12_Japan/report/Meiko_Report.html",
 		 false);
 		 
 		/*extent = new ExtentReports(
@@ -93,7 +92,7 @@ public class TestBase {
 	 * This Method will select the different browsers as mentioned in config
 	 * properties file
 	 */
-
+//
 	@Parameters("Browser_Name")
 	public void selectBrowser(String browser) {
 		if (browser.equalsIgnoreCase("chrome")) {
