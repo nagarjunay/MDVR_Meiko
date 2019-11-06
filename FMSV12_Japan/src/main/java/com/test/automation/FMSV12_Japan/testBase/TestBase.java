@@ -43,6 +43,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
+
 public class TestBase {
 
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
@@ -71,13 +72,13 @@ public class TestBase {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyy_hh_mm_ss");
 		
-		 extent = new ExtentReports(System.getProperty("user.dir")+"/src/main/java/com/test/automation/FMSV12_Japan/report/Meiko_Report.html",
-		 false);
+		/* extent = new ExtentReports(System.getProperty("user.dir")+"/src/main/java/com/test/automation/FMSV12_Japan/report/Meiko_Report.html",
+		 false);*/
 		 
-		/*extent = new ExtentReports(
+		extent = new ExtentReports(
 				System.getProperty("user.dir") + "/src/main/java/com/test/automation/FMSV12_Japan/report/FMSV12_Japan_"
 						+ formater.format(calendar.getTime()) + ".html",
-				true);*/
+				true);
 	}
 
 	/* This method loads the data from the config file from main java folder */
@@ -100,7 +101,7 @@ public class TestBase {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 			log.info("creating object of " + browser);
 			ChromeOptions copts = new ChromeOptions();
-			/* copts.addArguments("--disable-infobars"); */
+			/*copts.addArguments("--disable-infobars");*/
 			copts.addArguments("notifications");
 			copts.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
 			copts.setExperimentalOption("useAutomationExtension", false);
@@ -117,8 +118,6 @@ public class TestBase {
 			opts.addArguments("-private");
 			driver = new FirefoxDriver(opts);
 			
-		    
-
 		} else if (browser.equalsIgnoreCase("IE")) {
 			//WebDriverManager.iedriver().setup();
 			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "/drivers/IEDriverServerr.exe");
@@ -127,7 +126,7 @@ public class TestBase {
 		}
 	}
 
-	/* This method will get url and maximizes browser window */
+	/*This method will get url and maximizes browser window*/
 	public void getUrl(String url) {
 		log.info("navigating to" + url);
 		driver.get(url);

@@ -134,10 +134,10 @@ public class LoginPage extends TestBase {
 		log("Clicked on submit button id====>>" + forgotpassSubmitButton + " and object is" + forgotpassSubmitButton.toString());
 		test.log(LogStatus.INFO, "Clicked on submit button id====>>" + forgotpassSubmitButton);
 	    String actual_error1= driver.findElement(By.cssSelector("body > div.content > form.forget-form > div.form-group.has-error > span")).getText();
-	    String expected_error1="Please enter a valid Email-id";
+	    String expected_error1="有効なメールIDを入力してください";
 	    Assert.assertEquals(actual_error1, expected_error1);
 	}
-	public void forgotPassword2() {
+	public void forgotPassword2() throws Exception {
 	    email.clear();
 	    email.sendKeys("nagarjuna@infotracktelematics.com");
 	    log("Entered invaid email id====>>" + email + " and object is" + email.toString());
@@ -145,8 +145,9 @@ public class LoginPage extends TestBase {
 		forgotpassSubmitButton.click();
 		log("Clicked on submit button id====>>" + forgotpassSubmitButton + " and object is" + forgotpassSubmitButton.toString());
 		test.log(LogStatus.INFO, "Clicked on submit button id====>>" + forgotpassSubmitButton);
+		Thread.sleep(2000);
 	    String actual_error2= driver.findElement(By.cssSelector("body > div.content > form.login-form > div.alert.alert-danger > span")).getText();
-	    String expected_error2="Your EmailId (nagarjuna@infotracktelematics.com)has not been configured.";
+	    String expected_error2="メールID（nagarjuna@infotracktelematics.com）が設定されていません";
 	    Assert.assertEquals(actual_error2, expected_error2);
 	
 	}

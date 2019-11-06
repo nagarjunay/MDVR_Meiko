@@ -12,7 +12,7 @@
 
 
 	<test name="ChromeBrowser">
-		<parameter name="Browser_Name" value="chrome"></parameter>
+		<!--  <parameter name="Browser_Name" value="chrome"></parameter> -->
 		<classes>
 			<!-- <class
 				name="com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin" /> -->

@@ -113,6 +113,9 @@
 						<suiteXmlFile>testNG.xml</suiteXmlFile>
 						<!-- <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> -->
 					</suiteXmlFiles>
+					<systemPropertyVariables>
+						<MybrowserName>${Browser_Name}</MybrowserName>
+					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 		</plugins>

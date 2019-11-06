@@ -7283,3 +7283,288 @@ Select a Vehicle
 2019-10-24 17:39:29 INFO  TestBase:167 - Verifying submit button color: #1d943b
 2019-10-24 17:39:29 INFO  TestBase:167 - =========>Finished Verifying submit button color After click
 2019-10-24 17:39:30 INFO  TestBase:316 - Browser closed
+2019-11-06 14:38:04 INFO  TestBase:165 - =========>Started Verifying Remember Me check box
+2019-11-06 14:38:05 INFO  LoginPage:172 - Clicked on forgot password hyper link id====>>[[ChromeDriver: chrome on XP (395330887857c8246d2fae6f313dfbc7)] -> css selector: a[id='forget-password']] and object is[[ChromeDriver: chrome on XP (395330887857c8246d2fae6f313dfbc7)] -> css selector: a[id='forget-password']]
+2019-11-06 14:38:05 INFO  LoginPage:172 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (395330887857c8246d2fae6f313dfbc7)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (395330887857c8246d2fae6f313dfbc7)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 14:38:05 INFO  TestBase:165 - =========>Finished Verifying Remember Me check box 
+2019-11-06 14:38:06 INFO  TestBase:165 - =========>Started Verifying Invalid mail Id
+2019-11-06 14:38:06 INFO  LoginPage:172 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (395330887857c8246d2fae6f313dfbc7)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (395330887857c8246d2fae6f313dfbc7)] -> css selector: input[id='email']]
+2019-11-06 14:38:06 INFO  LoginPage:172 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (395330887857c8246d2fae6f313dfbc7)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (395330887857c8246d2fae6f313dfbc7)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 14:38:06 INFO  Retry:49 - Retrying testverifyForgotPasswordwith_InvalidMailIdwith status nullfor the1time(s).
+2019-11-06 14:38:06 INFO  TestBase:165 - =========>Started Verifying Invalid mail Id
+2019-11-06 14:38:06 INFO  LoginPage:172 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (395330887857c8246d2fae6f313dfbc7)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (395330887857c8246d2fae6f313dfbc7)] -> css selector: input[id='email']]
+2019-11-06 14:38:07 INFO  LoginPage:172 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (395330887857c8246d2fae6f313dfbc7)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (395330887857c8246d2fae6f313dfbc7)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 14:38:07 INFO  TestBase:165 - =========>Started Verifying Valid mail Id
+2019-11-06 14:38:08 INFO  LoginPage:172 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (395330887857c8246d2fae6f313dfbc7)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (395330887857c8246d2fae6f313dfbc7)] -> css selector: input[id='email']]
+2019-11-06 14:38:29 INFO  LoginPage:172 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (395330887857c8246d2fae6f313dfbc7)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (395330887857c8246d2fae6f313dfbc7)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 14:38:29 INFO  Retry:49 - Retrying testverifyForgotPasswordwith_ValidMailIdwith status nullfor the1time(s).
+2019-11-06 14:38:29 INFO  TestBase:165 - =========>Started Verifying Valid mail Id
+2019-11-06 14:38:31 INFO  TestBase:314 - Browser closed
+2019-11-06 14:38:31 INFO  TestBase:102 - creating object of Chrome
+2019-11-06 14:38:33 INFO  TestBase:131 - navigating tohttp://staging.infotracktelematics.com/meiko
+2019-11-06 14:38:57 INFO  TestBase:134 - Window Maximized
+2019-11-06 14:38:57 INFO  TestBase:165 - =========>Started Verifying Remember me check box is checked
+2019-11-06 14:38:57 INFO  LoginPage:172 - Checked 'Remember Me' checkbox as it is unchecked[[ChromeDriver: chrome on XP (0255c60b56440118b7250cf8d5ac239f)] -> css selector: div[class='checker']]
+2019-11-06 14:38:57 INFO  TestBase:165 - =========>Started Verifying Remember me check box is checked
+2019-11-06 14:38:58 INFO  TestBase:165 - =========>Started Verifying submit button color Before click
+2019-11-06 14:38:58 INFO  TestBase:165 - Verifying submit button color: #253a73
+2019-11-06 14:38:58 INFO  TestBase:165 - =========>Finished Verifying submit button color Before click
+2019-11-06 14:38:59 INFO  TestBase:314 - Browser closed
+2019-11-06 14:39:00 INFO  TestBase:102 - creating object of Chrome
+2019-11-06 14:39:02 INFO  TestBase:131 - navigating tohttp://staging.infotracktelematics.com/meiko
+2019-11-06 14:39:40 INFO  TestBase:134 - Window Maximized
+2019-11-06 14:39:40 INFO  TestBase:165 - =========>Started Verifying submit button color After click
+2019-11-06 14:39:40 INFO  LoginPage:172 - Entered login id====>>Hello and object is[[ChromeDriver: chrome on XP (764da0ec010dc83eb10b1b1fefc20118)] -> id: username]
+2019-11-06 14:39:40 INFO  LoginPage:172 - Entered password====>> and object is[[ChromeDriver: chrome on XP (764da0ec010dc83eb10b1b1fefc20118)] -> xpath: //*[@id="password"]]
+2019-11-06 14:39:40 INFO  LoginPage:172 - Clicked on submit button is[[ChromeDriver: chrome on XP (764da0ec010dc83eb10b1b1fefc20118)] -> css selector: button[type='submit']]
+2019-11-06 14:39:41 INFO  TestBase:165 - Verifying submit button color: #1d943b
+2019-11-06 14:39:41 INFO  TestBase:165 - =========>Finished Verifying submit button color After click
+2019-11-06 14:39:43 INFO  TestBase:314 - Browser closed
+2019-11-06 14:41:03 INFO  TestBase:165 - =========>Started Verifying Remember Me check box
+2019-11-06 14:41:03 INFO  LoginPage:172 - Clicked on forgot password hyper link id====>>[[ChromeDriver: chrome on XP (80d3a533734e88ddf59b9f9991bf3057)] -> css selector: a[id='forget-password']] and object is[[ChromeDriver: chrome on XP (80d3a533734e88ddf59b9f9991bf3057)] -> css selector: a[id='forget-password']]
+2019-11-06 14:41:04 INFO  LoginPage:172 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (80d3a533734e88ddf59b9f9991bf3057)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (80d3a533734e88ddf59b9f9991bf3057)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 14:41:04 INFO  TestBase:165 - =========>Finished Verifying Remember Me check box 
+2019-11-06 14:41:04 INFO  TestBase:165 - =========>Started Verifying Invalid mail Id
+2019-11-06 14:41:05 INFO  LoginPage:172 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (80d3a533734e88ddf59b9f9991bf3057)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (80d3a533734e88ddf59b9f9991bf3057)] -> css selector: input[id='email']]
+2019-11-06 14:41:05 INFO  LoginPage:172 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (80d3a533734e88ddf59b9f9991bf3057)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (80d3a533734e88ddf59b9f9991bf3057)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 14:41:05 INFO  Retry:49 - Retrying testverifyForgotPasswordwith_InvalidMailIdwith status nullfor the1time(s).
+2019-11-06 14:41:05 INFO  TestBase:165 - =========>Started Verifying Invalid mail Id
+2019-11-06 14:41:05 INFO  LoginPage:172 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (80d3a533734e88ddf59b9f9991bf3057)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (80d3a533734e88ddf59b9f9991bf3057)] -> css selector: input[id='email']]
+2019-11-06 14:41:05 INFO  LoginPage:172 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (80d3a533734e88ddf59b9f9991bf3057)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (80d3a533734e88ddf59b9f9991bf3057)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 14:41:06 INFO  TestBase:165 - =========>Started Verifying Valid mail Id
+2019-11-06 14:41:06 INFO  LoginPage:172 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (80d3a533734e88ddf59b9f9991bf3057)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (80d3a533734e88ddf59b9f9991bf3057)] -> css selector: input[id='email']]
+2019-11-06 14:41:28 INFO  LoginPage:172 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (80d3a533734e88ddf59b9f9991bf3057)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (80d3a533734e88ddf59b9f9991bf3057)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 14:41:28 INFO  Retry:49 - Retrying testverifyForgotPasswordwith_ValidMailIdwith status nullfor the1time(s).
+2019-11-06 14:41:28 INFO  TestBase:165 - =========>Started Verifying Valid mail Id
+2019-11-06 14:41:29 INFO  TestBase:314 - Browser closed
+2019-11-06 14:41:29 INFO  TestBase:102 - creating object of Chrome
+2019-11-06 14:41:32 INFO  TestBase:131 - navigating tohttp://staging.infotracktelematics.com/meiko
+2019-11-06 14:41:55 INFO  TestBase:134 - Window Maximized
+2019-11-06 14:41:55 INFO  TestBase:165 - =========>Started Verifying Remember me check box is checked
+2019-11-06 14:41:55 INFO  LoginPage:172 - Checked 'Remember Me' checkbox as it is unchecked[[ChromeDriver: chrome on XP (0c67373f5af739c6dd38ed018bbc4688)] -> css selector: div[class='checker']]
+2019-11-06 14:41:55 INFO  TestBase:165 - =========>Started Verifying Remember me check box is checked
+2019-11-06 14:41:56 INFO  TestBase:165 - =========>Started Verifying submit button color Before click
+2019-11-06 14:41:56 INFO  TestBase:165 - Verifying submit button color: #253a73
+2019-11-06 14:41:56 INFO  TestBase:165 - =========>Finished Verifying submit button color Before click
+2019-11-06 14:41:57 INFO  TestBase:314 - Browser closed
+2019-11-06 14:41:58 INFO  TestBase:102 - creating object of Chrome
+2019-11-06 14:42:00 INFO  TestBase:131 - navigating tohttp://staging.infotracktelematics.com/meiko
+2019-11-06 14:42:23 INFO  TestBase:134 - Window Maximized
+2019-11-06 14:42:23 INFO  TestBase:165 - =========>Started Verifying submit button color After click
+2019-11-06 14:42:24 INFO  LoginPage:172 - Entered login id====>>Hello and object is[[ChromeDriver: chrome on XP (29fadb2a11e7f03a1b96c03b72ade138)] -> id: username]
+2019-11-06 14:42:24 INFO  LoginPage:172 - Entered password====>> and object is[[ChromeDriver: chrome on XP (29fadb2a11e7f03a1b96c03b72ade138)] -> xpath: //*[@id="password"]]
+2019-11-06 14:42:24 INFO  LoginPage:172 - Clicked on submit button is[[ChromeDriver: chrome on XP (29fadb2a11e7f03a1b96c03b72ade138)] -> css selector: button[type='submit']]
+2019-11-06 14:42:24 INFO  TestBase:165 - Verifying submit button color: #1d943b
+2019-11-06 14:42:24 INFO  TestBase:165 - =========>Finished Verifying submit button color After click
+2019-11-06 14:42:26 INFO  TestBase:314 - Browser closed
+2019-11-06 14:50:37 INFO  TestBase:165 - =========>Started Verifying Remember Me check box
+2019-11-06 14:50:37 INFO  LoginPage:172 - Clicked on forgot password hyper link id====>>[[ChromeDriver: chrome on XP (687f1d31bcd9d478803f97498d6fe885)] -> css selector: a[id='forget-password']] and object is[[ChromeDriver: chrome on XP (687f1d31bcd9d478803f97498d6fe885)] -> css selector: a[id='forget-password']]
+2019-11-06 14:50:37 INFO  LoginPage:172 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (687f1d31bcd9d478803f97498d6fe885)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (687f1d31bcd9d478803f97498d6fe885)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 14:50:37 INFO  TestBase:165 - =========>Finished Verifying Remember Me check box 
+2019-11-06 14:50:38 INFO  TestBase:165 - =========>Started Verifying Invalid mail Id
+2019-11-06 14:50:38 INFO  LoginPage:172 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (687f1d31bcd9d478803f97498d6fe885)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (687f1d31bcd9d478803f97498d6fe885)] -> css selector: input[id='email']]
+2019-11-06 14:50:38 INFO  LoginPage:172 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (687f1d31bcd9d478803f97498d6fe885)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (687f1d31bcd9d478803f97498d6fe885)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 14:50:38 INFO  TestBase:165 - =========>Finished Verifying Invalid mail Id
+2019-11-06 14:50:39 INFO  TestBase:165 - =========>Started Verifying Valid mail Id
+2019-11-06 14:50:40 INFO  LoginPage:172 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (687f1d31bcd9d478803f97498d6fe885)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (687f1d31bcd9d478803f97498d6fe885)] -> css selector: input[id='email']]
+2019-11-06 14:51:01 INFO  LoginPage:172 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (687f1d31bcd9d478803f97498d6fe885)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (687f1d31bcd9d478803f97498d6fe885)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 14:51:01 INFO  Retry:49 - Retrying testverifyForgotPasswordwith_ValidMailIdwith status nullfor the1time(s).
+2019-11-06 14:51:01 INFO  TestBase:165 - =========>Started Verifying Valid mail Id
+2019-11-06 14:51:03 INFO  TestBase:314 - Browser closed
+2019-11-06 14:51:03 INFO  TestBase:102 - creating object of Chrome
+2019-11-06 14:51:05 INFO  TestBase:131 - navigating tohttp://staging.infotracktelematics.com/meiko
+2019-11-06 14:51:29 INFO  TestBase:134 - Window Maximized
+2019-11-06 14:51:29 INFO  TestBase:165 - =========>Started Verifying Remember me check box is checked
+2019-11-06 14:51:29 INFO  LoginPage:172 - Checked 'Remember Me' checkbox as it is unchecked[[ChromeDriver: chrome on XP (93ba648c10e33d380a7b93954300fc00)] -> css selector: div[class='checker']]
+2019-11-06 14:51:29 INFO  TestBase:165 - =========>Started Verifying Remember me check box is checked
+2019-11-06 14:51:30 INFO  TestBase:165 - =========>Started Verifying submit button color Before click
+2019-11-06 14:51:30 INFO  TestBase:165 - Verifying submit button color: #253a73
+2019-11-06 14:51:30 INFO  TestBase:165 - =========>Finished Verifying submit button color Before click
+2019-11-06 14:51:32 INFO  TestBase:314 - Browser closed
+2019-11-06 14:51:32 INFO  TestBase:102 - creating object of Chrome
+2019-11-06 14:51:34 INFO  TestBase:131 - navigating tohttp://staging.infotracktelematics.com/meiko
+2019-11-06 14:51:58 INFO  TestBase:134 - Window Maximized
+2019-11-06 14:51:58 INFO  TestBase:165 - =========>Started Verifying submit button color After click
+2019-11-06 14:51:58 INFO  LoginPage:172 - Entered login id====>>Hello and object is[[ChromeDriver: chrome on XP (ba4df455e8f6a8d4c3ca4899d714d2e5)] -> id: username]
+2019-11-06 14:51:58 INFO  LoginPage:172 - Entered password====>> and object is[[ChromeDriver: chrome on XP (ba4df455e8f6a8d4c3ca4899d714d2e5)] -> xpath: //*[@id="password"]]
+2019-11-06 14:51:58 INFO  LoginPage:172 - Clicked on submit button is[[ChromeDriver: chrome on XP (ba4df455e8f6a8d4c3ca4899d714d2e5)] -> css selector: button[type='submit']]
+2019-11-06 14:51:58 INFO  TestBase:165 - Verifying submit button color: #1d943b
+2019-11-06 14:51:58 INFO  TestBase:165 - =========>Finished Verifying submit button color After click
+2019-11-06 14:51:59 INFO  TestBase:314 - Browser closed
+2019-11-06 14:56:56 INFO  TestBase:165 - =========>Started Verifying Remember Me check box
+2019-11-06 14:56:56 INFO  LoginPage:172 - Clicked on forgot password hyper link id====>>[[ChromeDriver: chrome on XP (bdc8302754d299af1c7a0641e6e73ff7)] -> css selector: a[id='forget-password']] and object is[[ChromeDriver: chrome on XP (bdc8302754d299af1c7a0641e6e73ff7)] -> css selector: a[id='forget-password']]
+2019-11-06 14:56:56 INFO  LoginPage:172 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (bdc8302754d299af1c7a0641e6e73ff7)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (bdc8302754d299af1c7a0641e6e73ff7)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 14:56:56 INFO  TestBase:165 - =========>Finished Verifying Remember Me check box 
+2019-11-06 14:56:57 INFO  TestBase:165 - =========>Started Verifying Invalid mail Id
+2019-11-06 14:56:57 INFO  LoginPage:172 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (bdc8302754d299af1c7a0641e6e73ff7)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (bdc8302754d299af1c7a0641e6e73ff7)] -> css selector: input[id='email']]
+2019-11-06 14:56:57 INFO  LoginPage:172 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (bdc8302754d299af1c7a0641e6e73ff7)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (bdc8302754d299af1c7a0641e6e73ff7)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 14:56:57 INFO  TestBase:165 - =========>Finished Verifying Invalid mail Id
+2019-11-06 14:56:58 INFO  TestBase:165 - =========>Started Verifying Valid mail Id
+2019-11-06 14:56:58 INFO  LoginPage:172 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (bdc8302754d299af1c7a0641e6e73ff7)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (bdc8302754d299af1c7a0641e6e73ff7)] -> css selector: input[id='email']]
+2019-11-06 14:57:20 INFO  LoginPage:172 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (bdc8302754d299af1c7a0641e6e73ff7)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (bdc8302754d299af1c7a0641e6e73ff7)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 14:57:20 INFO  Retry:49 - Retrying testverifyForgotPasswordwith_ValidMailIdwith status nullfor the1time(s).
+2019-11-06 14:57:20 INFO  TestBase:165 - =========>Started Verifying Valid mail Id
+2019-11-06 14:57:21 INFO  TestBase:314 - Browser closed
+2019-11-06 14:57:21 INFO  TestBase:102 - creating object of Chrome
+2019-11-06 14:57:24 INFO  TestBase:131 - navigating tohttp://staging.infotracktelematics.com/meiko
+2019-11-06 14:57:48 INFO  TestBase:134 - Window Maximized
+2019-11-06 14:57:48 INFO  TestBase:165 - =========>Started Verifying Remember me check box is checked
+2019-11-06 14:57:48 INFO  LoginPage:172 - Checked 'Remember Me' checkbox as it is unchecked[[ChromeDriver: chrome on XP (01dd20a1a8454a6f050612caeca1dee5)] -> css selector: div[class='checker']]
+2019-11-06 14:57:48 INFO  TestBase:165 - =========>Started Verifying Remember me check box is checked
+2019-11-06 14:57:48 INFO  TestBase:165 - =========>Started Verifying submit button color Before click
+2019-11-06 14:57:48 INFO  TestBase:165 - Verifying submit button color: #253a73
+2019-11-06 14:57:48 INFO  TestBase:165 - =========>Finished Verifying submit button color Before click
+2019-11-06 14:57:50 INFO  TestBase:314 - Browser closed
+2019-11-06 14:57:50 INFO  TestBase:102 - creating object of Chrome
+2019-11-06 14:57:52 INFO  TestBase:131 - navigating tohttp://staging.infotracktelematics.com/meiko
+2019-11-06 14:58:15 INFO  TestBase:134 - Window Maximized
+2019-11-06 14:58:15 INFO  TestBase:165 - =========>Started Verifying submit button color After click
+2019-11-06 14:58:15 INFO  LoginPage:172 - Entered login id====>>Hello and object is[[ChromeDriver: chrome on XP (bddd531c1ca9564dca5105c0a1d84234)] -> id: username]
+2019-11-06 14:58:16 INFO  LoginPage:172 - Entered password====>> and object is[[ChromeDriver: chrome on XP (bddd531c1ca9564dca5105c0a1d84234)] -> xpath: //*[@id="password"]]
+2019-11-06 14:58:16 INFO  LoginPage:172 - Clicked on submit button is[[ChromeDriver: chrome on XP (bddd531c1ca9564dca5105c0a1d84234)] -> css selector: button[type='submit']]
+2019-11-06 14:58:16 INFO  TestBase:165 - Verifying submit button color: #1d943b
+2019-11-06 14:58:16 INFO  TestBase:165 - =========>Finished Verifying submit button color After click
+2019-11-06 14:58:18 INFO  TestBase:314 - Browser closed
+2019-11-06 15:07:25 INFO  TestBase:165 - =========>Started Verifying Remember Me check box
+2019-11-06 15:07:26 INFO  LoginPage:173 - Clicked on forgot password hyper link id====>>[[ChromeDriver: chrome on XP (90ee414073225c16a7efbb0038bbe3d5)] -> css selector: a[id='forget-password']] and object is[[ChromeDriver: chrome on XP (90ee414073225c16a7efbb0038bbe3d5)] -> css selector: a[id='forget-password']]
+2019-11-06 15:07:26 INFO  LoginPage:173 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (90ee414073225c16a7efbb0038bbe3d5)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (90ee414073225c16a7efbb0038bbe3d5)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 15:07:26 INFO  TestBase:165 - =========>Finished Verifying Remember Me check box 
+2019-11-06 15:07:27 INFO  TestBase:165 - =========>Started Verifying Invalid mail Id
+2019-11-06 15:07:27 INFO  LoginPage:173 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (90ee414073225c16a7efbb0038bbe3d5)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (90ee414073225c16a7efbb0038bbe3d5)] -> css selector: input[id='email']]
+2019-11-06 15:07:27 INFO  LoginPage:173 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (90ee414073225c16a7efbb0038bbe3d5)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (90ee414073225c16a7efbb0038bbe3d5)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 15:07:27 INFO  TestBase:165 - =========>Finished Verifying Invalid mail Id
+2019-11-06 15:07:28 INFO  TestBase:165 - =========>Started Verifying Valid mail Id
+2019-11-06 15:07:28 INFO  LoginPage:173 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (90ee414073225c16a7efbb0038bbe3d5)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (90ee414073225c16a7efbb0038bbe3d5)] -> css selector: input[id='email']]
+2019-11-06 15:07:49 INFO  LoginPage:173 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (90ee414073225c16a7efbb0038bbe3d5)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (90ee414073225c16a7efbb0038bbe3d5)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 15:07:51 INFO  Retry:49 - Retrying testverifyForgotPasswordwith_ValidMailIdwith status nullfor the1time(s).
+2019-11-06 15:07:52 INFO  TestBase:165 - =========>Started Verifying Valid mail Id
+2019-11-06 15:07:53 INFO  TestBase:314 - Browser closed
+2019-11-06 15:07:53 INFO  TestBase:102 - creating object of Chrome
+2019-11-06 15:07:56 INFO  TestBase:131 - navigating tohttp://staging.infotracktelematics.com/meiko/
+2019-11-06 15:08:19 INFO  TestBase:134 - Window Maximized
+2019-11-06 15:08:19 INFO  TestBase:165 - =========>Started Verifying Remember me check box is checked
+2019-11-06 15:08:19 INFO  LoginPage:173 - Checked 'Remember Me' checkbox as it is unchecked[[ChromeDriver: chrome on XP (f6c1c5cb28d5bc3d7dc90bc9b26c0ae8)] -> css selector: div[class='checker']]
+2019-11-06 15:08:19 INFO  TestBase:165 - =========>Started Verifying Remember me check box is checked
+2019-11-06 15:08:20 INFO  TestBase:165 - =========>Started Verifying submit button color Before click
+2019-11-06 15:08:20 INFO  TestBase:165 - Verifying submit button color: #253a73
+2019-11-06 15:08:20 INFO  TestBase:165 - =========>Finished Verifying submit button color Before click
+2019-11-06 15:08:21 INFO  TestBase:314 - Browser closed
+2019-11-06 15:08:21 INFO  TestBase:102 - creating object of Chrome
+2019-11-06 15:08:23 INFO  TestBase:131 - navigating tohttp://staging.infotracktelematics.com/meiko/
+2019-11-06 15:08:47 INFO  TestBase:134 - Window Maximized
+2019-11-06 15:08:47 INFO  TestBase:165 - =========>Started Verifying submit button color After click
+2019-11-06 15:08:47 INFO  LoginPage:173 - Entered login id====>>Hello and object is[[ChromeDriver: chrome on XP (33b23b6d3577349ced8af11e530b107c)] -> id: username]
+2019-11-06 15:08:47 INFO  LoginPage:173 - Entered password====>> and object is[[ChromeDriver: chrome on XP (33b23b6d3577349ced8af11e530b107c)] -> xpath: //*[@id="password"]]
+2019-11-06 15:08:47 INFO  LoginPage:173 - Clicked on submit button is[[ChromeDriver: chrome on XP (33b23b6d3577349ced8af11e530b107c)] -> css selector: button[type='submit']]
+2019-11-06 15:08:47 INFO  TestBase:165 - Verifying submit button color: #1d943b
+2019-11-06 15:08:47 INFO  TestBase:165 - =========>Finished Verifying submit button color After click
+2019-11-06 15:08:49 INFO  TestBase:314 - Browser closed
+2019-11-06 15:14:49 INFO  TestBase:165 - =========>Started Verifying Remember Me check box
+2019-11-06 15:14:50 INFO  LoginPage:173 - Clicked on forgot password hyper link id====>>[[ChromeDriver: chrome on XP (be3e48a90a80bec8b63faec90fc0348f)] -> css selector: a[id='forget-password']] and object is[[ChromeDriver: chrome on XP (be3e48a90a80bec8b63faec90fc0348f)] -> css selector: a[id='forget-password']]
+2019-11-06 15:14:50 INFO  LoginPage:173 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (be3e48a90a80bec8b63faec90fc0348f)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (be3e48a90a80bec8b63faec90fc0348f)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 15:14:50 INFO  TestBase:165 - =========>Finished Verifying Remember Me check box 
+2019-11-06 15:14:51 INFO  TestBase:165 - =========>Started Verifying Invalid mail Id
+2019-11-06 15:14:51 INFO  LoginPage:173 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (be3e48a90a80bec8b63faec90fc0348f)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (be3e48a90a80bec8b63faec90fc0348f)] -> css selector: input[id='email']]
+2019-11-06 15:14:51 INFO  LoginPage:173 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (be3e48a90a80bec8b63faec90fc0348f)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (be3e48a90a80bec8b63faec90fc0348f)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 15:14:51 INFO  TestBase:165 - =========>Finished Verifying Invalid mail Id
+2019-11-06 15:14:52 INFO  TestBase:165 - =========>Started Verifying Valid mail Id
+2019-11-06 15:14:52 INFO  LoginPage:173 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (be3e48a90a80bec8b63faec90fc0348f)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (be3e48a90a80bec8b63faec90fc0348f)] -> css selector: input[id='email']]
+2019-11-06 15:15:14 INFO  LoginPage:173 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (be3e48a90a80bec8b63faec90fc0348f)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (be3e48a90a80bec8b63faec90fc0348f)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 15:15:16 INFO  TestBase:165 - =========>Finished Verifying Valid mail Id
+2019-11-06 15:15:17 INFO  TestBase:314 - Browser closed
+2019-11-06 15:15:17 INFO  TestBase:102 - creating object of Chrome
+2019-11-06 15:15:19 INFO  TestBase:131 - navigating tohttp://staging.infotracktelematics.com/meiko/
+2019-11-06 15:15:43 INFO  TestBase:134 - Window Maximized
+2019-11-06 15:15:43 INFO  TestBase:165 - =========>Started Verifying Remember me check box is checked
+2019-11-06 15:15:43 INFO  LoginPage:173 - Checked 'Remember Me' checkbox as it is unchecked[[ChromeDriver: chrome on XP (9d4527f937f129b8b034242c90fb110a)] -> css selector: div[class='checker']]
+2019-11-06 15:15:43 INFO  TestBase:165 - =========>Started Verifying Remember me check box is checked
+2019-11-06 15:15:44 INFO  TestBase:165 - =========>Started Verifying submit button color Before click
+2019-11-06 15:15:44 INFO  TestBase:165 - Verifying submit button color: #253a73
+2019-11-06 15:15:44 INFO  TestBase:165 - =========>Finished Verifying submit button color Before click
+2019-11-06 15:15:45 INFO  TestBase:314 - Browser closed
+2019-11-06 15:15:46 INFO  TestBase:102 - creating object of Chrome
+2019-11-06 15:15:48 INFO  TestBase:131 - navigating tohttp://staging.infotracktelematics.com/meiko/
+2019-11-06 15:16:11 INFO  TestBase:134 - Window Maximized
+2019-11-06 15:16:11 INFO  TestBase:165 - =========>Started Verifying submit button color After click
+2019-11-06 15:16:11 INFO  LoginPage:173 - Entered login id====>>Hello and object is[[ChromeDriver: chrome on XP (c887dfa903fe280751d77fb55c0af13e)] -> id: username]
+2019-11-06 15:16:12 INFO  LoginPage:173 - Entered password====>> and object is[[ChromeDriver: chrome on XP (c887dfa903fe280751d77fb55c0af13e)] -> xpath: //*[@id="password"]]
+2019-11-06 15:16:12 INFO  LoginPage:173 - Clicked on submit button is[[ChromeDriver: chrome on XP (c887dfa903fe280751d77fb55c0af13e)] -> css selector: button[type='submit']]
+2019-11-06 15:16:12 INFO  TestBase:165 - Verifying submit button color: #1d943b
+2019-11-06 15:16:12 INFO  TestBase:165 - =========>Finished Verifying submit button color After click
+2019-11-06 15:16:13 INFO  TestBase:314 - Browser closed
+2019-11-06 15:37:06 INFO  TestBase:165 - =========>Started Verifying Remember Me check box
+2019-11-06 15:37:06 INFO  LoginPage:173 - Clicked on forgot password hyper link id====>>[[ChromeDriver: chrome on XP (91d3821be6ef6ccbd2384468ac4e774c)] -> css selector: a[id='forget-password']] and object is[[ChromeDriver: chrome on XP (91d3821be6ef6ccbd2384468ac4e774c)] -> css selector: a[id='forget-password']]
+2019-11-06 15:37:06 INFO  LoginPage:173 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (91d3821be6ef6ccbd2384468ac4e774c)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (91d3821be6ef6ccbd2384468ac4e774c)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 15:37:06 INFO  TestBase:165 - =========>Finished Verifying Remember Me check box 
+2019-11-06 15:37:07 INFO  TestBase:165 - =========>Started Verifying Invalid mail Id
+2019-11-06 15:37:07 INFO  LoginPage:173 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (91d3821be6ef6ccbd2384468ac4e774c)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (91d3821be6ef6ccbd2384468ac4e774c)] -> css selector: input[id='email']]
+2019-11-06 15:37:08 INFO  LoginPage:173 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (91d3821be6ef6ccbd2384468ac4e774c)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (91d3821be6ef6ccbd2384468ac4e774c)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 15:37:08 INFO  TestBase:165 - =========>Finished Verifying Invalid mail Id
+2019-11-06 15:37:08 INFO  TestBase:165 - =========>Started Verifying Valid mail Id
+2019-11-06 15:37:09 INFO  LoginPage:173 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (91d3821be6ef6ccbd2384468ac4e774c)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (91d3821be6ef6ccbd2384468ac4e774c)] -> css selector: input[id='email']]
+2019-11-06 15:37:09 INFO  LoginPage:173 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (91d3821be6ef6ccbd2384468ac4e774c)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (91d3821be6ef6ccbd2384468ac4e774c)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 15:37:11 INFO  Retry:49 - Retrying testverifyForgotPasswordwith_ValidMailIdwith status nullfor the1time(s).
+2019-11-06 15:37:11 INFO  TestBase:165 - =========>Started Verifying Valid mail Id
+2019-11-06 15:37:12 INFO  LoginPage:173 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (91d3821be6ef6ccbd2384468ac4e774c)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (91d3821be6ef6ccbd2384468ac4e774c)] -> css selector: input[id='email']]
+2019-11-06 15:37:33 INFO  LoginPage:173 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (91d3821be6ef6ccbd2384468ac4e774c)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (91d3821be6ef6ccbd2384468ac4e774c)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 15:37:35 INFO  TestBase:165 - =========>Finished Verifying Valid mail Id
+2019-11-06 15:37:37 INFO  TestBase:314 - Browser closed
+2019-11-06 15:37:37 INFO  TestBase:102 - creating object of Chrome
+2019-11-06 15:37:39 INFO  TestBase:131 - navigating tohttp://staging.infotracktelematics.com/meiko/
+2019-11-06 15:38:03 INFO  TestBase:134 - Window Maximized
+2019-11-06 15:38:03 INFO  TestBase:165 - =========>Started Verifying Remember me check box is checked
+2019-11-06 15:38:03 INFO  LoginPage:173 - Checked 'Remember Me' checkbox as it is unchecked[[ChromeDriver: chrome on XP (fe70558f5055cfe253c88d6ad0a6fb13)] -> css selector: div[class='checker']]
+2019-11-06 15:38:03 INFO  TestBase:165 - =========>Started Verifying Remember me check box is checked
+2019-11-06 15:38:04 INFO  TestBase:165 - =========>Started Verifying submit button color Before click
+2019-11-06 15:38:04 INFO  TestBase:165 - Verifying submit button color: #253a73
+2019-11-06 15:38:04 INFO  TestBase:165 - =========>Finished Verifying submit button color Before click
+2019-11-06 15:38:05 INFO  TestBase:314 - Browser closed
+2019-11-06 15:38:05 INFO  TestBase:102 - creating object of Chrome
+2019-11-06 15:38:07 INFO  TestBase:131 - navigating tohttp://staging.infotracktelematics.com/meiko/
+2019-11-06 15:38:31 INFO  TestBase:134 - Window Maximized
+2019-11-06 15:38:31 INFO  TestBase:165 - =========>Started Verifying submit button color After click
+2019-11-06 15:38:31 INFO  LoginPage:173 - Entered login id====>>Hello and object is[[ChromeDriver: chrome on XP (0578ecee2383b392f10bc4f7c2b80431)] -> id: username]
+2019-11-06 15:38:31 INFO  LoginPage:173 - Entered password====>> and object is[[ChromeDriver: chrome on XP (0578ecee2383b392f10bc4f7c2b80431)] -> xpath: //*[@id="password"]]
+2019-11-06 15:38:31 INFO  LoginPage:173 - Clicked on submit button is[[ChromeDriver: chrome on XP (0578ecee2383b392f10bc4f7c2b80431)] -> css selector: button[type='submit']]
+2019-11-06 15:38:31 INFO  TestBase:165 - Verifying submit button color: #1d943b
+2019-11-06 15:38:31 INFO  TestBase:165 - =========>Finished Verifying submit button color After click
+2019-11-06 15:38:33 INFO  TestBase:314 - Browser closed
+2019-11-06 16:02:14 INFO  TestBase:165 - =========>Started Verifying Remember Me check box
+2019-11-06 16:03:09 INFO  Retry:49 - Retrying testverifyForgotPasswordwith status nullfor the1time(s).
+2019-11-06 16:03:09 INFO  TestBase:165 - =========>Started Verifying Remember Me check box
+2019-11-06 16:03:44 INFO  TestBase:165 - =========>Started Verifying Remember Me check box
+2019-11-06 16:04:53 INFO  Retry:49 - Retrying testverifyForgotPasswordwith status nullfor the1time(s).
+2019-11-06 16:04:53 INFO  TestBase:165 - =========>Started Verifying Remember Me check box
+2019-11-06 16:07:00 INFO  TestBase:165 - =========>Started Verifying Remember Me check box
+2019-11-06 16:07:00 INFO  LoginPage:173 - Clicked on forgot password hyper link id====>>[[ChromeDriver: chrome on XP (ec0a2ddfa99abb09392d0e19ceac3bda)] -> css selector: a[id='forget-password']] and object is[[ChromeDriver: chrome on XP (ec0a2ddfa99abb09392d0e19ceac3bda)] -> css selector: a[id='forget-password']]
+2019-11-06 16:07:01 INFO  LoginPage:173 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (ec0a2ddfa99abb09392d0e19ceac3bda)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (ec0a2ddfa99abb09392d0e19ceac3bda)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 16:07:01 INFO  TestBase:165 - =========>Finished Verifying Remember Me check box 
+2019-11-06 16:07:01 INFO  TestBase:165 - =========>Started Verifying Invalid mail Id
+2019-11-06 16:07:02 INFO  LoginPage:173 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (ec0a2ddfa99abb09392d0e19ceac3bda)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (ec0a2ddfa99abb09392d0e19ceac3bda)] -> css selector: input[id='email']]
+2019-11-06 16:07:02 INFO  LoginPage:173 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (ec0a2ddfa99abb09392d0e19ceac3bda)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (ec0a2ddfa99abb09392d0e19ceac3bda)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 16:07:02 INFO  TestBase:165 - =========>Finished Verifying Invalid mail Id
+2019-11-06 16:07:02 INFO  TestBase:165 - =========>Started Verifying Valid mail Id
+2019-11-06 16:07:03 INFO  LoginPage:173 - Entered invaid email id====>>[[ChromeDriver: chrome on XP (ec0a2ddfa99abb09392d0e19ceac3bda)] -> css selector: input[id='email']] and object is[[ChromeDriver: chrome on XP (ec0a2ddfa99abb09392d0e19ceac3bda)] -> css selector: input[id='email']]
+2019-11-06 16:07:25 INFO  LoginPage:173 - Clicked on submit button id====>>[[ChromeDriver: chrome on XP (ec0a2ddfa99abb09392d0e19ceac3bda)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[ChromeDriver: chrome on XP (ec0a2ddfa99abb09392d0e19ceac3bda)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]
+2019-11-06 16:07:27 INFO  TestBase:165 - =========>Finished Verifying Valid mail Id
+2019-11-06 16:07:28 INFO  TestBase:314 - Browser closed
+2019-11-06 16:07:29 INFO  TestBase:102 - creating object of Chrome
+2019-11-06 16:07:31 INFO  TestBase:131 - navigating tohttp://staging.infotracktelematics.com/meiko/
+2019-11-06 16:07:55 INFO  TestBase:134 - Window Maximized
+2019-11-06 16:07:55 INFO  TestBase:165 - =========>Started Verifying Remember me check box is checked
+2019-11-06 16:07:55 INFO  LoginPage:173 - Checked 'Remember Me' checkbox as it is unchecked[[ChromeDriver: chrome on XP (db2ac3c9354438bd86296a5ab98624cc)] -> css selector: div[class='checker']]
+2019-11-06 16:07:55 INFO  TestBase:165 - =========>Started Verifying Remember me check box is checked
+2019-11-06 16:07:55 INFO  TestBase:165 - =========>Started Verifying submit button color Before click
+2019-11-06 16:07:55 INFO  TestBase:165 - Verifying submit button color: #253a73
+2019-11-06 16:07:55 INFO  TestBase:165 - =========>Finished Verifying submit button color Before click
+2019-11-06 16:07:57 INFO  TestBase:314 - Browser closed
+2019-11-06 16:07:57 INFO  TestBase:102 - creating object of Chrome
+2019-11-06 16:07:59 INFO  TestBase:131 - navigating tohttp://staging.infotracktelematics.com/meiko/
+2019-11-06 16:08:23 INFO  TestBase:134 - Window Maximized
+2019-11-06 16:08:23 INFO  TestBase:165 - =========>Started Verifying submit button color After click
+2019-11-06 16:08:23 INFO  LoginPage:173 - Entered login id====>>Hello and object is[[ChromeDriver: chrome on XP (e6da5ebe129c76395d952cfdaec34113)] -> id: username]
+2019-11-06 16:08:23 INFO  LoginPage:173 - Entered password====>> and object is[[ChromeDriver: chrome on XP (e6da5ebe129c76395d952cfdaec34113)] -> xpath: //*[@id="password"]]
+2019-11-06 16:08:23 INFO  LoginPage:173 - Clicked on submit button is[[ChromeDriver: chrome on XP (e6da5ebe129c76395d952cfdaec34113)] -> css selector: button[type='submit']]
+2019-11-06 16:08:23 INFO  TestBase:165 - Verifying submit button color: #1d943b
+2019-11-06 16:08:23 INFO  TestBase:165 - =========>Finished Verifying submit button color After click
+2019-11-06 16:08:25 INFO  TestBase:314 - Browser closed
