@@ -31,10 +31,11 @@ public class LoginPage extends TestBase {
 	 * @FindBy(xpath = "//*[@id=\"usernamee\"]") }) WebElement loginId;
 	 */
 
-	@FindAll({ @FindBy(id = "username"), @FindBy(xpath = "//*[@id='usernamee']") })
+	/*@FindAll({ @FindBy(id = "username"), @FindBy(xpath = "//*[@id='username']") })*/
+	@FindBy(xpath = "//*[@id='username']")
 	WebElement loginId;
 
-	@FindBy(xpath = "//*[@id=\"password\"]")
+	@FindBy(xpath = "//*[@id='password']")
 	WebElement loginPassword;
 
 	@FindBy(css = "button[type='submit']")
@@ -48,6 +49,8 @@ public class LoginPage extends TestBase {
 	
 	@FindBy(css = "body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right")
 	WebElement forgotpassSubmitButton;
+	
+	//div[@class='alert alert-danger ']/span
 	
 	@FindBy(css = "body > div.content > form.forget-form > div.form-group.has-error > span")
 	WebElement emailisrequired;

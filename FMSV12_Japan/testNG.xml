@@ -12,35 +12,40 @@
 
 
 	<test name="ChromeBrowser">
-		<!--  <parameter name="Browser_Name" value="chrome"></parameter> -->
+		<parameter name="Browser_Name" value="chrome"></parameter>
 		<classes>
-			<!-- <class
-				name="com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin" /> -->
-			<!--  <class
-				name="com.test.automation.FMSV12_Japan.loginpage.TC011_VerifyLoginPageMeikoLogo" /> -->
+		<!--<class
+				name="com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin" /> 
+			 <class
+				name="com.test.automation.FMSV12_Japan.loginpage.TC011_VerifyLoginPageMeikoLogo" /> 
 			<class
 				name="com.test.automation.FMSV12_Japan.loginpage.TC013_VerfiyForgotPassword" />
 			<class
 				name="com.test.automation.FMSV12_Japan.loginpage.TC012_VerfyingSubmitButtonColorCode" />
 			<class
-				name="com.test.automation.FMSV12_Japan.loginpage.TC014_VerifyingSubmitButtonColorAfterClick" /> 
-			<!--<class name="com.test.automation.FMSV12_Japan.loginpage.TC005_ChangePassword"/> 
-			<class name="com.test.automation.FMSV12_Japan.dashboard.TC003_UserProfile"/>
-			   <class name="com.test.automation.FMSV12_Japan.dashboard.TC004_VerifyingLogo" 
+				name="com.test.automation.FMSV12_Japan.loginpage.TC014_VerifyingSubmitButtonColorAfterClick" />	 
+			<class 
+			     name="com.test.automation.FMSV12_Japan.dashboard.TC003_UserProfile"/> 
+			  <class name="com.test.automation.FMSV12_Japan.dashboard.TC004_VerifyingLogo" 
 				/> <class name="com.test.automation.FMSV12_Japan.dashboard.TC002_VerifyingVehicleStatusTable"/> 
 				<class name="com.test.automation.FMSV12_Japan.dashboard.TC007_VerifyingStateOfVehicle"/> 
 				<class name="com.test.automation.FMSV12_Japan.vehiclereports.TC006_Activity"/> 
 				<class name="com.test.automation.FMSV12_Japan.vehiclereports.TC008_Idle"/> 
 				<class name="com.test.automation.FMSV12_Japan.vehiclereports.TC009_ActivitySummary"/> 
-				<class name="com.test.automation.FMSV12_Japan.vehiclereports.TC010_TotalDistance"/> -->
-				
+				<class name="com.test.automation.FMSV12_Japan.vehiclereports.TC010_TotalDistance"/> 
+				  <class 
+			    name="com.test.automation.FMSV12_Japan.loginpage.TC015_UserProfile_Help"/>   
+			 <class 
+			    name="com.test.automation.FMSV12_Japan.loginpage.TC016_Verify_ContactUs"/> -->
+			<class 
+			    name="com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword"/> 
 		</classes>
 
 	</test>
 	<test name="FirefoxBrowser">
 		<parameter name="Browser_Name" value="firefox"></parameter>
 		<classes>
-			<!-- <class
+		<!--<class
 				name="com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin" />
 			<class
 				name="com.test.automation.FMSV12_Japan.loginpage.TC011_VerifyLoginPageMeikoLogo" />
@@ -55,14 +60,16 @@
 				<class name="com.test.automation.FMSV12_Japan.dashboard.TC003_UserProfile"/> 
 				<class name="com.test.automation.FMSV12_Japan.dashboard.TC004_VerifyingLogo"/> 
 				<class name="com.test.automation.FMSV12_Japan.dashboard.TC002_MasterOption"/> 
-				<class name="com.test.automation.FMSV12_Japan.vehiclereports.TC006_Activity"/> -->
+				<class name="com.test.automation.FMSV12_Japan.vehiclereports.TC006_Activity"/> 
+				<class 
+			    name="com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword"/>-->
 		</classes>
 	</test>
 
 	<test name="IEBrowser">
 		<parameter name="Browser_Name" value="IE"></parameter>
 		<classes>
-			<!-- <class
+		<!--<class
 				name="com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin" />
 			<class
 				name="com.test.automation.FMSV12_Japan.loginpage.TC011_VerifyLoginPageMeikoLogo" />
@@ -78,7 +85,9 @@
 				<class name="com.test.automation.FMSV12_Japan.dashboard.TC003_UserProfile"/> 
 				<class name="com.test.automation.FMSV12_Japan.dashboard.TC004_VerifyingLogo"/> 
 				<class name="com.test.automation.FMSV12_Japan.dashboard.TC002_MasterOption"/> 
-				<class name="com.test.automation.FMSV12_Japan.vehiclereports.TC006_Activity"/> -->
+				<class name="com.test.automation.FMSV12_Japan.vehiclereports.TC006_Activity"/> 
+				<class 
+			    name="com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword"/>-->
 		</classes>
 	</test>
 

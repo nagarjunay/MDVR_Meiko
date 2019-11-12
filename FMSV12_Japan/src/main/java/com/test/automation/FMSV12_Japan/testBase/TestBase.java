@@ -23,6 +23,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -31,6 +32,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
@@ -108,7 +110,10 @@ public class TestBase {
 			copts.addArguments("incognito");
 			copts.addArguments("--ppapi-flash-version=32.0.0.101");
 			copts.addArguments("--ppapi-flash-path=/usr/lib/pepperflashplugin-nonfree/libpepflashplayer.so");
+			copts.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
 			driver = new ChromeDriver(copts);
+			log.info("Launching the Chrome browser");
+			//test.log(LogStatus.INFO, "Launching the Chrome browser");
 
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			//WebDriverManager.firefoxdriver().setup();
@@ -116,13 +121,19 @@ public class TestBase {
 			log.info("creating object of " + browser);
 			FirefoxOptions opts = new FirefoxOptions();
 			opts.addArguments("-private");
+			opts.addPreference("dom.webnotifications.enabled", false);
+			opts.addPreference("app.update.enabled", false);
+			opts.addPreference("geo.enabled", false);
+			opts.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
 			driver = new FirefoxDriver(opts);
+			log.info("Launching the Firefox browser");
 			
 		} else if (browser.equalsIgnoreCase("IE")) {
 			//WebDriverManager.iedriver().setup();
 			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "/drivers/IEDriverServerr.exe");
 			log.info("creating object of " + browser);
 			driver = new InternetExplorerDriver();
+			log.info("Launching the Internet Explorer browser");
 		}
 	}
 
@@ -130,7 +141,7 @@ public class TestBase {
 	public void getUrl(String url) {
 		log.info("navigating to" + url);
 		driver.get(url);
-		driver.manage().window().fullscreen();
+		driver.manage().window().maximize();
 		log.info("Window Maximized");
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 	}

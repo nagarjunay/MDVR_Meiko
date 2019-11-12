@@ -15,7 +15,7 @@ public class Retry implements IRetryAnalyzer {
 	public static final Logger log = Logger.getLogger(Retry.class.getName());
 
 	private int retryCount = 0;
-	private int maxRetryCount = 1;
+	private int maxRetryCount = 0;
 
 	public boolean retry(ITestResult result) {
 		if (retryCount < maxRetryCount) {

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeBrowser</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Oct 23 16:12:06 IST 2019</td>
+<td>Started on:</td><td>Tue Nov 12 14:29:10 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>172 seconds (172972 ms)</td>
+<tr><td>Total time:</td><td>103 seconds (103827 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,173 +75,86 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin<br>Parameters: Demo, , //span[@for='password'], パソワードは必須です。, y<br/>
-<a href="#Output-1420623741" onClick='toggleBox("Output-1420623741", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword.VerifyingChangePasswordValidation_Type1()'><b>VerifyingChangePasswordValidation_Type1</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword<br/>
+<a href="#Output-353023213" onClick='toggleBox("Output-353023213", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1420623741" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1420623741">
-Test is started:verifyLogin<br/>
+<a href="#Output-353023213" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-353023213">
+Test is started:VerifyingChangePasswordValidation_Type1<br/>
 =========>Started verify login<br/>
-Entered login id====>>Demo and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]<br/>
-Entered password====>> and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]<br/>
-Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]<br/>
-Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            <br/>
+Entered login id====>>Meiko and object is[[ChromeDriver: chrome on XP (76e5718d0c1ffce549919018f0b46ceb)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (76e5718d0c1ffce549919018f0b46ceb)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']'<br/>
 =========>Finished verify login<br/>
-<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_12_39.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_12_39.png' height='100' width='100'/> </a><br/>
+Performing mouse over on user profile dropdown<br/>
+=========>Started to click on Change Password option<br/>
+Clicking on Change password from user profile dropdown<br/>
+=========>Clicked on Change password option<br/>
+Entered Current Password is====>>demo<br/>
+Entered New Password is====>><br/>
+Entered Confirm Password is====>><br/>
+Clicked on Change Button<br/>
+Alert data:  パスワードは空にしないでください<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type1_12_11_2019_02_30_48.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type1_12_11_2019_02_30_48.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword.VerifyingChangePasswordValidation_Type2()'><b>VerifyingChangePasswordValidation_Type2</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword<br/>
+<a href="#Output-626941486" onClick='toggleBox("Output-626941486", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-626941486" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-626941486">
+Test is started:VerifyingChangePasswordValidation_Type2<br/>
+Entered Current Password is====>>demo<br/>
+Entered New Password is====>>fsfdg<br/>
+Entered Confirm Password is====>><br/>
+Clicked on Change Button<br/>
+Alert data:  新しいパスワードとパスワードの確認には同じ値を含める必要があります<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type2_12_11_2019_02_30_49.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type2_12_11_2019_02_30_49.png' height='100' width='100'/> </a><br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0</td></tr>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1</td></tr>
 <tr>
-<td title='com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin<br>Parameters: , Info@123, //span[@for='username'], ユーザー名は必須です。, y<br/>
-<a href="#Output-922547904" onClick='toggleBox("Output-922547904", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword.VerifyingChangePasswordValidation_Type3()'><b>VerifyingChangePasswordValidation_Type3</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword<br/>
+<a href="#Output-1058984040" onClick='toggleBox("Output-1058984040", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-922547904" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-922547904">
-Test is started:verifyLogin<br/>
-=========>Started verify login<br/>
-Entered login id====>> and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]<br/>
-Entered password====>>Info@123 and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]<br/>
-Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]<br/>
-Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            <br/>
-=========>Finished verify login<br/>
-<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_12_40.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_12_40.png' height='100' width='100'/> </a><br/>
+<a href="#Output-1058984040" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1058984040">
+Test is started:VerifyingChangePasswordValidation_Type3<br/>
+Entered Current Password is====>>de123123<br/>
+Entered New Password is====>><br/>
+Entered Confirm Password is====>>3@!@#!#<br/>
+Clicked on Change Button<br/>
+Alert data:  パスワードは空にしないでください<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type3_12_11_2019_02_30_51.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type3_12_11_2019_02_30_51.png' height='100' width='100'/> </a><br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0</td></tr>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1</td></tr>
 <tr>
-<td title='com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin<br>Parameters: helloo, ift, //div[@class='alert alert-danger ']/span, 有効なログインではありません！, y<br/>
-<a href="#Output-454841229" onClick='toggleBox("Output-454841229", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword.VerifyingChangePasswordValidation_Type4()'><b>VerifyingChangePasswordValidation_Type4</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword<br/>
+<a href="#Output-129958347" onClick='toggleBox("Output-129958347", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-454841229" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-454841229">
-Test is started:verifyLogin<br/>
-=========>Started verify login<br/>
-Entered login id====>>helloo and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]<br/>
-Entered password====>>ift and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]<br/>
-Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]<br/>
-Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            <br/>
-=========>Finished verify login<br/>
-<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_03.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_03.png' height='100' width='100'/> </a><br/>
+<a href="#Output-129958347" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-129958347">
+Test is started:VerifyingChangePasswordValidation_Type4<br/>
+Entered Current Password is====>>de123123<br/>
+Entered New Password is====>>welcome<br/>
+Entered Confirm Password is====>>welcome<br/>
+Clicked on Change Button<br/>
+Validation Message: Current Password is wrong, Please Try again !!<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type4_12_11_2019_02_30_52.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type4_12_11_2019_02_30_52.png' height='100' width='100'/> </a><br/>
 </div>
 </td>
 <td></td>
-<td>22</td>
-<td>com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0</td></tr>
-<tr>
-<td title='com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin<br>Parameters: meiko, hhh12312, //div[@class='alert alert-danger ']/span, パスワードが間違っています, y<br/>
-<a href="#Output-1066856480" onClick='toggleBox("Output-1066856480", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1066856480" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1066856480">
-Test is started:verifyLogin<br/>
-=========>Started verify login<br/>
-Entered login id====>>meiko and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]<br/>
-Entered password====>>hhh12312 and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]<br/>
-Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]<br/>
-Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            <br/>
-=========>Finished verify login<br/>
-<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_26.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_26.png' height='100' width='100'/> </a><br/>
-</div>
-</td>
-<td></td>
-<td>22</td>
-<td>com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0</td></tr>
-<tr>
-<td title='com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin<br>Parameters: ffffg, welcome, //div[@class='alert alert-danger ']/span, 有効なログインではありません！, y<br/>
-<a href="#Output-1625413756" onClick='toggleBox("Output-1625413756", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1625413756" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1625413756">
-Test is started:verifyLogin<br/>
-=========>Started verify login<br/>
-Entered login id====>>ffffg and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]<br/>
-Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]<br/>
-Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]<br/>
-Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            <br/>
-=========>Finished verify login<br/>
-<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_48.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_48.png' height='100' width='100'/> </a><br/>
-</div>
-</td>
-<td></td>
-<td>22</td>
-<td>com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0</td></tr>
-<tr>
-<td title='com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin<br>Parameters: !@#@##!, 123213.0, //div[@class='alert alert-danger ']/span, 有効なログインではありません！, <br/>
-<a href="#Output-1217466562" onClick='toggleBox("Output-1217466562", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1217466562" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1217466562">
-Test is started:verifyLogin<br/>
-=========>Started verify login<br/>
-Entered login id====>>!@#@##! and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]<br/>
-Entered password====>>123213.0 and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]<br/>
-Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]<br/>
-Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            <br/>
-=========>Finished verify login<br/>
-<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_11.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_11.png' height='100' width='100'/> </a><br/>
-</div>
-</td>
-<td></td>
-<td>22</td>
-<td>com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0</td></tr>
-<tr>
-<td title='com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin<br>Parameters: abcd@123, !!@#!!@, //div[@class='alert alert-danger ']/span, 有効なログインではありません！, <br/>
-<a href="#Output-1855172839" onClick='toggleBox("Output-1855172839", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1855172839" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1855172839">
-Test is started:verifyLogin<br/>
-=========>Started verify login<br/>
-Entered login id====>>abcd@123 and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]<br/>
-Entered password====>>!!@#!!@ and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]<br/>
-Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]<br/>
-Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            <br/>
-=========>Finished verify login<br/>
-<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_34.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_34.png' height='100' width='100'/> </a><br/>
-</div>
-</td>
-<td></td>
-<td>22</td>
-<td>com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0</td></tr>
-<tr>
-<td title='com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin<br>Parameters: fp-ifttest, iftt, //div[@class='alert alert-danger ']/span, 有効なログインではありません！, y<br/>
-<a href="#Output-488654523" onClick='toggleBox("Output-488654523", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-488654523" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-488654523">
-Test is started:verifyLogin<br/>
-=========>Started verify login<br/>
-Entered login id====>>fp-ifttest and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]<br/>
-Entered password====>>iftt and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]<br/>
-Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]<br/>
-Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            <br/>
-=========>Finished verify login<br/>
-<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_57.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_57.png' height='100' width='100'/> </a><br/>
-</div>
-</td>
-<td></td>
-<td>21</td>
-<td>com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0</td></tr>
+<td>0</td>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1</td></tr>
 </table><p>
 </body>
 </html>

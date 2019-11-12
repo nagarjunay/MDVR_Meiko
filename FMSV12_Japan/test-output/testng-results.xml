@@ -1,245 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
     <line>
-      <![CDATA[Test is started:verifyLogin]]>
+      <![CDATA[Test is started:VerifyingChangePasswordValidation_Type1]]>
     </line>
     <line>
       <![CDATA[=========>Started verify login]]>
     </line>
     <line>
-      <![CDATA[Entered login id====>>Demo and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]]]>
+      <![CDATA[Entered login id====>>Meiko and object is[[ChromeDriver: chrome on XP (76e5718d0c1ffce549919018f0b46ceb)] -> xpath: //*[@id='username']]]]>
     </line>
     <line>
-      <![CDATA[Entered password====>> and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]]]>
+      <![CDATA[Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (76e5718d0c1ffce549919018f0b46ceb)] -> xpath: //*[@id='password']]]]>
     </line>
     <line>
-      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]]]>
-    </line>
-    <line>
-      <![CDATA[Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            ]]>
+      <![CDATA[Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']']]>
     </line>
     <line>
       <![CDATA[=========>Finished verify login]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_12_39.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_12_39.png' height='100' width='100'/> </a>]]>
+      <![CDATA[Performing mouse over on user profile dropdown]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_12_39.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_12_39.png' height='100' width='100'/></a>]]>
+      <![CDATA[=========>Started to click on Change Password option]]>
     </line>
     <line>
-      <![CDATA[Test is started:verifyLogin]]>
+      <![CDATA[Clicking on Change password from user profile dropdown]]>
     </line>
     <line>
-      <![CDATA[=========>Started verify login]]>
+      <![CDATA[=========>Clicked on Change password option]]>
     </line>
     <line>
-      <![CDATA[Entered login id====>> and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]]]>
+      <![CDATA[Entered Current Password is====>>demo]]>
     </line>
     <line>
-      <![CDATA[Entered password====>>Info@123 and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]]]>
+      <![CDATA[Entered New Password is====>>]]>
     </line>
     <line>
-      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]]]>
+      <![CDATA[Entered Confirm Password is====>>]]>
     </line>
     <line>
-      <![CDATA[Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            ]]>
+      <![CDATA[Clicked on Change Button]]>
     </line>
     <line>
-      <![CDATA[=========>Finished verify login]]>
+      <![CDATA[Alert data:  パスワードは空にしないでください]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_12_40.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_12_40.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type1_12_11_2019_02_30_48.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type1_12_11_2019_02_30_48.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_12_40.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_12_40.png' height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-12_11_2019_02_30_49.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-12_11_2019_02_30_49.png' height='100' width='100'/></a>]]>
     </line>
     <line>
-      <![CDATA[Test is started:verifyLogin]]>
+      <![CDATA[Test is started:VerifyingChangePasswordValidation_Type2]]>
     </line>
     <line>
-      <![CDATA[=========>Started verify login]]>
+      <![CDATA[Entered Current Password is====>>demo]]>
     </line>
     <line>
-      <![CDATA[Entered login id====>>helloo and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]]]>
+      <![CDATA[Entered New Password is====>>fsfdg]]>
     </line>
     <line>
-      <![CDATA[Entered password====>>ift and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]]]>
+      <![CDATA[Entered Confirm Password is====>>]]>
     </line>
     <line>
-      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]]]>
+      <![CDATA[Clicked on Change Button]]>
     </line>
     <line>
-      <![CDATA[Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            ]]>
+      <![CDATA[Alert data:  新しいパスワードとパスワードの確認には同じ値を含める必要があります]]>
     </line>
     <line>
-      <![CDATA[=========>Finished verify login]]>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type2_12_11_2019_02_30_49.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type2_12_11_2019_02_30_49.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_03.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_03.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-12_11_2019_02_30_50.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-12_11_2019_02_30_50.png' height='100' width='100'/></a>]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_13_03.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_13_03.png' height='100' width='100'/></a>]]>
+      <![CDATA[Test is started:VerifyingChangePasswordValidation_Type3]]>
     </line>
     <line>
-      <![CDATA[Test is started:verifyLogin]]>
+      <![CDATA[Entered Current Password is====>>de123123]]>
     </line>
     <line>
-      <![CDATA[=========>Started verify login]]>
+      <![CDATA[Entered New Password is====>>]]>
     </line>
     <line>
-      <![CDATA[Entered login id====>>meiko and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]]]>
+      <![CDATA[Entered Confirm Password is====>>3@!@#!#]]>
     </line>
     <line>
-      <![CDATA[Entered password====>>hhh12312 and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]]]>
+      <![CDATA[Clicked on Change Button]]>
     </line>
     <line>
-      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]]]>
+      <![CDATA[Alert data:  パスワードは空にしないでください]]>
     </line>
     <line>
-      <![CDATA[Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            ]]>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type3_12_11_2019_02_30_51.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type3_12_11_2019_02_30_51.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
-      <![CDATA[=========>Finished verify login]]>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-12_11_2019_02_30_51.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-12_11_2019_02_30_51.png' height='100' width='100'/></a>]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_26.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_26.png' height='100' width='100'/> </a>]]>
+      <![CDATA[Test is started:VerifyingChangePasswordValidation_Type4]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_13_26.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_13_26.png' height='100' width='100'/></a>]]>
+      <![CDATA[Entered Current Password is====>>de123123]]>
     </line>
     <line>
-      <![CDATA[Test is started:verifyLogin]]>
+      <![CDATA[Entered New Password is====>>welcome]]>
     </line>
     <line>
-      <![CDATA[=========>Started verify login]]>
+      <![CDATA[Entered Confirm Password is====>>welcome]]>
     </line>
     <line>
-      <![CDATA[Entered login id====>>ffffg and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]]]>
+      <![CDATA[Clicked on Change Button]]>
     </line>
     <line>
-      <![CDATA[Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]]]>
+      <![CDATA[Validation Message: Current Password is wrong, Please Try again !!]]>
     </line>
     <line>
-      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]]]>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type4_12_11_2019_02_30_52.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type4_12_11_2019_02_30_52.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
-      <![CDATA[Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            ]]>
-    </line>
-    <line>
-      <![CDATA[=========>Finished verify login]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_48.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_48.png' height='100' width='100'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_13_49.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_13_49.png' height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[Test is started:verifyLogin]]>
-    </line>
-    <line>
-      <![CDATA[=========>Started verify login]]>
-    </line>
-    <line>
-      <![CDATA[Entered login id====>>!@#@##! and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]]]>
-    </line>
-    <line>
-      <![CDATA[Entered password====>>123213.0 and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]]]>
-    </line>
-    <line>
-      <![CDATA[Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            ]]>
-    </line>
-    <line>
-      <![CDATA[=========>Finished verify login]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_11.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_11.png' height='100' width='100'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_14_12.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_14_12.png' height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[Test is started:verifyLogin]]>
-    </line>
-    <line>
-      <![CDATA[=========>Started verify login]]>
-    </line>
-    <line>
-      <![CDATA[Entered login id====>>abcd@123 and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]]]>
-    </line>
-    <line>
-      <![CDATA[Entered password====>>!!@#!!@ and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]]]>
-    </line>
-    <line>
-      <![CDATA[Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            ]]>
-    </line>
-    <line>
-      <![CDATA[=========>Finished verify login]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_34.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_34.png' height='100' width='100'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_14_34.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_14_34.png' height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[Test is started:verifyLogin]]>
-    </line>
-    <line>
-      <![CDATA[=========>Started verify login]]>
-    </line>
-    <line>
-      <![CDATA[Entered login id====>>fp-ifttest and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]]]>
-    </line>
-    <line>
-      <![CDATA[Entered password====>>iftt and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]]]>
-    </line>
-    <line>
-      <![CDATA[Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            ]]>
-    </line>
-    <line>
-      <![CDATA[=========>Finished verify login]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_57.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_57.png' height='100' width='100'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_14_57.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_14_57.png' height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-12_11_2019_02_30_52.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-12_11_2019_02_30_52.png' height='100' width='100'/></a>]]>
     </line>
   </reporter-output>
-  <suite name="Regression suite 1" duration-ms="173055" started-at="2019-10-23T10:42:06Z" finished-at="2019-10-23T10:44:59Z">
+  <suite name="Regression suite 1" duration-ms="103904" started-at="2019-11-12T08:59:10Z" finished-at="2019-11-12T09:00:54Z">
     <groups>
     </groups>
-    <test name="ChromeBrowser" duration-ms="172972" started-at="2019-10-23T10:42:06Z" finished-at="2019-10-23T10:44:58Z">
-      <class name="com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="setUp" is-config="true" duration-ms="31485" started-at="2019-10-23T10:42:06Z" finished-at="2019-10-23T10:42:37Z">
+    <test name="ChromeBrowser" duration-ms="103827" started-at="2019-11-12T08:59:10Z" finished-at="2019-11-12T09:00:54Z">
+      <class name="com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1]" name="setUp" is-config="true" duration-ms="27657" started-at="2019-11-12T08:59:10Z" finished-at="2019-11-12T08:59:38Z">
           <params>
             <param index="0">
               <value>
@@ -250,671 +141,242 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2019-10-23T10:42:38Z" finished-at="2019-10-23T10:42:38Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2019-11-12T08:59:38Z" finished-at="2019-11-12T08:59:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword.VerifyingChangePasswordValidation_Type1() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="verifyLogin" duration-ms="790" started-at="2019-10-23T10:42:38Z" data-provider="getDataFromExcel" finished-at="2019-10-23T10:42:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Demo]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[//span[@for='password']]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[パソワードは必須です。]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[y]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="VerifyingChangePasswordValidation_Type1()[pri:1, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1]" name="VerifyingChangePasswordValidation_Type1" duration-ms="70457" started-at="2019-11-12T08:59:38Z" finished-at="2019-11-12T09:00:48Z">
           <reporter-output>
             <line>
-              <![CDATA[Test is started:verifyLogin]]>
+              <![CDATA[Test is started:VerifyingChangePasswordValidation_Type1]]>
             </line>
             <line>
               <![CDATA[=========>Started verify login]]>
             </line>
             <line>
-              <![CDATA[Entered login id====>>Demo and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]]]>
+              <![CDATA[Entered login id====>>Meiko and object is[[ChromeDriver: chrome on XP (76e5718d0c1ffce549919018f0b46ceb)] -> xpath: //*[@id='username']]]]>
             </line>
             <line>
-              <![CDATA[Entered password====>> and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]]]>
+              <![CDATA[Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (76e5718d0c1ffce549919018f0b46ceb)] -> xpath: //*[@id='password']]]]>
             </line>
             <line>
-              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]]]>
-            </line>
-            <line>
-              <![CDATA[Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            ]]>
+              <![CDATA[Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']']]>
             </line>
             <line>
               <![CDATA[=========>Finished verify login]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_12_39.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_12_39.png' height='100' width='100'/> </a>]]>
+              <![CDATA[Performing mouse over on user profile dropdown]]>
+            </line>
+            <line>
+              <![CDATA[=========>Started to click on Change Password option]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Change password from user profile dropdown]]>
+            </line>
+            <line>
+              <![CDATA[=========>Clicked on Change password option]]>
+            </line>
+            <line>
+              <![CDATA[Entered Current Password is====>>demo]]>
+            </line>
+            <line>
+              <![CDATA[Entered New Password is====>>]]>
+            </line>
+            <line>
+              <![CDATA[Entered Confirm Password is====>>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Change Button]]>
+            </line>
+            <line>
+              <![CDATA[Alert data:  パスワードは空にしないでください]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type1_12_11_2019_02_30_48.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type1_12_11_2019_02_30_48.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="afterMethod" is-config="true" duration-ms="350" started-at="2019-10-23T10:42:39Z" finished-at="2019-10-23T10:42:39Z">
+        </test-method> <!-- VerifyingChangePasswordValidation_Type1 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1]" name="afterMethod" is-config="true" duration-ms="386" started-at="2019-11-12T09:00:49Z" finished-at="2019-11-12T09:00:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0] output=Test is started:verifyLogin]]]>
+                <![CDATA[[TestResult name=VerifyingChangePasswordValidation_Type1 status=SUCCESS method=TC005_UserProfile_ChangePassword.VerifyingChangePasswordValidation_Type1()[pri:1, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1] output=Test is started:VerifyingChangePasswordValidation_Type1]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_12_39.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_12_39.png' height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-12_11_2019_02_30_49.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-12_11_2019_02_30_49.png' height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-23T10:42:39Z" finished-at="2019-10-23T10:42:39Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-11-12T09:00:49Z" finished-at="2019-11-12T09:00:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword.VerifyingChangePasswordValidation_Type2() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="verifyLogin" duration-ms="507" started-at="2019-10-23T10:42:39Z" data-provider="getDataFromExcel" finished-at="2019-10-23T10:42:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Info@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[//span[@for='username']]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[ユーザー名は必須です。]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[y]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="VerifyingChangePasswordValidation_Type2()[pri:2, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1]" name="VerifyingChangePasswordValidation_Type2" duration-ms="459" started-at="2019-11-12T09:00:49Z" finished-at="2019-11-12T09:00:49Z">
           <reporter-output>
             <line>
-              <![CDATA[Test is started:verifyLogin]]>
+              <![CDATA[Test is started:VerifyingChangePasswordValidation_Type2]]>
             </line>
             <line>
-              <![CDATA[=========>Started verify login]]>
+              <![CDATA[Entered Current Password is====>>demo]]>
             </line>
             <line>
-              <![CDATA[Entered login id====>> and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]]]>
+              <![CDATA[Entered New Password is====>>fsfdg]]>
             </line>
             <line>
-              <![CDATA[Entered password====>>Info@123 and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]]]>
+              <![CDATA[Entered Confirm Password is====>>]]>
             </line>
             <line>
-              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]]]>
+              <![CDATA[Clicked on Change Button]]>
             </line>
             <line>
-              <![CDATA[Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            ]]>
+              <![CDATA[Alert data:  新しいパスワードとパスワードの確認には同じ値を含める必要があります]]>
             </line>
             <line>
-              <![CDATA[=========>Finished verify login]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_12_40.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_12_40.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type2_12_11_2019_02_30_49.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type2_12_11_2019_02_30_49.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="afterMethod" is-config="true" duration-ms="355" started-at="2019-10-23T10:42:40Z" finished-at="2019-10-23T10:42:41Z">
+        </test-method> <!-- VerifyingChangePasswordValidation_Type2 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1]" name="afterMethod" is-config="true" duration-ms="371" started-at="2019-11-12T09:00:50Z" finished-at="2019-11-12T09:00:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0] output=Test is started:verifyLogin]]]>
+                <![CDATA[[TestResult name=VerifyingChangePasswordValidation_Type2 status=SUCCESS method=TC005_UserProfile_ChangePassword.VerifyingChangePasswordValidation_Type2()[pri:2, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1] output=Test is started:VerifyingChangePasswordValidation_Type2]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_12_40.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_12_40.png' height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-12_11_2019_02_30_50.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-12_11_2019_02_30_50.png' height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-23T10:42:41Z" finished-at="2019-10-23T10:42:41Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-11-12T09:00:50Z" finished-at="2019-11-12T09:00:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword.VerifyingChangePasswordValidation_Type3() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="verifyLogin" duration-ms="22097" started-at="2019-10-23T10:42:41Z" data-provider="getDataFromExcel" finished-at="2019-10-23T10:43:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[helloo]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ift]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[//div[@class='alert alert-danger ']/span]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[有効なログインではありません！]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[y]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="VerifyingChangePasswordValidation_Type3()[pri:3, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1]" name="VerifyingChangePasswordValidation_Type3" duration-ms="427" started-at="2019-11-12T09:00:50Z" finished-at="2019-11-12T09:00:51Z">
           <reporter-output>
             <line>
-              <![CDATA[Test is started:verifyLogin]]>
+              <![CDATA[Test is started:VerifyingChangePasswordValidation_Type3]]>
             </line>
             <line>
-              <![CDATA[=========>Started verify login]]>
+              <![CDATA[Entered Current Password is====>>de123123]]>
             </line>
             <line>
-              <![CDATA[Entered login id====>>helloo and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]]]>
+              <![CDATA[Entered New Password is====>>]]>
             </line>
             <line>
-              <![CDATA[Entered password====>>ift and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]]]>
+              <![CDATA[Entered Confirm Password is====>>3@!@#!#]]>
             </line>
             <line>
-              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]]]>
+              <![CDATA[Clicked on Change Button]]>
             </line>
             <line>
-              <![CDATA[Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            ]]>
+              <![CDATA[Alert data:  パスワードは空にしないでください]]>
             </line>
             <line>
-              <![CDATA[=========>Finished verify login]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_03.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_03.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type3_12_11_2019_02_30_51.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type3_12_11_2019_02_30_51.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="afterMethod" is-config="true" duration-ms="349" started-at="2019-10-23T10:43:03Z" finished-at="2019-10-23T10:43:03Z">
+        </test-method> <!-- VerifyingChangePasswordValidation_Type3 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1]" name="afterMethod" is-config="true" duration-ms="362" started-at="2019-11-12T09:00:51Z" finished-at="2019-11-12T09:00:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0] output=Test is started:verifyLogin]]]>
+                <![CDATA[[TestResult name=VerifyingChangePasswordValidation_Type3 status=SUCCESS method=TC005_UserProfile_ChangePassword.VerifyingChangePasswordValidation_Type3()[pri:3, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1] output=Test is started:VerifyingChangePasswordValidation_Type3]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_13_03.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_13_03.png' height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-12_11_2019_02_30_51.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-12_11_2019_02_30_51.png' height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-23T10:43:03Z" finished-at="2019-10-23T10:43:03Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-11-12T09:00:51Z" finished-at="2019-11-12T09:00:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword.VerifyingChangePasswordValidation_Type4() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="verifyLogin" duration-ms="22126" started-at="2019-10-23T10:43:03Z" data-provider="getDataFromExcel" finished-at="2019-10-23T10:43:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[meiko]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hhh12312]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[//div[@class='alert alert-danger ']/span]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[パスワードが間違っています]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[y]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="VerifyingChangePasswordValidation_Type4()[pri:4, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1]" name="VerifyingChangePasswordValidation_Type4" duration-ms="528" started-at="2019-11-12T09:00:51Z" finished-at="2019-11-12T09:00:52Z">
           <reporter-output>
             <line>
-              <![CDATA[Test is started:verifyLogin]]>
+              <![CDATA[Test is started:VerifyingChangePasswordValidation_Type4]]>
             </line>
             <line>
-              <![CDATA[=========>Started verify login]]>
+              <![CDATA[Entered Current Password is====>>de123123]]>
             </line>
             <line>
-              <![CDATA[Entered login id====>>meiko and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]]]>
+              <![CDATA[Entered New Password is====>>welcome]]>
             </line>
             <line>
-              <![CDATA[Entered password====>>hhh12312 and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]]]>
+              <![CDATA[Entered Confirm Password is====>>welcome]]>
             </line>
             <line>
-              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]]]>
+              <![CDATA[Clicked on Change Button]]>
             </line>
             <line>
-              <![CDATA[Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            ]]>
+              <![CDATA[Validation Message: Current Password is wrong, Please Try again !!]]>
             </line>
             <line>
-              <![CDATA[=========>Finished verify login]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_26.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_26.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type4_12_11_2019_02_30_52.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type4_12_11_2019_02_30_52.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="afterMethod" is-config="true" duration-ms="338" started-at="2019-10-23T10:43:26Z" finished-at="2019-10-23T10:43:26Z">
+        </test-method> <!-- VerifyingChangePasswordValidation_Type4 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1]" name="afterMethod" is-config="true" duration-ms="366" started-at="2019-11-12T09:00:52Z" finished-at="2019-11-12T09:00:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0] output=Test is started:verifyLogin]]]>
+                <![CDATA[[TestResult name=VerifyingChangePasswordValidation_Type4 status=SUCCESS method=TC005_UserProfile_ChangePassword.VerifyingChangePasswordValidation_Type4()[pri:4, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1] output=Test is started:VerifyingChangePasswordValidation_Type4]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_13_26.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_13_26.png' height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-12_11_2019_02_30_52.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-12_11_2019_02_30_52.png' height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-23T10:43:26Z" finished-at="2019-10-23T10:43:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="verifyLogin" duration-ms="22076" started-at="2019-10-23T10:43:26Z" data-provider="getDataFromExcel" finished-at="2019-10-23T10:43:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ffffg]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[welcome]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[//div[@class='alert alert-danger ']/span]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[有効なログインではありません！]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[y]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Test is started:verifyLogin]]>
-            </line>
-            <line>
-              <![CDATA[=========>Started verify login]]>
-            </line>
-            <line>
-              <![CDATA[Entered login id====>>ffffg and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]]]>
-            </line>
-            <line>
-              <![CDATA[Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]]]>
-            </line>
-            <line>
-              <![CDATA[Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            ]]>
-            </line>
-            <line>
-              <![CDATA[=========>Finished verify login]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_48.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_13_48.png' height='100' width='100'/> </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="afterMethod" is-config="true" duration-ms="334" started-at="2019-10-23T10:43:49Z" finished-at="2019-10-23T10:43:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0] output=Test is started:verifyLogin]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_13_49.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_13_49.png' height='100' width='100'/></a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-23T10:43:49Z" finished-at="2019-10-23T10:43:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="verifyLogin" duration-ms="22097" started-at="2019-10-23T10:43:49Z" data-provider="getDataFromExcel" finished-at="2019-10-23T10:44:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[!@#@##!]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123213.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[//div[@class='alert alert-danger ']/span]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[有効なログインではありません！]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Test is started:verifyLogin]]>
-            </line>
-            <line>
-              <![CDATA[=========>Started verify login]]>
-            </line>
-            <line>
-              <![CDATA[Entered login id====>>!@#@##! and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]]]>
-            </line>
-            <line>
-              <![CDATA[Entered password====>>123213.0 and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]]]>
-            </line>
-            <line>
-              <![CDATA[Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            ]]>
-            </line>
-            <line>
-              <![CDATA[=========>Finished verify login]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_11.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_11.png' height='100' width='100'/> </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="afterMethod" is-config="true" duration-ms="339" started-at="2019-10-23T10:44:12Z" finished-at="2019-10-23T10:44:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0] output=Test is started:verifyLogin]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_14_12.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_14_12.png' height='100' width='100'/></a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-23T10:44:12Z" finished-at="2019-10-23T10:44:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="verifyLogin" duration-ms="22155" started-at="2019-10-23T10:44:12Z" data-provider="getDataFromExcel" finished-at="2019-10-23T10:44:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abcd@123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[!!@#!!@]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[//div[@class='alert alert-danger ']/span]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[有効なログインではありません！]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Test is started:verifyLogin]]>
-            </line>
-            <line>
-              <![CDATA[=========>Started verify login]]>
-            </line>
-            <line>
-              <![CDATA[Entered login id====>>abcd@123 and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]]]>
-            </line>
-            <line>
-              <![CDATA[Entered password====>>!!@#!!@ and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]]]>
-            </line>
-            <line>
-              <![CDATA[Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            ]]>
-            </line>
-            <line>
-              <![CDATA[=========>Finished verify login]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_34.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_34.png' height='100' width='100'/> </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="afterMethod" is-config="true" duration-ms="353" started-at="2019-10-23T10:44:34Z" finished-at="2019-10-23T10:44:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0] output=Test is started:verifyLogin]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_14_34.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_14_34.png' height='100' width='100'/></a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-23T10:44:35Z" finished-at="2019-10-23T10:44:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="verifyLogin" duration-ms="21990" started-at="2019-10-23T10:44:35Z" data-provider="getDataFromExcel" finished-at="2019-10-23T10:44:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[fp-ifttest]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[iftt]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[//div[@class='alert alert-danger ']/span]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[有効なログインではありません！]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[y]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Test is started:verifyLogin]]>
-            </line>
-            <line>
-              <![CDATA[=========>Started verify login]]>
-            </line>
-            <line>
-              <![CDATA[Entered login id====>>fp-ifttest and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> id: username]]]>
-            </line>
-            <line>
-              <![CDATA[Entered password====>>iftt and object is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> xpath: //*[@id="password"]]]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (3b629ed286d54183e9997bffd39801e2)] -> css selector: button[type='submit']]]]>
-            </line>
-            <line>
-              <![CDATA[Button text: 
-                ログイン <i class="m-icon-swapright m-icon-white"></i>
-            ]]>
-            </line>
-            <line>
-              <![CDATA[=========>Finished verify login]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_57.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_23_10_2019_04_14_57.png' height='100' width='100'/> </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="afterMethod" is-config="true" duration-ms="345" started-at="2019-10-23T10:44:57Z" finished-at="2019-10-23T10:44:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0] output=Test is started:verifyLogin]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_14_57.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-23_10_2019_04_14_57.png' height='100' width='100'/></a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@323b36e0]" name="endTest" is-config="true" duration-ms="1062" started-at="2019-10-23T10:44:57Z" finished-at="2019-10-23T10:44:58Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1]" name="endTest" is-config="true" duration-ms="1040" started-at="2019-11-12T09:00:53Z" finished-at="2019-11-12T09:00:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin -->
+      </class> <!-- com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword -->
     </test> <!-- ChromeBrowser -->
-    <test name="FirefoxBrowser" duration-ms="4" started-at="2019-10-23T10:44:59Z" finished-at="2019-10-23T10:44:59Z">
+    <test name="FirefoxBrowser" duration-ms="2" started-at="2019-11-12T09:00:54Z" finished-at="2019-11-12T09:00:54Z">
     </test> <!-- FirefoxBrowser -->
-    <test name="IEBrowser" duration-ms="9" started-at="2019-10-23T10:44:59Z" finished-at="2019-10-23T10:44:59Z">
+    <test name="IEBrowser" duration-ms="5" started-at="2019-11-12T09:00:54Z" finished-at="2019-11-12T09:00:54Z">
     </test> <!-- IEBrowser -->
   </suite> <!-- Regression suite 1 -->
 </testng-results>
