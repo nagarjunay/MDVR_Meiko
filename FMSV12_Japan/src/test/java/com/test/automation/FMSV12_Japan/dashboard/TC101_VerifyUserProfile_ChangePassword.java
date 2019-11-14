@@ -2,8 +2,6 @@ package com.test.automation.FMSV12_Japan.dashboard;
 
 import java.io.IOException;
 import java.util.ArrayList;
-
-import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -18,8 +16,6 @@ import com.test.automation.FMSV12_Japan.uiActions.UserProfile_ChangePassword;
 
 public class TC101_VerifyUserProfile_ChangePassword extends TestBase {
 
-	public static final Logger log = Logger.getLogger(TC101_VerifyUserProfile_ChangePassword.class.getName());
-
 	LoginPage loginpage;
 	UserProfile_ChangePassword cp;
 
@@ -33,9 +29,7 @@ public class TC101_VerifyUserProfile_ChangePassword extends TestBase {
 	@Parameters("Browser_Name")
 	public void setUp(String Browser_Name) throws IOException {
 		init(Browser_Name);
-
 	}
-
 
 	@Test(priority=1)
 	public void VerifyingChangePasswordValidation_Type1() throws Exception {

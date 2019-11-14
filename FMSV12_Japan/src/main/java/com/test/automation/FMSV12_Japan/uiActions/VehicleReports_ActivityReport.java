@@ -7,7 +7,6 @@ package com.test.automation.FMSV12_Japan.uiActions;
 
 import java.util.List;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -16,13 +15,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.Reporter;
-
 import com.relevantcodes.extentreports.LogStatus;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
 
 public class VehicleReports_ActivityReport extends TestBase {
-
-	public static final Logger log = Logger.getLogger(VehicleReports_ActivityReport.class.getName());
 
 	WebDriver driver;
 

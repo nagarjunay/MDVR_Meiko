@@ -4,12 +4,9 @@
 package com.test.automation.FMSV12_Japan.loginpage;
 
 import java.io.IOException;
-
-import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
 import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
 
@@ -18,8 +15,6 @@ import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
  *
  */
 public class TC004_VerfiyForgotPassword extends TestBase {
-
-	public static final Logger log = Logger.getLogger(TC004_VerfiyForgotPassword.class.getName());
 
 	LoginPage login;
 

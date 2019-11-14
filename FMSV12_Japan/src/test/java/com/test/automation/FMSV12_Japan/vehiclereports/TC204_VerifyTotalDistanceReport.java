@@ -4,18 +4,14 @@
 package com.test.automation.FMSV12_Japan.vehiclereports;
 
 import java.io.IOException;
-
-import org.apache.log4j.Logger;
 import org.testng.SkipException;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
 import com.test.automation.FMSV12_Japan.excelReader.Excel_Reader;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
 import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
-import com.test.automation.FMSV12_Japan.uiActions.VehicleReports_ActivitySummaryReport;
 import com.test.automation.FMSV12_Japan.uiActions.VehicleReports_TotalDistanceReport;
 
 /**
@@ -25,7 +21,7 @@ import com.test.automation.FMSV12_Japan.uiActions.VehicleReports_TotalDistanceRe
 
 public class TC204_VerifyTotalDistanceReport extends TestBase {
 	
-	public static final Logger log = Logger.getLogger(TC204_VerifyTotalDistanceReport.class.getName());
+	
 	LoginPage loginpage;
 	VehicleReports_TotalDistanceReport tds;
 

@@ -3,14 +3,11 @@
  */
 package com.test.automation.FMSV12_Japan.uiActions;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.PageFactory;
-
-import com.relevantcodes.extentreports.LogStatus;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
 
 /**
@@ -19,7 +16,6 @@ import com.test.automation.FMSV12_Japan.testBase.TestBase;
  */
 public class ColorCodeVerification extends TestBase {
 	
-	public static final Logger log = Logger.getLogger(ColorCodeVerification.class.getName());
 
 	public static WebDriver driver;
 

@@ -5,7 +5,6 @@ package com.test.automation.FMSV12_Japan.dashboard;
  *
  */
 import java.io.IOException;
-import org.apache.log4j.Logger;
 import org.testng.SkipException;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -17,8 +16,6 @@ import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
 import com.test.automation.FMSV12_Japan.uiActions.LogoVerification;
 
 public class TC105_VerifyingDashboardLogo extends TestBase {
-
-	public static final Logger log = Logger.getLogger(TC105_VerifyingDashboardLogo.class.getName());
 
 	LoginPage loginpage;
 	LogoVerification logo;

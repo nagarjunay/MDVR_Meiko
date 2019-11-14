@@ -8,15 +8,15 @@
   <test thread-count="5" name="ChromeBrowser(failed)">
     <parameter name="Browser_Name" value="chrome"/>
     <classes>
-      <class name="com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword">
+      <class name="com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive">
         <methods>
-          <include name="VerifyingChangePasswordValidation_Type4"/>
+          <include name="setUp"/>
+          <include name="InactiveVehiclesReport_VerifyRecordsperpageDropdown"/>
           <include name="endTest"/>
           <include name="beforeMethod"/>
-          <include name="setUp"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword -->
+      </class> <!-- com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive -->
     </classes>
   </test> <!-- ChromeBrowser(failed) -->
 </suite> <!-- Failed suite [Regression suite 1] -->

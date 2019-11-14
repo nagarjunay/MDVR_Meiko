@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Regression_suite_1">
-              <span class="suite-name border-passed">Regression suite 1</span>
+              <span class="suite-name border-failed">Regression suite 1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Regression_suite_1" class="hide-methods failed suite-Regression_suite_1"> (hide)</a> <!-- hide-methods failed suite-Regression_suite_1 -->
+                      <a href="#" panel-name="suite-Regression_suite_1" class="show-methods failed suite-Regression_suite_1"> (show)</a> <!-- show-methods failed suite-Regression_suite_1 -->
+                    </span>
+                    <div class="method-list-content failed suite-Regression_suite_1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive" hash-for-method="InactiveVehiclesReport_VerifyRecordsperpageDropdown">InactiveVehiclesReport_VerifyRecordsperpageDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Regression_suite_1 -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,22 +116,7 @@
                     <div class="method-list-content passed suite-Regression_suite_1">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword" hash-for-method="VerifyingChangePasswordValidation_Type1">VerifyingChangePasswordValidation_Type1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword" hash-for-method="VerifyingChangePasswordValidation_Type2">VerifyingChangePasswordValidation_Type2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword" hash-for-method="VerifyingChangePasswordValidation_Type3">VerifyingChangePasswordValidation_Type3</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword" hash-for-method="VerifyingChangePasswordValidation_Type4">VerifyingChangePasswordValidation_Type4</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive" hash-for-method="inactiveState(Meiko, welcome, y)">inactiveState(Meiko, welcome, y)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Regression_suite_1 -->
@@ -132,38 +131,73 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Regression_suite_1" class="panel Regression_suite_1">
-          <div class="suite-Regression_suite_1-class-passed">
+          <div class="suite-Regression_suite_1-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifyingChangePasswordValidation_Type1">
-                  </a> <!-- VerifyingChangePasswordValidation_Type1 -->
-                  <span class="method-name">VerifyingChangePasswordValidation_Type1</span>
+                  <a name="InactiveVehiclesReport_VerifyRecordsperpageDropdown">
+                  </a> <!-- InactiveVehiclesReport_VerifyRecordsperpageDropdown -->
+                  <span class="method-name">InactiveVehiclesReport_VerifyRecordsperpageDropdown</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;s2id_autogen11&apos;]/a/span[2]&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.test.automation.FMSV12_Japan.testBase.TestBase.expliciteWait(TestBase.java:152)
+	at com.test.automation.FMSV12_Japan.uiActions.DashBoard_StateOfVehicle.verifyRecordesPerPage_dropdown(DashBoard_StateOfVehicle.java:187)
+	at com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive.InactiveVehiclesReport_VerifyRecordsperpageDropdown(TC111_VerifyStateOfVehicle_Inactive.java:110)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;s2id_autogen11&apos;]/a/span[2]&quot;}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;NAGARJUNA-Y&apos;, ip: &apos;192.168.167.149&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\NAGARJ~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: f3458766c015d628b721735ff8d6ab2d
+*** Element info: {Using=xpath, value=//*[@id=&apos;s2id_autogen11&apos;]/a/span[2]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 28 more
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_suite_1-class-failed -->
+          <div class="suite-Regression_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifyingChangePasswordValidation_Type2">
-                  </a> <!-- VerifyingChangePasswordValidation_Type2 -->
-                  <span class="method-name">VerifyingChangePasswordValidation_Type2</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyingChangePasswordValidation_Type3">
-                  </a> <!-- VerifyingChangePasswordValidation_Type3 -->
-                  <span class="method-name">VerifyingChangePasswordValidation_Type3</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyingChangePasswordValidation_Type4">
-                  </a> <!-- VerifyingChangePasswordValidation_Type4 -->
-                  <span class="method-name">VerifyingChangePasswordValidation_Type4</span>
+                  <a name="inactiveState(Meiko, welcome, y)">
+                  </a> <!-- inactiveState(Meiko, welcome, y) -->
+                  <span class="method-name">inactiveState</span>
+                  <span class="parameters">(Meiko, welcome, y)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -185,7 +219,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;ChromeBrowser&quot;&gt;
     &lt;parameter name=&quot;Browser_Name&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword&quot;/&gt;
+      &lt;class name=&quot;com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ChromeBrowser --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;FirefoxBrowser&quot;&gt;
@@ -237,28 +271,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'VerifyingChangePasswordValidation_Type1')
-data.setCell(0, 2, 'com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword')
-data.setCell(0, 3, 70457);
+data.setCell(0, 1, 'inactiveState')
+data.setCell(0, 2, 'com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive')
+data.setCell(0, 3, 264170);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'VerifyingChangePasswordValidation_Type4')
-data.setCell(1, 2, 'com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword')
-data.setCell(1, 3, 528);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'VerifyingChangePasswordValidation_Type2')
-data.setCell(2, 2, 'com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword')
-data.setCell(2, 3, 459);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'VerifyingChangePasswordValidation_Type3')
-data.setCell(3, 2, 'com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword')
-data.setCell(3, 3, 427);
+data.setCell(1, 1, 'InactiveVehiclesReport_VerifyRecordsperpageDropdown')
+data.setCell(1, 2, 'com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive')
+data.setCell(1, 3, 120110);
 window.suiteTableData['Regression_suite_1']= { tableData: data, tableDiv: 'times-div-Regression_suite_1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
               <div id="times-div-Regression_suite_1">
               </div> <!-- times-div-Regression_suite_1 -->
             </div> <!-- times-div -->
@@ -270,60 +296,39 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">VerifyingChangePasswordValidation_Type2</span>
+              <span class="reporter-method-name">inactiveState(Meiko, welcome, y)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test is started:VerifyingChangePasswordValidation_Type2</span>
-                <span class="reporter-method-output">Entered Current Password is====>>demo</span>
-                <span class="reporter-method-output">Entered New Password is====>>fsfdg</span>
-                <span class="reporter-method-output">Entered Confirm Password is====>></span>
-                <span class="reporter-method-output">Clicked on Change Button</span>
-                <span class="reporter-method-output">Alert data:  新しいパスワードとパスワードの確認には同じ値を含める必要があります</span>
-                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type2_12_11_2019_02_30_49.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type2_12_11_2019_02_30_49.png' height='100' width='100'/> </a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">VerifyingChangePasswordValidation_Type4</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test is started:VerifyingChangePasswordValidation_Type4</span>
-                <span class="reporter-method-output">Entered Current Password is====>>de123123</span>
-                <span class="reporter-method-output">Entered New Password is====>>welcome</span>
-                <span class="reporter-method-output">Entered Confirm Password is====>>welcome</span>
-                <span class="reporter-method-output">Clicked on Change Button</span>
-                <span class="reporter-method-output">Validation Message: Current Password is wrong, Please Try again !!</span>
-                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type4_12_11_2019_02_30_52.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type4_12_11_2019_02_30_52.png' height='100' width='100'/> </a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">VerifyingChangePasswordValidation_Type3</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test is started:VerifyingChangePasswordValidation_Type3</span>
-                <span class="reporter-method-output">Entered Current Password is====>>de123123</span>
-                <span class="reporter-method-output">Entered New Password is====>></span>
-                <span class="reporter-method-output">Entered Confirm Password is====>>3@!@#!#</span>
-                <span class="reporter-method-output">Clicked on Change Button</span>
-                <span class="reporter-method-output">Alert data:  パスワードは空にしないでください</span>
-                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type3_12_11_2019_02_30_51.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type3_12_11_2019_02_30_51.png' height='100' width='100'/> </a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">VerifyingChangePasswordValidation_Type1</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test is started:VerifyingChangePasswordValidation_Type1</span>
-                <span class="reporter-method-output">=========>Started verify login</span>
-                <span class="reporter-method-output">Entered login id====>>Meiko and object is[[ChromeDriver: chrome on XP (76e5718d0c1ffce549919018f0b46ceb)] -> xpath: //*[@id='username']]</span>
-                <span class="reporter-method-output">Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (76e5718d0c1ffce549919018f0b46ceb)] -> xpath: //*[@id='password']]</span>
+                <span class="reporter-method-output">Test is started:inactiveState</span>
+                <span class="reporter-method-output">=========>Started Inactive Vehicles Report</span>
+                <span class="reporter-method-output">Entered login id====>>Meiko and object is[[ChromeDriver: chrome on XP (f3458766c015d628b721735ff8d6ab2d)] -> xpath: //*[@id='username']]</span>
+                <span class="reporter-method-output">Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (f3458766c015d628b721735ff8d6ab2d)] -> xpath: //*[@id='password']]</span>
                 <span class="reporter-method-output">Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']'</span>
-                <span class="reporter-method-output">=========>Finished verify login</span>
-                <span class="reporter-method-output">Performing mouse over on user profile dropdown</span>
-                <span class="reporter-method-output">=========>Started to click on Change Password option</span>
-                <span class="reporter-method-output">Clicking on Change password from user profile dropdown</span>
-                <span class="reporter-method-output">=========>Clicked on Change password option</span>
-                <span class="reporter-method-output">Entered Current Password is====>>demo</span>
-                <span class="reporter-method-output">Entered New Password is====>></span>
-                <span class="reporter-method-output">Entered Confirm Password is====>></span>
-                <span class="reporter-method-output">Clicked on Change Button</span>
-                <span class="reporter-method-output">Alert data:  パスワードは空にしないでください</span>
-                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type1_12_11_2019_02_30_48.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type1_12_11_2019_02_30_48.png' height='100' width='100'/> </a></span>
+                <span class="reporter-method-output">Clicked on Inactive Vehicles view detail arrow====>>Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='dia']' and object isProxy element for: DefaultElementLocator 'By.xpath: //*[@id='dia']'</span>
+                <span class="reporter-method-output">Total Number of columns count in a Inactive Vehicles table: 9</span>
+                <span class="reporter-method-output">Total Number of rows count in a Inactive Vehicles table: 2</span>
+                <span class="reporter-method-output">=========>Finished Inactive Vehicles Report</span>
+                <span class="reporter-method-output">=========>Started Verifying Tools dropdown color Code</span>
+                <span class="reporter-method-output">Verifying Tools dropdown color Code: #4d90fe</span>
+                <span class="reporter-method-output">=========>Finished Verifying Tools dropdown color Code</span>
+                <span class="reporter-method-output">=========>Started Tools Dropdown options</span>
+                <span class="reporter-method-output">Clicked on Tools Dropdown ====>>[[ChromeDriver: chrome on XP (f3458766c015d628b721735ff8d6ab2d)] -> xpath: //*[@id='mainreportsection']/div[1]/div[3]/div[1]/a] and object is[[ChromeDriver: chrome on XP (f3458766c015d628b721735ff8d6ab2d)] -> xpath: //*[@id='mainreportsection']/div[1]/div[3]/div[1]/a]</span>
+                <span class="reporter-method-output">Verifying Tools dropdown</span>
+                <span class="reporter-method-output">=========>Finished Tools Dropdown options</span>
+                <span class="reporter-method-output">=========>Started Verifying back button color Code</span>
+                <span class="reporter-method-output">Verifying back button color Code: #852b99</span>
+                <span class="reporter-method-output">=========>Finished Verifying back button color Code</span>
+                <span class="reporter-method-output">=========>Started Verifying Columns dropdown color Code</span>
+                <span class="reporter-method-output">Verifying Columns dropdown color Code: #0362fd</span>
+                <span class="reporter-method-output">=========>Finished Verifying Columns dropdown color Code</span>
+                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\inactiveState_14_11_2019_12_47_46.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\inactiveState_14_11_2019_12_47_46.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">InactiveVehiclesReport_VerifyRecordsperpageDropdown</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test is started:InactiveVehiclesReport_VerifyRecordsperpageDropdown</span>
+                <span class="reporter-method-output">=========>Started Verifying Records per page Dropdown options</span>
+                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\InactiveVehiclesReport_VerifyRecordsperpageDropdown_14_11_2019_12_49_47.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\InactiveVehiclesReport_VerifyRecordsperpageDropdown_14_11_2019_12_49_47.png' height='100' width='100'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -341,62 +346,40 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword.VerifyingCha...)</span>
-                <span class="method-start">27665 ms</span>
+                <span class="method-name">beforeMethod(public void com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive.inactiveS...)</span>
+                <span class="method-start">27702 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">VerifyingChangePasswordValidation_Type1</span>
-                <span class="method-start">27782 ms</span>
+                <span class="method-name">inactiveState(Meiko, welcome, y)</span>
+                <span class="method-start">27815 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=VerifyingChangePasswordValidation_Type1 status=SUCCESS method=TC005_UserProfile_Cha...)</span>
-                <span class="method-start">98685 ms</span>
+                <span class="method-name">afterMethod([TestResult name=inactiveState status=SUCCESS method=TC111_VerifyStateOfVehicle_Inactive.inactiveSta...)</span>
+                <span class="method-start">292393 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword.VerifyingCha...)</span>
-                <span class="method-start">99075 ms</span>
+                <span class="method-name">beforeMethod(public void com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive.InactiveV...)</span>
+                <span class="method-start">292734 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">VerifyingChangePasswordValidation_Type2</span>
-                <span class="method-start">99078 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">InactiveVehiclesReport_VerifyRecordsperpageDropdown</span>
+                <span class="method-start">292740 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=VerifyingChangePasswordValidation_Type2 status=SUCCESS method=TC005_UserProfile_Cha...)</span>
-                <span class="method-start">99937 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword.VerifyingCha...)</span>
-                <span class="method-start">100310 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">VerifyingChangePasswordValidation_Type3</span>
-                <span class="method-start">100313 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=VerifyingChangePasswordValidation_Type3 status=SUCCESS method=TC005_UserProfile_Cha...)</span>
-                <span class="method-start">101140 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword.VerifyingCha...)</span>
-                <span class="method-start">101506 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">VerifyingChangePasswordValidation_Type4</span>
-                <span class="method-start">101509 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=VerifyingChangePasswordValidation_Type4 status=SUCCESS method=TC005_UserProfile_Cha...)</span>
-                <span class="method-start">102394 ms</span>
+                <span class="method-name">afterMethod([TestResult name=InactiveVehiclesReport_VerifyRecordsperpageDropdown status=FAILURE method=TC111_Ver...)</span>
+                <span class="method-start">413212 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">endTest</span>
-                <span class="method-start">102762 ms</span>
+                <span class="method-start">413561 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

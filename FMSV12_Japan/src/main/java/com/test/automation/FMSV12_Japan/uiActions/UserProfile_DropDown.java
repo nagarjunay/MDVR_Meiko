@@ -7,17 +7,14 @@ package com.test.automation.FMSV12_Japan.uiActions;
 
 import java.util.ArrayList;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
-
 import com.relevantcodes.extentreports.LogStatus;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
 
 public class UserProfile_DropDown extends TestBase {
 
-	public static final Logger log = Logger.getLogger(UserProfile_DropDown.class.getName());
 
 	public WebDriver driver;
 

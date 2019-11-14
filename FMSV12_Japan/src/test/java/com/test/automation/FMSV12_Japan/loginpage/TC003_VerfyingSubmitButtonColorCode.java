@@ -4,12 +4,10 @@
 package com.test.automation.FMSV12_Japan.loginpage;
 
 import java.io.IOException;
-import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
 import com.relevantcodes.extentreports.LogStatus;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
 import com.test.automation.FMSV12_Japan.uiActions.ColorCodeVerification;
@@ -21,7 +19,6 @@ import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
  */
 public class TC003_VerfyingSubmitButtonColorCode extends TestBase {
 
-public static final Logger log = Logger.getLogger(TC003_VerfyingSubmitButtonColorCode.class.getName());
 
 public LoginPage login;	
 ColorCodeVerification color;

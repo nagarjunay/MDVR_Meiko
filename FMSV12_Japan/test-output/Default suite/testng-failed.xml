@@ -3,16 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.automation.FMSV12_Japan.loginpage.TC005_ChangePassword">
+      <class name="com.test.automation.FMSV12_Japan.dashboard.TC106_VerifyingStateOfVehicle_Moving">
         <methods>
-          <include name="changePassword1"/>
-          <include name="setUp"/>
-          <include name="changePassword2"/>
+          <include name="movingState"/>
           <include name="endTest"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.test.automation.FMSV12_Japan.loginpage.TC005_ChangePassword -->
+      </class> <!-- com.test.automation.FMSV12_Japan.dashboard.TC106_VerifyingStateOfVehicle_Moving -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

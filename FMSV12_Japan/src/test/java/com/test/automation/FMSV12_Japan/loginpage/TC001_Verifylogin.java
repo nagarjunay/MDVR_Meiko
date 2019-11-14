@@ -7,7 +7,6 @@ package com.test.automation.FMSV12_Japan.loginpage;
  */
 
 import java.io.IOException;
-import org.apache.log4j.Logger;
 import org.testng.SkipException;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -18,8 +17,6 @@ import com.test.automation.FMSV12_Japan.testBase.TestBase;
 import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
 
 public class TC001_Verifylogin extends TestBase {
-
-	public static final Logger log = Logger.getLogger(TC001_Verifylogin.class.getName());
 
 	LoginPage loginpage;
 

@@ -4,7 +4,6 @@
 package com.test.automation.FMSV12_Japan.vehiclereports;
 
 import java.io.IOException;
-import org.apache.log4j.Logger;
 import org.testng.SkipException;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -22,7 +21,6 @@ import com.test.automation.FMSV12_Japan.uiActions.VehicleReports_IdleReport;
 
 public class TC203_VerifyIdleReport extends TestBase {
 	
-	public static final Logger log = Logger.getLogger(TC203_VerifyIdleReport.class.getName());
 	LoginPage loginpage;
 	VehicleReports_IdleReport ir;
 

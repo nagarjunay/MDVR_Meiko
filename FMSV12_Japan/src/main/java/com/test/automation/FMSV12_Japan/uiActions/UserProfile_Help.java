@@ -4,7 +4,6 @@
 package com.test.automation.FMSV12_Japan.uiActions;
 
 import java.util.ArrayList;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -22,12 +21,8 @@ import com.test.automation.FMSV12_Japan.testBase.TestBase;
 public class UserProfile_Help extends TestBase{
 	
 	
-	public static final Logger log = Logger.getLogger(UserProfile_Help.class.getName());
-
 	public WebDriver driver;
 
-	
-	
 	@FindBy(xpath = "//div[@id='mdbody]/div/text()")
 	WebElement helpcontent;
 	

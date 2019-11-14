@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeBrowser</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Nov 12 14:29:10 IST 2019</td>
+<td>Started on:</td><td>Thu Nov 14 12:42:54 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>103 seconds (103827 ms)</td>
+<tr><td>Total time:</td><td>414 seconds (414636 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,134 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive.InactiveVehiclesReport_VerifyRecordsperpageDropdown()'><b>InactiveVehiclesReport_VerifyRecordsperpageDropdown</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive<br/>
+<a href="#Output-118456878" onClick='toggleBox("Output-118456878", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-118456878" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-118456878">
+Test is started:InactiveVehiclesReport_VerifyRecordsperpageDropdown<br/>
+=========>Started Verifying Records per page Dropdown options<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\InactiveVehiclesReport_VerifyRecordsperpageDropdown_14_11_2019_12_49_47.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\InactiveVehiclesReport_VerifyRecordsperpageDropdown_14_11_2019_12_49_47.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;s2id_autogen11&apos;]/a/span[2]&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.test.automation.FMSV12_Japan.testBase.TestBase.expliciteWait(TestBase.java:152)
+	at com.test.automation.FMSV12_Japan.uiActions.DashBoard_StateOfVehicle.verifyRecordesPerPage_dropdown(DashBoard_StateOfVehicle.java:187)
+	at com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive.InactiveVehiclesReport_VerifyRecordsperpageDropdown(TC111_VerifyStateOfVehicle_Inactive.java:110)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;s2id_autogen11&apos;]/a/span[2]&quot;}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;NAGARJUNA-Y&apos;, ip: &apos;192.168.167.149&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\NAGARJ~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: f3458766c015d628b721735ff8d6ab2d
+*** Element info: {Using=xpath, value=//*[@id=&apos;s2id_autogen11&apos;]/a/span[2]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 28 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace118456878", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace118456878'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;s2id_autogen11&apos;]/a/span[2]&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.test.automation.FMSV12_Japan.testBase.TestBase.expliciteWait(TestBase.java:152)
+	at com.test.automation.FMSV12_Japan.uiActions.DashBoard_StateOfVehicle.verifyRecordesPerPage_dropdown(DashBoard_StateOfVehicle.java:187)
+	at com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive.InactiveVehiclesReport_VerifyRecordsperpageDropdown(TC111_VerifyStateOfVehicle_Inactive.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;s2id_autogen11&apos;]/a/span[2]&quot;}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;NAGARJUNA-Y&apos;, ip: &apos;192.168.167.149&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\NAGARJ~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: f3458766c015d628b721735ff8d6ab2d
+*** Element info: {Using=xpath, value=//*[@id=&apos;s2id_autogen11&apos;]/a/span[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 28 more
+</pre></div></td>
+<td>120</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive@6aba2b86</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,86 +203,39 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword.VerifyingChangePasswordValidation_Type1()'><b>VerifyingChangePasswordValidation_Type1</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword<br/>
-<a href="#Output-353023213" onClick='toggleBox("Output-353023213", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive.inactiveState()'><b>inactiveState</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive<br>Parameters: Meiko, welcome, y<br/>
+<a href="#Output-2008229299" onClick='toggleBox("Output-2008229299", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-353023213" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-353023213">
-Test is started:VerifyingChangePasswordValidation_Type1<br/>
-=========>Started verify login<br/>
-Entered login id====>>Meiko and object is[[ChromeDriver: chrome on XP (76e5718d0c1ffce549919018f0b46ceb)] -> xpath: //*[@id='username']]<br/>
-Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (76e5718d0c1ffce549919018f0b46ceb)] -> xpath: //*[@id='password']]<br/>
+<a href="#Output-2008229299" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2008229299">
+Test is started:inactiveState<br/>
+=========>Started Inactive Vehicles Report<br/>
+Entered login id====>>Meiko and object is[[ChromeDriver: chrome on XP (f3458766c015d628b721735ff8d6ab2d)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (f3458766c015d628b721735ff8d6ab2d)] -> xpath: //*[@id='password']]<br/>
 Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']'<br/>
-=========>Finished verify login<br/>
-Performing mouse over on user profile dropdown<br/>
-=========>Started to click on Change Password option<br/>
-Clicking on Change password from user profile dropdown<br/>
-=========>Clicked on Change password option<br/>
-Entered Current Password is====>>demo<br/>
-Entered New Password is====>><br/>
-Entered Confirm Password is====>><br/>
-Clicked on Change Button<br/>
-Alert data:  パスワードは空にしないでください<br/>
-<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type1_12_11_2019_02_30_48.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type1_12_11_2019_02_30_48.png' height='100' width='100'/> </a><br/>
+Clicked on Inactive Vehicles view detail arrow====>>Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='dia']' and object isProxy element for: DefaultElementLocator 'By.xpath: //*[@id='dia']'<br/>
+Total Number of columns count in a Inactive Vehicles table: 9<br/>
+Total Number of rows count in a Inactive Vehicles table: 2<br/>
+=========>Finished Inactive Vehicles Report<br/>
+=========>Started Verifying Tools dropdown color Code<br/>
+Verifying Tools dropdown color Code: #4d90fe<br/>
+=========>Finished Verifying Tools dropdown color Code<br/>
+=========>Started Tools Dropdown options<br/>
+Clicked on Tools Dropdown ====>>[[ChromeDriver: chrome on XP (f3458766c015d628b721735ff8d6ab2d)] -> xpath: //*[@id='mainreportsection']/div[1]/div[3]/div[1]/a] and object is[[ChromeDriver: chrome on XP (f3458766c015d628b721735ff8d6ab2d)] -> xpath: //*[@id='mainreportsection']/div[1]/div[3]/div[1]/a]<br/>
+Verifying Tools dropdown<br/>
+=========>Finished Tools Dropdown options<br/>
+=========>Started Verifying back button color Code<br/>
+Verifying back button color Code: #852b99<br/>
+=========>Finished Verifying back button color Code<br/>
+=========>Started Verifying Columns dropdown color Code<br/>
+Verifying Columns dropdown color Code: #0362fd<br/>
+=========>Finished Verifying Columns dropdown color Code<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\inactiveState_14_11_2019_12_47_46.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\inactiveState_14_11_2019_12_47_46.png' height='100' width='100'/> </a><br/>
 </div>
 </td>
 <td></td>
-<td>70</td>
-<td>com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1</td></tr>
-<tr>
-<td title='com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword.VerifyingChangePasswordValidation_Type2()'><b>VerifyingChangePasswordValidation_Type2</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword<br/>
-<a href="#Output-626941486" onClick='toggleBox("Output-626941486", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-626941486" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-626941486">
-Test is started:VerifyingChangePasswordValidation_Type2<br/>
-Entered Current Password is====>>demo<br/>
-Entered New Password is====>>fsfdg<br/>
-Entered Confirm Password is====>><br/>
-Clicked on Change Button<br/>
-Alert data:  新しいパスワードとパスワードの確認には同じ値を含める必要があります<br/>
-<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type2_12_11_2019_02_30_49.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type2_12_11_2019_02_30_49.png' height='100' width='100'/> </a><br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1</td></tr>
-<tr>
-<td title='com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword.VerifyingChangePasswordValidation_Type3()'><b>VerifyingChangePasswordValidation_Type3</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword<br/>
-<a href="#Output-1058984040" onClick='toggleBox("Output-1058984040", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1058984040" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1058984040">
-Test is started:VerifyingChangePasswordValidation_Type3<br/>
-Entered Current Password is====>>de123123<br/>
-Entered New Password is====>><br/>
-Entered Confirm Password is====>>3@!@#!#<br/>
-Clicked on Change Button<br/>
-Alert data:  パスワードは空にしないでください<br/>
-<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type3_12_11_2019_02_30_51.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type3_12_11_2019_02_30_51.png' height='100' width='100'/> </a><br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1</td></tr>
-<tr>
-<td title='com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword.VerifyingChangePasswordValidation_Type4()'><b>VerifyingChangePasswordValidation_Type4</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword<br/>
-<a href="#Output-129958347" onClick='toggleBox("Output-129958347", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-129958347" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-129958347">
-Test is started:VerifyingChangePasswordValidation_Type4<br/>
-Entered Current Password is====>>de123123<br/>
-Entered New Password is====>>welcome<br/>
-Entered Confirm Password is====>>welcome<br/>
-Clicked on Change Button<br/>
-Validation Message: Current Password is wrong, Please Try again !!<br/>
-<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type4_12_11_2019_02_30_52.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyingChangePasswordValidation_Type4_12_11_2019_02_30_52.png' height='100' width='100'/> </a><br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>com.test.automation.FMSV12_Japan.loginpage.TC005_UserProfile_ChangePassword@8dbdac1</td></tr>
+<td>264</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive@6aba2b86</td></tr>
 </table><p>
 </body>
 </html>

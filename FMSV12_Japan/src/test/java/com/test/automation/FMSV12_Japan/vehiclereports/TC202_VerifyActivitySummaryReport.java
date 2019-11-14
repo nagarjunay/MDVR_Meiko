@@ -4,19 +4,15 @@
 package com.test.automation.FMSV12_Japan.vehiclereports;
 
 import java.io.IOException;
-
-import org.apache.log4j.Logger;
 import org.testng.SkipException;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
 import com.test.automation.FMSV12_Japan.excelReader.Excel_Reader;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
 import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
 import com.test.automation.FMSV12_Japan.uiActions.VehicleReports_ActivitySummaryReport;
-import com.test.automation.FMSV12_Japan.uiActions.VehicleReports_IdleReport;
 
 /**
  * @author nagarjuna
@@ -25,7 +21,6 @@ import com.test.automation.FMSV12_Japan.uiActions.VehicleReports_IdleReport;
 
 public class TC202_VerifyActivitySummaryReport extends TestBase {
 
-	public static final Logger log = Logger.getLogger(TC202_VerifyActivitySummaryReport.class.getName());
 	LoginPage loginpage;
 	VehicleReports_ActivitySummaryReport asr;
 

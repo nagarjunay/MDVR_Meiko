@@ -5,7 +5,6 @@ package com.test.automation.FMSV12_Japan.uiActions;
 
 import java.util.List;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -24,8 +23,6 @@ import com.test.automation.FMSV12_Japan.testBase.TestBase;
  */
 public class VehicleReports_IdleReport extends TestBase {
 	
-	public static final Logger log = Logger.getLogger(VehicleReports_IdleReport.class.getName());
-
 	WebDriver driver;
 
 	@FindBy(xpath = "//div[@class='sidebar-toggler hidden-phone']")

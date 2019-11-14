@@ -6,7 +6,6 @@ package com.test.automation.FMSV12_Japan.vehiclereports;
  */
 
 import java.io.IOException;
-import org.apache.log4j.Logger;
 import org.testng.SkipException;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -19,7 +18,6 @@ import com.test.automation.FMSV12_Japan.uiActions.VehicleReports_ActivityReport;
 
 public class TC201_VerifyActivityReport extends TestBase {
 
-	public static final Logger log = Logger.getLogger(TC201_VerifyActivityReport.class.getName());
 	LoginPage loginpage;
 	VehicleReports_ActivityReport vr;
 
