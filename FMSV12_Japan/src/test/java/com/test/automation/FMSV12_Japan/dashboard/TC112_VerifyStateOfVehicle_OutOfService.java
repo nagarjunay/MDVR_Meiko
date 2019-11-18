@@ -43,8 +43,8 @@ public class TC112_VerifyStateOfVehicle_OutOfService extends TestBase {
 
 	}
 
-	@Test(dataProvider = "getDataFromExcel", priority = 1)
-	public void outofserviceState(String loginid, String password, String runMode) throws Exception {
+	@Test(dataProvider = "getDataFromExcel")
+	public void a_outofserviceState(String loginid, String password, String runMode) throws Exception {
 		if (runMode.equalsIgnoreCase("n")) {
 			throw new SkipException("User marked this not to run");
 		}
@@ -96,8 +96,8 @@ public class TC112_VerifyStateOfVehicle_OutOfService extends TestBase {
 		log("=========>Finished Verifying Columns dropdown color Code");
 	}
 
-	@Test(priority = 2)
-	public void OutOfServiceVehiclesReport_VerifyRecordsperpageDropdown() throws Exception {
+	@Test()
+	public void b_OutOfServiceVehiclesReport_VerifyRecordsperpageDropdown() throws Exception {
 		
 		log("=========>Started Verifying Records per page Dropdown options");
 		ArrayList<Object> list = new ArrayList<Object>();

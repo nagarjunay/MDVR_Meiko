@@ -21,9 +21,16 @@ public class DashBoard_ManagementDashboards extends TestBase {
 
 	public WebDriver driver;
 
-	@FindBy(xpath = "//*[@id='currentpassword']")
-	WebElement CurrentPassword;
+	@FindBy(xpath = "//*[@id='recentalertsportlet']/div[1]/div[1]/span")
+	WebElement Recentalerts_Text;
+	
+	@FindBy(xpath = "//*[@id='currentfleetportlet']/div[1]/div[1]/span")
+	WebElement Currentfleet_Text;
+	
+	
 
+	
+	
 	public DashBoard_ManagementDashboards(WebDriver driver) {
 
 		this.driver = driver;

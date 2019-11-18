@@ -5,18 +5,18 @@
     <listener class-name="com.test.automation.FMSV12_Japan.customListener.Listener"/>
     <listener class-name="com.test.automation.FMSV12_Japan.customListener.RetryListener"/>
   </listeners>
-  <test thread-count="5" name="ChromeBrowser(failed)">
-    <parameter name="Browser_Name" value="chrome"/>
+  <test thread-count="5" name="IEBrowser(failed)">
+    <parameter name="Browser_Name" value="IE"/>
     <classes>
-      <class name="com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive">
+      <class name="com.test.automation.FMSV12_Japan.dashboard.TC105_VerifyingDashboardLogo">
         <methods>
+          <include name="verifyDashboardLogo"/>
           <include name="setUp"/>
-          <include name="InactiveVehiclesReport_VerifyRecordsperpageDropdown"/>
           <include name="endTest"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive -->
+      </class> <!-- com.test.automation.FMSV12_Japan.dashboard.TC105_VerifyingDashboardLogo -->
     </classes>
-  </test> <!-- ChromeBrowser(failed) -->
+  </test> <!-- IEBrowser(failed) -->
 </suite> <!-- Failed suite [Regression suite 1] -->

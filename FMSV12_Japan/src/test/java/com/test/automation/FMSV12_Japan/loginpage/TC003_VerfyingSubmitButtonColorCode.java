@@ -32,7 +32,7 @@ ColorCodeVerification color;
 
 	
 	@Test
-	public void VerifyRememberMe_CheckBox() {
+	public void a_VerifyRememberMe_CheckBox() {
 		log("=========>Started Verifying Remember me check box is checked");
 		login = new LoginPage(driver);
 		login.remeberMe();
@@ -40,7 +40,7 @@ ColorCodeVerification color;
 	}
 	
 	@Test
-	public void verifySubmitButtonColor_BeforeClick() throws Exception {
+	public void b_verifySubmitButtonColor_BeforeClick() throws Exception {
 		log("=========>Started Verifying submit button color Before click");
 		color = new ColorCodeVerification(driver);
 		String hexcolor =color.ColorVerify("button[type='submit']", "background-color");

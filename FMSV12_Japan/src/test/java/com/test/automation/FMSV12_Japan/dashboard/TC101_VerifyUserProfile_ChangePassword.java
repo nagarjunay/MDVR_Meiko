@@ -31,8 +31,8 @@ public class TC101_VerifyUserProfile_ChangePassword extends TestBase {
 		init(Browser_Name);
 	}
 
-	@Test(priority=1)
-	public void VerifyingChangePasswordValidation_Type1() throws Exception {
+	@Test
+	public void a_verifyingChangePasswordValidation() throws Exception {
 		
 		log("=========>Started verify login");	
 		loginpage = new LoginPage(driver);
@@ -60,20 +60,20 @@ public class TC101_VerifyUserProfile_ChangePassword extends TestBase {
 		cp.VerifyChangePassword_Validation("demo", "", "");
 	}
 	
-	@Test(priority=2)
-	public void VerifyingChangePasswordValidation_Type2() throws Exception {
+	@Test
+	public void b_verifyingChangePasswordValidation() throws Exception {
 		
 		cp.VerifyChangePassword_Validation("demo", "fsfdg", "");
 	}
 	
-	@Test(priority=3)
-	public void VerifyingChangePasswordValidation_Type3() throws Exception {
+	@Test
+	public void c_verifyingChangePasswordValidation() throws Exception {
 		
 		cp.VerifyChangePassword_Validation("de123123", "", "3@!@#!#");
 	}
 	
-	@Test(priority=4)
-	public void VerifyingChangePasswordValidation_Type4() throws Exception {
+	@Test
+	public void d_verifyingChangePasswordValidation() throws Exception {
 		
 		cp.VerifyChangePassword_Validation("de123123", "welcome", "welcome");
 		cp.VerifyValidationMessage();

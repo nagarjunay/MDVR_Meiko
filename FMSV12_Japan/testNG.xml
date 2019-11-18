@@ -52,6 +52,8 @@
 			<class 
 			    name="com.test.automation.FMSV12_Japan.dashboard.TC113_VerifyStateOfVehicle_NotPolling"/>
 			<class
+			    name="com.test.automation.FMSV12_Japan.dashboard.TC114_VerfiyCurrentFleet_ToolTipText"/> 
+			<class
 			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC201_VerifyActivityReport"/> 
 			<class
 			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC202_VerifyActivitySummaryReport"/> 
@@ -59,8 +61,7 @@
 			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC203_VerifyIdleReport"/> 
 			<class
 			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC204_VerifyTotalDistanceReport"/> -->
-			  
-	     	
+			 
 			  
 		</classes>
 
@@ -100,6 +101,8 @@
 			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC203_VerifyIdleReport"/> 
 			<class
 			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC204_VerifyTotalDistanceReport"/> -->
+			    
+			
 		</classes>
 	</test>
 
@@ -137,7 +140,9 @@
 			<class
 			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC203_VerifyIdleReport"/> 
 			<class
-			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC204_VerifyTotalDistanceReport"/> -->
+			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC204_VerifyTotalDistanceReport"/> -->    
+			<class
+			    name="com.test.automation.FMSV12_Japan.dashboard.TC105_VerifyingDashboardLogo"/> 
 		</classes>
 	</test>
 

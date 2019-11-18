@@ -26,7 +26,7 @@ public class TC004_VerfiyForgotPassword extends TestBase {
 	}
 
 	@Test
-	public void verifyForgotPassword() throws Exception {
+	public void a_verifyForgotPassword() throws Exception {
 		log("=========>Started Verifying Remember Me check box");
 		login = new LoginPage(driver);
 		login.forgotPassword();
@@ -34,7 +34,7 @@ public class TC004_VerfiyForgotPassword extends TestBase {
 	}
 
 	@Test
-	public void verifyForgotPasswordwith_InvalidMailId() throws Exception {
+	public void b_verifyForgotPasswordwith_InvalidMailId() throws Exception {
 		log("=========>Started Verifying Invalid mail Id");
 		login = new LoginPage(driver);
 		login.forgotPassword1();
@@ -42,7 +42,7 @@ public class TC004_VerfiyForgotPassword extends TestBase {
 	}
 	
 	@Test
-	public void verifyForgotPasswordwith_ValidMailId() throws Exception {
+	public void c_verifyForgotPasswordwith_ValidMailId() throws Exception {
 		log("=========>Started Verifying Valid mail Id");
 		login = new LoginPage(driver);
 		login.forgotPassword2();

@@ -39,7 +39,7 @@ public class LogoVerification extends TestBase {
 
 		log("Checking logo is present or not");
 		test.log(LogStatus.INFO, "Checking logo is present or not");
-		Boolean dashboardLogo = driver.findElement(By.cssSelector("body > div.logo > img"))
+		Boolean dashboardLogo = driver.findElement(By.cssSelector("#CurrentUserLogoImg"))
 				.isDisplayed();
 		Assert.assertTrue(dashboardLogo);
 	}
