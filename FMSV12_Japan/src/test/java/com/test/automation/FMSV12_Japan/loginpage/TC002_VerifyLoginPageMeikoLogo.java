@@ -30,7 +30,7 @@ public class TC002_VerifyLoginPageMeikoLogo extends TestBase{
 	public void verifyMeikoLogo() throws Exception {
 		log("=========>Started Verifying Login page Meiko logo");
 		logo = new LogoVerification(driver);
-		logo.VerifyDashboardlogo();
+		logo.VerifyLoginpageMeikologo();
 		log("=========>Finished Verifying Login page Meiko logo");
 
 	}

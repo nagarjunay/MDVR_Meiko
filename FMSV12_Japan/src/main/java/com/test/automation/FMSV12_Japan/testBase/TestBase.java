@@ -21,6 +21,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.UnexpectedAlertBehaviour;
@@ -33,6 +34,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
@@ -139,7 +141,7 @@ public class TestBase {
 
 	/*This method will get url and maximizes browser window*/
 	public void getUrl(String url) {
-		log.info("navigating to" + url);
+		log.info("navigating to: " + url);
 		driver.get(url);
 		driver.manage().window().maximize();
 		log.info("Window Maximized");
@@ -311,7 +313,12 @@ public class TestBase {
 	public void beforeMethod(Method result) {
 		test = extent.startTest(result.getName());
 		test.log(LogStatus.INFO, "Browser Launched");
-		test.log(LogStatus.INFO, "Navigated to http://itlfmsv12.infotracktelematics.com/Meiko/");
+		Capabilities caps = ((RemoteWebDriver) driver).getCapabilities();
+		String browserName = caps.getBrowserName();
+		String browserVersion = caps.getVersion();
+		test.log(LogStatus.INFO, "Browser Name: "+ browserName);
+		test.log(LogStatus.INFO, "Browser Version: "+browserVersion);
+		test.log(LogStatus.INFO, "Navigated to: http://itlfmsv12.infotracktelematics.com/Meiko/");
 		test.log(LogStatus.INFO, result.getName() + " Test is Started");
 	}
 
