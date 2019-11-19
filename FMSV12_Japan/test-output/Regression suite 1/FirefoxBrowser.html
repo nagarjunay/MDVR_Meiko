@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>FirefoxBrowser</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>29/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 18 17:48:15 IST 2019</td>
+<td>Started on:</td><td>Tue Nov 19 15:41:06 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (16 ms)</td>
+<tr><td>Total time:</td><td>2555 seconds (2555801 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,5 +67,747 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC110_VerifyStateOfVehicle_Idle.a_idleState()'><b>a_idleState</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC110_VerifyStateOfVehicle_Idle<br>Parameters: Meiko, welcome, y<br/>
+<a href="#Output-913158792" onClick='toggleBox("Output-913158792", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-913158792" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-913158792">
+Test is started:a_idleState<br/>
+=========>Started Idle Vehicles Report<br/>
+Entered login id====>>Meiko and object is[[FirefoxDriver: firefox on WINDOWS (964f43c8-c6e6-4c2c-acef-342174b821b4)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>welcome and object is[[FirefoxDriver: firefox on WINDOWS (964f43c8-c6e6-4c2c-acef-342174b821b4)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']'<br/>
+Clicked on Idle Vehicles view detail arrow====>>Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='di']' and object isProxy element for: DefaultElementLocator 'By.xpath: //*[@id='di']'<br/>
+Total Number of columns count in a Idle Vehicles table: 9<br/>
+Total Number of rows count in a Idle Vehicles table: 1<br/>
+=========>Finished Idle Vehicles Report<br/>
+=========>Started Verifying Tools dropdown color Code<br/>
+Verifying Tools dropdown color Code: #4d90fe<br/>
+=========>Finished Verifying Tools dropdown color Code<br/>
+=========>Started Tools Dropdown options<br/>
+Clicked on Tools Dropdown ====>>[[FirefoxDriver: firefox on WINDOWS (964f43c8-c6e6-4c2c-acef-342174b821b4)] -> xpath: //*[@id='mainreportsection']/div[1]/div[3]/div[1]/a] and object is[[FirefoxDriver: firefox on WINDOWS (964f43c8-c6e6-4c2c-acef-342174b821b4)] -> xpath: //*[@id='mainreportsection']/div[1]/div[3]/div[1]/a]<br/>
+Verifying Tools dropdown<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_idleState_19_11_2019_04_17_56.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_idleState_19_11_2019_04_17_56.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Lists differ at element [0]:  印刷 !=  expected [ 印刷] but found []
+	at com.test.automation.FMSV12_Japan.dashboard.TC110_VerifyStateOfVehicle_Idle.a_idleState(TC110_VerifyStateOfVehicle_Idle.java:76)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace913158792", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace913158792'><pre>java.lang.AssertionError: Lists differ at element [0]:  印刷 !=  expected [ 印刷] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:831)
+	at org.testng.Assert.assertEquals(Assert.java:796)
+	at com.test.automation.FMSV12_Japan.dashboard.TC110_VerifyStateOfVehicle_Idle.a_idleState(TC110_VerifyStateOfVehicle_Idle.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>667</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC110_VerifyStateOfVehicle_Idle@4550bb58</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC110_VerifyStateOfVehicle_Idle.b_IdleVehiclesReport_VerifyRecordsperpageDropdown()'><b>b_IdleVehiclesReport_VerifyRecordsperpageDropdown</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC110_VerifyStateOfVehicle_Idle<br/>
+<a href="#Output-2071998394" onClick='toggleBox("Output-2071998394", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2071998394" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2071998394">
+Test is started:b_IdleVehiclesReport_VerifyRecordsperpageDropdown<br/>
+=========>Started Verifying Records per page Dropdown options<br/>
+Clicked on Records Per Page Dropdown ====>>[[FirefoxDriver: firefox on WINDOWS (964f43c8-c6e6-4c2c-acef-342174b821b4)] -> xpath: //*[@id='s2id_autogen11']/a/span[2]] and object is[[FirefoxDriver: firefox on WINDOWS (964f43c8-c6e6-4c2c-acef-342174b821b4)] -> xpath: //*[@id='s2id_autogen11']/a/span[2]]<br/>
+Verifying dropdown list in Records Per Page Dropdown<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_IdleVehiclesReport_VerifyRecordsperpageDropdown_19_11_2019_04_18_58.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_IdleVehiclesReport_VerifyRecordsperpageDropdown_19_11_2019_04_18_58.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: lists don&apos;t have the same size expected [4] but found [0]
+	at com.test.automation.FMSV12_Japan.dashboard.TC110_VerifyStateOfVehicle_Idle.b_IdleVehiclesReport_VerifyRecordsperpageDropdown(TC110_VerifyStateOfVehicle_Idle.java:110)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2071998394", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2071998394'><pre>java.lang.AssertionError: lists don&apos;t have the same size expected [4] but found [0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:819)
+	at org.testng.Assert.assertEquals(Assert.java:796)
+	at com.test.automation.FMSV12_Japan.dashboard.TC110_VerifyStateOfVehicle_Idle.b_IdleVehiclesReport_VerifyRecordsperpageDropdown(TC110_VerifyStateOfVehicle_Idle.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>60</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC110_VerifyStateOfVehicle_Idle@4550bb58</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC106_VerifyManangementDashboardCheckbox.VerifyManangementDashboardCheckbox()'><b>VerifyManangementDashboardCheckbox</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC106_VerifyManangementDashboardCheckbox<br>Parameters: Meiko, welcome, y<br/>
+<a href="#Output-546043383" onClick='toggleBox("Output-546043383", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-546043383" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-546043383">
+Test is started:VerifyManangementDashboardCheckbox<br/>
+=========>Started Login<br/>
+Entered login id====>>Meiko and object is[[FirefoxDriver: firefox on WINDOWS (5c3be20b-f3d6-4a88-bfcf-d8a0e72b0c0e)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>welcome and object is[[FirefoxDriver: firefox on WINDOWS (5c3be20b-f3d6-4a88-bfcf-d8a0e72b0c0e)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']'<br/>
+=========>Login successful<br/>
+Performing mouse over on Management Dashboard dropdown<br/>
+Checkbox is checked: true<br/>
+=========>Started Verifying Management dashboard dropdown color<br/>
+Verifying Management Dashboard dropdown color: #0362fd<br/>
+=========>Finished Verifying Management dashboard dropdown color<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyManangementDashboardCheckbox_19_11_2019_03_54_55.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyManangementDashboardCheckbox_19_11_2019_03_54_55.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>68</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC106_VerifyManangementDashboardCheckbox@5c33f1a9</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive.VerifyinactiveState()'><b>VerifyinactiveState</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive<br>Parameters: Meiko, welcome, y<br/>
+<a href="#Output-1523636401" onClick='toggleBox("Output-1523636401", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1523636401" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1523636401">
+Test is started:VerifyinactiveState<br/>
+=========>Started Inactive Vehicles Report<br/>
+Entered login id====>>Meiko and object is[[FirefoxDriver: firefox on WINDOWS (2f95bc6e-5e50-4bf2-8cc6-5d97f3ed44e2)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>welcome and object is[[FirefoxDriver: firefox on WINDOWS (2f95bc6e-5e50-4bf2-8cc6-5d97f3ed44e2)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']'<br/>
+Clicked on Inactive Vehicles view detail arrow====>>Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='dia']' and object isProxy element for: DefaultElementLocator 'By.xpath: //*[@id='dia']'<br/>
+Total Number of columns count in a Inactive Vehicles table: 9<br/>
+Total Number of rows count in a Inactive Vehicles table: 2<br/>
+=========>Finished Inactive Vehicles Report<br/>
+=========>Started Verifying Tools dropdown color Code<br/>
+Verifying Tools dropdown color Code: #4d90fe<br/>
+=========>Finished Verifying Tools dropdown color Code<br/>
+=========>Started Tools Dropdown options<br/>
+Clicked on Tools Dropdown ====>>[[FirefoxDriver: firefox on WINDOWS (2f95bc6e-5e50-4bf2-8cc6-5d97f3ed44e2)] -> xpath: //*[@id='mainreportsection']/div[1]/div[3]/div[1]/a] and object is[[FirefoxDriver: firefox on WINDOWS (2f95bc6e-5e50-4bf2-8cc6-5d97f3ed44e2)] -> xpath: //*[@id='mainreportsection']/div[1]/div[3]/div[1]/a]<br/>
+Verifying Tools dropdown<br/>
+=========>Finished Tools Dropdown options<br/>
+=========>Started Verifying back button color Code<br/>
+Verifying back button color Code: #852b99<br/>
+=========>Finished Verifying back button color Code<br/>
+=========>Started Verifying Columns dropdown color Code<br/>
+Verifying Columns dropdown color Code: #0362fd<br/>
+=========>Finished Verifying Columns dropdown color Code<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyinactiveState_19_11_2019_04_23_40.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\VerifyinactiveState_19_11_2019_04_23_40.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>252</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive@4ec4f3a0</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC102_VerifyUserprofile_ContactUs.Verifying_ContactUS_PopWindow()'><b>Verifying_ContactUS_PopWindow</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC102_VerifyUserprofile_ContactUs<br/>
+<a href="#Output-709388633" onClick='toggleBox("Output-709388633", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-709388633" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-709388633">
+Test is started:Verifying_ContactUS_PopWindow<br/>
+=========>Started verify login<br/>
+Entered login id====>>Meiko and object is[[FirefoxDriver: firefox on WINDOWS (63dbe222-b365-4435-be84-7c93a04adb34)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>welcome and object is[[FirefoxDriver: firefox on WINDOWS (63dbe222-b365-4435-be84-7c93a04adb34)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']'<br/>
+=========>Finished verify login<br/>
+Performing mouse over on user profile dropdown<br/>
+=========>Started to click on Contact Us option<br/>
+Clicking on Contact Us from user profile dropdown<br/>
+=========>Clicked on Contact Us option<br/>
+Verifing contact us popup window text:  お問い合わせ<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\Verifying_ContactUS_PopWindow_19_11_2019_03_49_54.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\Verifying_ContactUS_PopWindow_19_11_2019_03_49_54.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>71</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC102_VerifyUserprofile_ContactUs@57a3af25</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC103_VerifyUserProfile_Help.Verifying_Help_PopWindow()'><b>Verifying_Help_PopWindow</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC103_VerifyUserProfile_Help<br/>
+<a href="#Output-304569370" onClick='toggleBox("Output-304569370", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-304569370" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-304569370">
+Test is started:Verifying_Help_PopWindow<br/>
+=========>Started verify login<br/>
+Entered login id====>>Meiko and object is[[FirefoxDriver: firefox on WINDOWS (a7cd303d-6642-4ee1-8df9-139e775466e0)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>welcome and object is[[FirefoxDriver: firefox on WINDOWS (a7cd303d-6642-4ee1-8df9-139e775466e0)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']'<br/>
+=========>Finished verify login<br/>
+Performing mouse over on user profile dropdown<br/>
+=========>Started to click on Help option<br/>
+Clicking on Help from user profile dropdown<br/>
+=========>Clicked on Help option<br/>
+Verifing help header title:  ヘルプ<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\Verifying_Help_PopWindow_19_11_2019_03_51_34.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\Verifying_Help_PopWindow_19_11_2019_03_51_34.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC103_VerifyUserProfile_Help@2b662a77</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC003_VerfyingSubmitButtonColorCode.a_VerifyRememberMe_CheckBox()'><b>a_VerifyRememberMe_CheckBox</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC003_VerfyingSubmitButtonColorCode<br/>
+<a href="#Output-1890305745" onClick='toggleBox("Output-1890305745", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1890305745" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1890305745">
+Test is started:a_VerifyRememberMe_CheckBox<br/>
+=========>Started Verifying Remember me check box is checked<br/>
+Checked 'Remember Me' checkbox as it is unchecked[[FirefoxDriver: firefox on WINDOWS (5ef4e02b-5003-4145-a5c7-dae1ec64035f)] -> css selector: div[class='checker']]<br/>
+=========>Started Verifying Remember me check box is checked<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_VerifyRememberMe_CheckBox_19_11_2019_03_44_52.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_VerifyRememberMe_CheckBox_19_11_2019_03_44_52.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC003_VerfyingSubmitButtonColorCode@131774fe</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC108_VerifyingStateOfVehicle_Moving.a_movingState()'><b>a_movingState</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC108_VerifyingStateOfVehicle_Moving<br>Parameters: Meiko, welcome, y<br/>
+<a href="#Output-533531882" onClick='toggleBox("Output-533531882", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-533531882" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-533531882">
+Test is started:a_movingState<br/>
+=========>Started Moving-->Moving Vehicles Report<br/>
+Entered login id====>>Meiko and object is[[FirefoxDriver: firefox on WINDOWS (6145d2ca-d36e-454e-a057-70c7b95c7d28)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>welcome and object is[[FirefoxDriver: firefox on WINDOWS (6145d2ca-d36e-454e-a057-70c7b95c7d28)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']'<br/>
+Clicked on Moving Vehicles view detail arrow====>>Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='dm']' and object isProxy element for: DefaultElementLocator 'By.xpath: //*[@id='dm']'<br/>
+Total Number of columns count in a Moving Vehicles table: 9<br/>
+Total Number of rows count in a Moving Vehicles table: 1<br/>
+=========>Finished Moving-->Moving Vehicles Report<br/>
+=========>Started Verifying Tools dropdown color Code<br/>
+Verifying Tools dropdown color Code: #4d90fe<br/>
+=========>Finished Verifying Tools dropdown color Code<br/>
+=========>Started Tools Dropdown options<br/>
+Clicked on Tools Dropdown ====>>[[FirefoxDriver: firefox on WINDOWS (6145d2ca-d36e-454e-a057-70c7b95c7d28)] -> xpath: //*[@id='mainreportsection']/div[1]/div[3]/div[1]/a] and object is[[FirefoxDriver: firefox on WINDOWS (6145d2ca-d36e-454e-a057-70c7b95c7d28)] -> xpath: //*[@id='mainreportsection']/div[1]/div[3]/div[1]/a]<br/>
+Verifying Tools dropdown<br/>
+=========>Finished Tools Dropdown options<br/>
+=========>Started Verifying back button color Code<br/>
+Verifying back button color Code: #852b99<br/>
+=========>Finished Verifying back button color Code<br/>
+=========>Started Verifying Columns dropdown color Code<br/>
+Verifying Columns dropdown color Code: #0362fd<br/>
+=========>Finished Verifying Columns dropdown color Code<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_movingState_19_11_2019_04_01_20.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_movingState_19_11_2019_04_01_20.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>253</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC108_VerifyingStateOfVehicle_Moving@c8c12ac</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC109_VerifyStateOfVehicle_Stopped.a_stoppedState()'><b>a_stoppedState</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC109_VerifyStateOfVehicle_Stopped<br>Parameters: Meiko, welcome, y<br/>
+<a href="#Output-718737379" onClick='toggleBox("Output-718737379", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-718737379" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-718737379">
+Test is started:a_stoppedState<br/>
+=========>Started Stopped Vehicles Report<br/>
+Entered login id====>>Meiko and object is[[FirefoxDriver: firefox on WINDOWS (33c886d7-c3ad-4386-8ac0-99c2148b71f7)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>welcome and object is[[FirefoxDriver: firefox on WINDOWS (33c886d7-c3ad-4386-8ac0-99c2148b71f7)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']'<br/>
+Clicked on Stopped Vehicles view detail arrow====>>Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='ds']' and object isProxy element for: DefaultElementLocator 'By.xpath: //*[@id='ds']'<br/>
+Total Number of columns count in a Stopped Vehicles table: 9<br/>
+Total Number of rows count in a Stopped Vehicles table: 1<br/>
+=========>Finished Stopped Vehicles Report<br/>
+=========>Started Verifying Tools dropdown color Code<br/>
+Verifying Tools dropdown color Code: #4d90fe<br/>
+=========>Finished Verifying Tools dropdown color Code<br/>
+=========>Started Tools Dropdown options<br/>
+Clicked on Tools Dropdown ====>>[[FirefoxDriver: firefox on WINDOWS (33c886d7-c3ad-4386-8ac0-99c2148b71f7)] -> xpath: //*[@id='mainreportsection']/div[1]/div[3]/div[1]/a] and object is[[FirefoxDriver: firefox on WINDOWS (33c886d7-c3ad-4386-8ac0-99c2148b71f7)] -> xpath: //*[@id='mainreportsection']/div[1]/div[3]/div[1]/a]<br/>
+Verifying Tools dropdown<br/>
+=========>Finished Tools Dropdown options<br/>
+=========>Started Verifying back button color Code<br/>
+Verifying back button color Code: #852b99<br/>
+=========>Finished Verifying back button color Code<br/>
+=========>Started Verifying Columns dropdown color Code<br/>
+Verifying Columns dropdown color Code: #0362fd<br/>
+=========>Finished Verifying Columns dropdown color Code<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_stoppedState_19_11_2019_04_06_13.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_stoppedState_19_11_2019_04_06_13.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>262</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC109_VerifyStateOfVehicle_Stopped@6adbc9d</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC004_VerfiyForgotPassword.a_verifyForgotPassword()'><b>a_verifyForgotPassword</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC004_VerfiyForgotPassword<br/>
+<a href="#Output-1351674621" onClick='toggleBox("Output-1351674621", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1351674621" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1351674621">
+Test is started:a_verifyForgotPassword<br/>
+=========>Started Verifying Remember Me check box<br/>
+Clicked on forgot password hyper link id====>>[[FirefoxDriver: firefox on WINDOWS (61e31138-c40a-4017-b4b4-428b732a7a2a)] -> css selector: a[id='forget-password']] and object is[[FirefoxDriver: firefox on WINDOWS (61e31138-c40a-4017-b4b4-428b732a7a2a)] -> css selector: a[id='forget-password']]<br/>
+Clicked on submit button id====>>[[FirefoxDriver: firefox on WINDOWS (61e31138-c40a-4017-b4b4-428b732a7a2a)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[FirefoxDriver: firefox on WINDOWS (61e31138-c40a-4017-b4b4-428b732a7a2a)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]<br/>
+=========>Finished Verifying Remember Me check box <br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_verifyForgotPassword_19_11_2019_03_45_23.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_verifyForgotPassword_19_11_2019_03_45_23.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC004_VerfiyForgotPassword@158d2680</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC101_VerifyUserProfile_ChangePassword.a_verifyingChangePasswordValidation()'><b>a_verifyingChangePasswordValidation</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC101_VerifyUserProfile_ChangePassword<br/>
+<a href="#Output-1849378579" onClick='toggleBox("Output-1849378579", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1849378579" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1849378579">
+Test is started:a_verifyingChangePasswordValidation<br/>
+=========>Started verify login<br/>
+Entered login id====>>Meiko and object is[[FirefoxDriver: firefox on WINDOWS (c1730c96-ffb5-435e-b15c-1874d086dc2f)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>welcome and object is[[FirefoxDriver: firefox on WINDOWS (c1730c96-ffb5-435e-b15c-1874d086dc2f)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']'<br/>
+=========>Finished verify login<br/>
+Performing mouse over on user profile dropdown<br/>
+=========>Started to click on Change Password option<br/>
+Clicking on Change password from user profile dropdown<br/>
+=========>Clicked on Change password option<br/>
+Entered Current Password is====>>demo<br/>
+Entered New Password is====>><br/>
+Entered Confirm Password is====>><br/>
+Clicked on Change Button<br/>
+Alert data:  パスワードは空にしないでください<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_verifyingChangePasswordValidation_19_11_2019_03_48_11.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_verifyingChangePasswordValidation_19_11_2019_03_48_11.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>78</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC101_VerifyUserProfile_ChangePassword@7f3b84b8</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC108_VerifyingStateOfVehicle_Moving.b_MovingVehiclesReport_VerifyRecordsperpageDropdown()'><b>b_MovingVehiclesReport_VerifyRecordsperpageDropdown</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC108_VerifyingStateOfVehicle_Moving<br/>
+<a href="#Output-114875588" onClick='toggleBox("Output-114875588", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-114875588" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-114875588">
+Test is started:b_MovingVehiclesReport_VerifyRecordsperpageDropdown<br/>
+=========>Started Verifying Records per page Dropdown options<br/>
+Clicked on Records Per Page Dropdown ====>>[[FirefoxDriver: firefox on WINDOWS (6145d2ca-d36e-454e-a057-70c7b95c7d28)] -> xpath: //*[@id='s2id_autogen11']/a/span[2]] and object is[[FirefoxDriver: firefox on WINDOWS (6145d2ca-d36e-454e-a057-70c7b95c7d28)] -> xpath: //*[@id='s2id_autogen11']/a/span[2]]<br/>
+Verifying dropdown list in Records Per Page Dropdown<br/>
+=========>Finished Verifying Records per page Dropdown options<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_MovingVehiclesReport_VerifyRecordsperpageDropdown_19_11_2019_04_01_21.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_MovingVehiclesReport_VerifyRecordsperpageDropdown_19_11_2019_04_01_21.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC108_VerifyingStateOfVehicle_Moving@c8c12ac</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC109_VerifyStateOfVehicle_Stopped.b_StoppedVehiclesReport_VerifyRecordsperpageDropdown()'><b>b_StoppedVehiclesReport_VerifyRecordsperpageDropdown</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC109_VerifyStateOfVehicle_Stopped<br/>
+<a href="#Output-2021468968" onClick='toggleBox("Output-2021468968", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2021468968" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2021468968">
+Test is started:b_StoppedVehiclesReport_VerifyRecordsperpageDropdown<br/>
+=========>Started Verifying Records per page Dropdown options<br/>
+Clicked on Records Per Page Dropdown ====>>[[FirefoxDriver: firefox on WINDOWS (33c886d7-c3ad-4386-8ac0-99c2148b71f7)] -> xpath: //*[@id='s2id_autogen11']/a/span[2]] and object is[[FirefoxDriver: firefox on WINDOWS (33c886d7-c3ad-4386-8ac0-99c2148b71f7)] -> xpath: //*[@id='s2id_autogen11']/a/span[2]]<br/>
+Verifying dropdown list in Records Per Page Dropdown<br/>
+=========>Finished Verifying Records per page Dropdown options<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_StoppedVehiclesReport_VerifyRecordsperpageDropdown_19_11_2019_04_06_14.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_StoppedVehiclesReport_VerifyRecordsperpageDropdown_19_11_2019_04_06_14.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC109_VerifyStateOfVehicle_Stopped@6adbc9d</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC004_VerfiyForgotPassword.b_verifyForgotPasswordwith_InvalidMailId()'><b>b_verifyForgotPasswordwith_InvalidMailId</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC004_VerfiyForgotPassword<br/>
+<a href="#Output-560562533" onClick='toggleBox("Output-560562533", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-560562533" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-560562533">
+Test is started:b_verifyForgotPasswordwith_InvalidMailId<br/>
+=========>Started Verifying Invalid mail Id<br/>
+Entered invaid email id====>>[[FirefoxDriver: firefox on WINDOWS (61e31138-c40a-4017-b4b4-428b732a7a2a)] -> css selector: input[id='email']] and object is[[FirefoxDriver: firefox on WINDOWS (61e31138-c40a-4017-b4b4-428b732a7a2a)] -> css selector: input[id='email']]<br/>
+Clicked on submit button id====>>[[FirefoxDriver: firefox on WINDOWS (61e31138-c40a-4017-b4b4-428b732a7a2a)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[FirefoxDriver: firefox on WINDOWS (61e31138-c40a-4017-b4b4-428b732a7a2a)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]<br/>
+=========>Finished Verifying Invalid mail Id<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_verifyForgotPasswordwith_InvalidMailId_19_11_2019_03_45_23.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_verifyForgotPasswordwith_InvalidMailId_19_11_2019_03_45_23.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC004_VerfiyForgotPassword@158d2680</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC003_VerfyingSubmitButtonColorCode.b_verifySubmitButtonColor_BeforeClick()'><b>b_verifySubmitButtonColor_BeforeClick</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC003_VerfyingSubmitButtonColorCode<br/>
+<a href="#Output-1662538405" onClick='toggleBox("Output-1662538405", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1662538405" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1662538405">
+Test is started:b_verifySubmitButtonColor_BeforeClick<br/>
+=========>Started Verifying submit button color Before click<br/>
+Verifying submit button color: #253a73<br/>
+=========>Finished Verifying submit button color Before click<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_verifySubmitButtonColor_BeforeClick_19_11_2019_03_44_52.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_verifySubmitButtonColor_BeforeClick_19_11_2019_03_44_52.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC003_VerfyingSubmitButtonColorCode@131774fe</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC101_VerifyUserProfile_ChangePassword.b_verifyingChangePasswordValidation()'><b>b_verifyingChangePasswordValidation</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC101_VerifyUserProfile_ChangePassword<br/>
+<a href="#Output-1942236531" onClick='toggleBox("Output-1942236531", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1942236531" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1942236531">
+Test is started:b_verifyingChangePasswordValidation<br/>
+Entered Current Password is====>>demo<br/>
+Entered New Password is====>>fsfdg<br/>
+Entered Confirm Password is====>><br/>
+Clicked on Change Button<br/>
+Alert data:  新しいパスワードとパスワードの確認には同じ値を含める必要があります<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_verifyingChangePasswordValidation_19_11_2019_03_48_12.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_verifyingChangePasswordValidation_19_11_2019_03_48_12.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC101_VerifyUserProfile_ChangePassword@7f3b84b8</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC004_VerfiyForgotPassword.c_verifyForgotPasswordwith_ValidMailId()'><b>c_verifyForgotPasswordwith_ValidMailId</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC004_VerfiyForgotPassword<br/>
+<a href="#Output-1609186326" onClick='toggleBox("Output-1609186326", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1609186326" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1609186326">
+Test is started:c_verifyForgotPasswordwith_ValidMailId<br/>
+=========>Started Verifying Valid mail Id<br/>
+Entered invaid email id====>>[[FirefoxDriver: firefox on WINDOWS (61e31138-c40a-4017-b4b4-428b732a7a2a)] -> css selector: input[id='email']] and object is[[FirefoxDriver: firefox on WINDOWS (61e31138-c40a-4017-b4b4-428b732a7a2a)] -> css selector: input[id='email']]<br/>
+Clicked on submit button id====>>[[FirefoxDriver: firefox on WINDOWS (61e31138-c40a-4017-b4b4-428b732a7a2a)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right] and object is[[FirefoxDriver: firefox on WINDOWS (61e31138-c40a-4017-b4b4-428b732a7a2a)] -> css selector: body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right]<br/>
+=========>Finished Verifying Valid mail Id<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\c_verifyForgotPasswordwith_ValidMailId_19_11_2019_03_45_48.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\c_verifyForgotPasswordwith_ValidMailId_19_11_2019_03_45_48.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC004_VerfiyForgotPassword@158d2680</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC101_VerifyUserProfile_ChangePassword.c_verifyingChangePasswordValidation()'><b>c_verifyingChangePasswordValidation</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC101_VerifyUserProfile_ChangePassword<br/>
+<a href="#Output-1793773518" onClick='toggleBox("Output-1793773518", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1793773518" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1793773518">
+Test is started:c_verifyingChangePasswordValidation<br/>
+Entered Current Password is====>>de123123<br/>
+Entered New Password is====>><br/>
+Entered Confirm Password is====>>3@!@#!#<br/>
+Clicked on Change Button<br/>
+Alert data:  パスワードは空にしないでください<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\c_verifyingChangePasswordValidation_19_11_2019_03_48_13.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\c_verifyingChangePasswordValidation_19_11_2019_03_48_13.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC101_VerifyUserProfile_ChangePassword@7f3b84b8</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC101_VerifyUserProfile_ChangePassword.d_verifyingChangePasswordValidation()'><b>d_verifyingChangePasswordValidation</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC101_VerifyUserProfile_ChangePassword<br/>
+<a href="#Output-1111400718" onClick='toggleBox("Output-1111400718", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1111400718" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1111400718">
+Test is started:d_verifyingChangePasswordValidation<br/>
+Entered Current Password is====>>de123123<br/>
+Entered New Password is====>>welcome<br/>
+Entered Confirm Password is====>>welcome<br/>
+Clicked on Change Button<br/>
+Validation Message: Current Password is wrong, Please Try again !!<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\d_verifyingChangePasswordValidation_19_11_2019_03_48_14.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\d_verifyingChangePasswordValidation_19_11_2019_03_48_14.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC101_VerifyUserProfile_ChangePassword@7f3b84b8</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC107_VerifyingVehicleStatusReport.masterOption()'><b>masterOption</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC107_VerifyingVehicleStatusReport<br>Parameters: Meiko, welcome, y<br/>
+<a href="#Output-317730658" onClick='toggleBox("Output-317730658", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-317730658" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-317730658">
+Test is started:masterOption<br/>
+=========>Started Master-->Fleet Tracking Vehicle Status<br/>
+Entered login id====>>Meiko and object is[[FirefoxDriver: firefox on WINDOWS (4e434dd4-a5dd-4bea-8178-9479c628265e)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>welcome and object is[[FirefoxDriver: firefox on WINDOWS (4e434dd4-a5dd-4bea-8178-9479c628265e)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']'<br/>
+Total Number of columns count in a table: 14<br/>
+Total Number of rows count in a table: 2<br/>
+=========>Finished Master-->Fleet Tracking Vehicle Status<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\masterOption_19_11_2019_03_56_36.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\masterOption_19_11_2019_03_56_36.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>69</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC107_VerifyingVehicleStatusReport@1623b78d</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.dashboard.TC105_VerifyingDashboardLogo.verifyDashboardLogo()'><b>verifyDashboardLogo</b><br>Test class: com.test.automation.FMSV12_Japan.dashboard.TC105_VerifyingDashboardLogo<br>Parameters: Meiko, welcome, y<br/>
+<a href="#Output-1348800604" onClick='toggleBox("Output-1348800604", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1348800604" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1348800604">
+Test is started:verifyDashboardLogo<br/>
+=========>Started Verifying logo<br/>
+Entered login id====>>Meiko and object is[[FirefoxDriver: firefox on WINDOWS (f3c2ad5a-f280-444c-be07-83a6745c12f5)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>welcome and object is[[FirefoxDriver: firefox on WINDOWS (f3c2ad5a-f280-444c-be07-83a6745c12f5)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']'<br/>
+Checking logo is present or not<br/>
+=========>Finished Verifying logo<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyDashboardLogo_19_11_2019_03_53_17.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyDashboardLogo_19_11_2019_03_53_17.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>72</td>
+<td>com.test.automation.FMSV12_Japan.dashboard.TC105_VerifyingDashboardLogo@7f0eb4b4</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin<br>Parameters: Demo, , //span[@for='password'], パソワードは必須です。, y<br/>
+<a href="#Output-1284345216" onClick='toggleBox("Output-1284345216", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1284345216" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1284345216">
+Test is started:verifyLogin<br/>
+=========>Started verify login<br/>
+Entered login id====>>Demo and object is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> xpath: //*[@id='username']]<br/>
+Entered password====>> and object is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> css selector: button[type='submit']]<br/>
+Button text: 
+                ログイン <i class="m-icon-swapright m-icon-white"></i>
+            <br/>
+=========>Finished verify login<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_19_11_2019_03_41_35.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_19_11_2019_03_41_35.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@3febb011</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin<br>Parameters: , Info@123, //span[@for='username'], ユーザー名は必須です。, y<br/>
+<a href="#Output-680941254" onClick='toggleBox("Output-680941254", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-680941254" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-680941254">
+Test is started:verifyLogin<br/>
+=========>Started verify login<br/>
+Entered login id====>> and object is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>Info@123 and object is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> css selector: button[type='submit']]<br/>
+Button text: 
+                ログイン <i class="m-icon-swapright m-icon-white"></i>
+            <br/>
+=========>Finished verify login<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_19_11_2019_03_41_36.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_19_11_2019_03_41_36.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@3febb011</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin<br>Parameters: helloo, ift, /html/body/div[3]/form[1]/div[2]/span, 有効なログインではありません！, y<br/>
+<a href="#Output-1587306957" onClick='toggleBox("Output-1587306957", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1587306957" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1587306957">
+Test is started:verifyLogin<br/>
+=========>Started verify login<br/>
+Entered login id====>>helloo and object is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>ift and object is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> css selector: button[type='submit']]<br/>
+Button text: 
+                ログイン <i class="m-icon-swapright m-icon-white"></i>
+            <br/>
+=========>Finished verify login<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_19_11_2019_03_41_59.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_19_11_2019_03_41_59.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@3febb011</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin<br>Parameters: meiko, hhh12312, /html/body/div[3]/form[1]/div[2]/span, パスワードが間違っています, y<br/>
+<a href="#Output-966929548" onClick='toggleBox("Output-966929548", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-966929548" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-966929548">
+Test is started:verifyLogin<br/>
+=========>Started verify login<br/>
+Entered login id====>>meiko and object is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>hhh12312 and object is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> css selector: button[type='submit']]<br/>
+Button text: 
+                ログイン <i class="m-icon-swapright m-icon-white"></i>
+            <br/>
+=========>Finished verify login<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_19_11_2019_03_42_21.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_19_11_2019_03_42_21.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@3febb011</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin<br>Parameters: ffffg, welcome, /html/body/div[3]/form[1]/div[2]/span, 有効なログインではありません！, y<br/>
+<a href="#Output-213782367" onClick='toggleBox("Output-213782367", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-213782367" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-213782367">
+Test is started:verifyLogin<br/>
+=========>Started verify login<br/>
+Entered login id====>>ffffg and object is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>welcome and object is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> css selector: button[type='submit']]<br/>
+Button text: 
+                ログイン <i class="m-icon-swapright m-icon-white"></i>
+            <br/>
+=========>Finished verify login<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_19_11_2019_03_42_44.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_19_11_2019_03_42_44.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@3febb011</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin<br>Parameters: !@#@##!, 123213.0, /html/body/div[3]/form[1]/div[2]/span, 有効なログインではありません！, y<br/>
+<a href="#Output-246834286" onClick='toggleBox("Output-246834286", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-246834286" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-246834286">
+Test is started:verifyLogin<br/>
+=========>Started verify login<br/>
+Entered login id====>>!@#@##! and object is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>123213.0 and object is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> css selector: button[type='submit']]<br/>
+Button text: 
+                ログイン <i class="m-icon-swapright m-icon-white"></i>
+            <br/>
+=========>Finished verify login<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_19_11_2019_03_43_06.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_19_11_2019_03_43_06.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@3febb011</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin<br>Parameters: abcd@123, !!@#!!@, /html/body/div[3]/form[1]/div[2]/span, 有効なログインではありません！, y<br/>
+<a href="#Output-185874332" onClick='toggleBox("Output-185874332", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-185874332" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-185874332">
+Test is started:verifyLogin<br/>
+=========>Started verify login<br/>
+Entered login id====>>abcd@123 and object is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>!!@#!!@ and object is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> css selector: button[type='submit']]<br/>
+Button text: 
+                ログイン <i class="m-icon-swapright m-icon-white"></i>
+            <br/>
+=========>Finished verify login<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_19_11_2019_03_43_29.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_19_11_2019_03_43_29.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@3febb011</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin<br>Parameters: fp-ifttest, iftt, /html/body/div[3]/form[1]/div[2]/span, 有効なログインではありません！, y<br/>
+<a href="#Output-2135896513" onClick='toggleBox("Output-2135896513", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2135896513" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2135896513">
+Test is started:verifyLogin<br/>
+=========>Started verify login<br/>
+Entered login id====>>fp-ifttest and object is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> xpath: //*[@id='username']]<br/>
+Entered password====>>iftt and object is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button is[[FirefoxDriver: firefox on WINDOWS (cfa8a6ad-9c2d-4dd5-bca9-f85d18654c51)] -> css selector: button[type='submit']]<br/>
+Button text: 
+                ログイン <i class="m-icon-swapright m-icon-white"></i>
+            <br/>
+=========>Finished verify login<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_19_11_2019_03_43_51.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyLogin_19_11_2019_03_43_51.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin@3febb011</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC002_VerifyLoginPageMeikoLogo.verifyMeikoLogo()'><b>verifyMeikoLogo</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC002_VerifyLoginPageMeikoLogo<br/>
+<a href="#Output-1522954982" onClick='toggleBox("Output-1522954982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1522954982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1522954982">
+Test is started:verifyMeikoLogo<br/>
+=========>Started Verifying Login page Meiko logo<br/>
+Checking logo is present or not<br/>
+=========>Finished Verifying Login page Meiko logo<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyMeikoLogo_19_11_2019_03_44_21.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyMeikoLogo_19_11_2019_03_44_21.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC002_VerifyLoginPageMeikoLogo@10e31a9a</td></tr>
+<tr>
+<td title='com.test.automation.FMSV12_Japan.loginpage.TC005_VerifyingSubmitButtonColorAfterClick.verifySubmitButtonColor_AfterClick()'><b>verifySubmitButtonColor_AfterClick</b><br>Test class: com.test.automation.FMSV12_Japan.loginpage.TC005_VerifyingSubmitButtonColorAfterClick<br/>
+<a href="#Output-1954556077" onClick='toggleBox("Output-1954556077", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1954556077" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1954556077">
+Test is started:verifySubmitButtonColor_AfterClick<br/>
+=========>Started Verifying submit button color After click<br/>
+Entered login id====>>Hello and object is[[FirefoxDriver: firefox on WINDOWS (e1117279-53d2-4b3d-a825-e303338c8d71)] -> xpath: //*[@id='username']]<br/>
+Entered password====>> and object is[[FirefoxDriver: firefox on WINDOWS (e1117279-53d2-4b3d-a825-e303338c8d71)] -> xpath: //*[@id='password']]<br/>
+Clicked on submit button is[[FirefoxDriver: firefox on WINDOWS (e1117279-53d2-4b3d-a825-e303338c8d71)] -> css selector: button[type='submit']]<br/>
+Verifying submit button color: #1d943b<br/>
+=========>Finished Verifying submit button color After click<br/>
+<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifySubmitButtonColor_AfterClick_19_11_2019_03_46_23.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifySubmitButtonColor_AfterClick_19_11_2019_03_46_23.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.FMSV12_Japan.loginpage.TC005_VerifyingSubmitButtonColorAfterClick@77847718</td></tr>
+</table><p>
 </body>
 </html>

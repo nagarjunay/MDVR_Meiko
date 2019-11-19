@@ -5,18 +5,19 @@
     <listener class-name="com.test.automation.FMSV12_Japan.customListener.Listener"/>
     <listener class-name="com.test.automation.FMSV12_Japan.customListener.RetryListener"/>
   </listeners>
-  <test thread-count="5" name="IEBrowser(failed)">
-    <parameter name="Browser_Name" value="IE"/>
+  <test thread-count="5" name="FirefoxBrowser(failed)">
+    <parameter name="Browser_Name" value="firefox"/>
     <classes>
-      <class name="com.test.automation.FMSV12_Japan.dashboard.TC105_VerifyingDashboardLogo">
+      <class name="com.test.automation.FMSV12_Japan.dashboard.TC110_VerifyStateOfVehicle_Idle">
         <methods>
-          <include name="verifyDashboardLogo"/>
-          <include name="setUp"/>
+          <include name="b_IdleVehiclesReport_VerifyRecordsperpageDropdown"/>
+          <include name="a_idleState" invocation-numbers="0"/>
           <include name="endTest"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.test.automation.FMSV12_Japan.dashboard.TC105_VerifyingDashboardLogo -->
+      </class> <!-- com.test.automation.FMSV12_Japan.dashboard.TC110_VerifyStateOfVehicle_Idle -->
     </classes>
-  </test> <!-- IEBrowser(failed) -->
+  </test> <!-- FirefoxBrowser(failed) -->
 </suite> <!-- Failed suite [Regression suite 1] -->
