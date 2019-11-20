@@ -19,11 +19,11 @@ public class TC101_VerifyUserProfile_ChangePassword extends TestBase {
 	LoginPage loginpage;
 	UserProfile_ChangePassword cp;
 
-	/*@DataProvider
-	public Object[][] getDataFromExcel() throws Exception {
-		Object[][] data = Excel_Reader.read_excel("ChangePasswordData");// sheet name
-		return data;
-	}*/
+	/*
+	          @DataProvider public Object[][] getDataFromExcel() throws Exception {
+	   Object[][] data = Excel_Reader.read_excel("ChangePasswordData");// sheet name
+	   return data; }
+	 */
 
 	@BeforeClass
 	@Parameters("Browser_Name")
@@ -33,8 +33,8 @@ public class TC101_VerifyUserProfile_ChangePassword extends TestBase {
 
 	@Test
 	public void a_verifyingChangePasswordValidation() throws Exception {
-		
-		log("=========>Started verify login");	
+
+		log("=========>Started verify login");
 		loginpage = new LoginPage(driver);
 		loginpage.loginToApplication("Meiko", "welcome");
 		log("=========>Finished verify login");
@@ -59,32 +59,32 @@ public class TC101_VerifyUserProfile_ChangePassword extends TestBase {
 		log("=========>Clicked on Change password option");
 		cp.VerifyChangePassword_Validation("demo", "", "");
 	}
-	
+
 	@Test
 	public void b_verifyingChangePasswordValidation() throws Exception {
-		
+
 		cp.VerifyChangePassword_Validation("demo", "fsfdg", "");
 	}
-	
+
 	@Test
 	public void c_verifyingChangePasswordValidation() throws Exception {
-		
+
 		cp.VerifyChangePassword_Validation("de123123", "", "3@!@#!#");
 	}
-	
+
 	@Test
 	public void d_verifyingChangePasswordValidation() throws Exception {
-		
+
 		cp.VerifyChangePassword_Validation("de123123", "welcome", "welcome");
 		cp.VerifyValidationMessage();
 	}
-	
-	/*@Test(priority=5)
-	public void VerifyingChangePasswordValidation_Type5() throws Exception {
-		
-		cp.VerifyChangePassword_Validation("welcome", "welcome123", "welcome123");
-		cp.VerifyValidationMessage1();
-	}
-	*/
-	
+
+	/*
+	 * @Test(priority=5) public void VerifyingChangePasswordValidation_Type5()
+	 * throws Exception {
+	 * 
+	 * cp.VerifyChangePassword_Validation("welcome", "welcome123", "welcome123");
+	 * cp.VerifyValidationMessage1(); }
+	 */
+
 }

@@ -17,8 +17,7 @@ import com.test.automation.FMSV12_Japan.uiActions.DashBoard_VehicleStatus;
 import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
 
 
-
-public class TC107_VerifyingVehicleStatusReport extends TestBase {
+public class TC107_VerifyingDashboardVehicleStatus extends TestBase {
 
 	LoginPage loginpage;
 	DashBoard_VehicleStatus dashboard;
@@ -37,7 +36,7 @@ public class TC107_VerifyingVehicleStatusReport extends TestBase {
 	}
 
 	@Test(dataProvider = "getDataFromExcel")
-	public void masterOption(String loginid, String password, String runMode) throws Exception {
+	public void a_verifyDashboardVehicleStatus(String loginid, String password, String runMode) throws Exception {
 		
 		if (runMode.equalsIgnoreCase("n")) {
 			throw new SkipException("User marked this not to run");
@@ -46,8 +45,26 @@ public class TC107_VerifyingVehicleStatusReport extends TestBase {
 		loginpage = new LoginPage(driver);
 		loginpage.loginToApplication(loginid, password);
 		dashboard = new DashBoard_VehicleStatus(driver);
+		dashboard.VerifyVehicleStatusWindowText();
 		dashboard.Verifying_TotalNum_Of_Col_Rows();
+		
+		//
 		log("=========>Finished Master-->Fleet Tracking Vehicle Status");
 	}
 
+	
+	@Test
+	public void b_verifyDashboardLastStatusWindow() {
+		
+		dashboard.VerifyLastDownloadstatuswindow();
+	}
+	
+
+	@Test
+	public void c_verifyDashboardMapWindow() {
+		
+		dashboard.VerifyMapIt();
+	}
+	
+	
 }

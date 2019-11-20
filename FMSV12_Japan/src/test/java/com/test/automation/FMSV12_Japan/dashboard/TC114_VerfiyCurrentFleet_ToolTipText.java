@@ -30,6 +30,7 @@ public class TC114_VerfiyCurrentFleet_ToolTipText extends TestBase {
 		return data;
 	}
 
+
 	@BeforeClass
 	@Parameters("Browser_Name")
 	public void setUp(String Browser_Name) throws IOException {
@@ -56,7 +57,7 @@ public class TC114_VerfiyCurrentFleet_ToolTipText extends TestBase {
 		log("=========>Finished verifying current fleet pie chart tootip");
 		test.log(LogStatus.INFO, "Finished verifying current fleet pie chart tootip");
 
-		
+	
 	}
 	
 	

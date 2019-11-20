@@ -5,19 +5,18 @@
     <listener class-name="com.test.automation.FMSV12_Japan.customListener.Listener"/>
     <listener class-name="com.test.automation.FMSV12_Japan.customListener.RetryListener"/>
   </listeners>
-  <test thread-count="5" name="FirefoxBrowser(failed)">
-    <parameter name="Browser_Name" value="firefox"/>
+  <test thread-count="5" name="ChromeBrowser(failed)">
+    <parameter name="Browser_Name" value="chrome"/>
     <classes>
-      <class name="com.test.automation.FMSV12_Japan.dashboard.TC110_VerifyStateOfVehicle_Idle">
+      <class name="com.test.automation.FMSV12_Japan.dashboard.TC115_VerifyRecentAlertsWindow">
         <methods>
-          <include name="b_IdleVehiclesReport_VerifyRecordsperpageDropdown"/>
-          <include name="a_idleState" invocation-numbers="0"/>
+          <include name="verifyRecentAlerts_Window" invocation-numbers="0"/>
+          <include name="setUp"/>
           <include name="endTest"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
-          <include name="setUp"/>
         </methods>
-      </class> <!-- com.test.automation.FMSV12_Japan.dashboard.TC110_VerifyStateOfVehicle_Idle -->
+      </class> <!-- com.test.automation.FMSV12_Japan.dashboard.TC115_VerifyRecentAlertsWindow -->
     </classes>
-  </test> <!-- FirefoxBrowser(failed) -->
+  </test> <!-- ChromeBrowser(failed) -->
 </suite> <!-- Failed suite [Regression suite 1] -->

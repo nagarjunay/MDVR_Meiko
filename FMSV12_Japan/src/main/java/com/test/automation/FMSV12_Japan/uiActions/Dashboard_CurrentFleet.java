@@ -7,7 +7,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.Reporter;
 
 import com.relevantcodes.extentreports.LogStatus;
@@ -20,6 +22,9 @@ import com.test.automation.FMSV12_Japan.testBase.TestBase;
 public class Dashboard_CurrentFleet extends TestBase {
 
 	public WebDriver driver;
+	
+	@FindBy(css="#currentfleetportlet > div.portlet-title > div.caption > span")
+	WebElement CurrentFleetText;
 
 	public Dashboard_CurrentFleet(WebDriver driver) {
 
@@ -29,6 +34,11 @@ public class Dashboard_CurrentFleet extends TestBase {
 
 	public void CurrentFleet_Piechat_Mouseover() {
 
+		String actual_error = CurrentFleetText.getAttribute("innerHTML");
+		String expected_error = "現在追跡";
+	    Assert.assertEquals(actual_error, expected_error);
+	    log("Verify Current Fleet Window Text: " + actual_error);
+		test.log(LogStatus.INFO, "Verify Current Fleet Window Text: " + actual_error);
 		Actions actions = new Actions(driver);
 		// Retrieve WebElement
 		WebElement element = driver.findElement(By.cssSelector(
@@ -59,6 +69,7 @@ public class Dashboard_CurrentFleet extends TestBase {
 		
 		
 		
+	
 		
 
 	}

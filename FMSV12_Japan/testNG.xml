@@ -14,8 +14,7 @@
 	<test name="ChromeBrowser">
 	    <parameter name="Browser_Name" value="chrome"></parameter>     
 		<classes>   
-		<!--
-		    <class
+	    <!--<class
 				name="com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin" />   
 	    	<class
 				name="com.test.automation.FMSV12_Japan.loginpage.TC002_VerifyLoginPageMeikoLogo" /> 
@@ -61,39 +60,12 @@
 			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC203_VerifyIdleReport"/> 
 			<class
 			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC204_VerifyTotalDistanceReport"/> -->
-			
 			<class
-				name="com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin" />   
-	    	<class
-				name="com.test.automation.FMSV12_Japan.loginpage.TC002_VerifyLoginPageMeikoLogo" /> 
+			    name="com.test.automation.FMSV12_Japan.dashboard.TC115_VerifyRecentAlertsWindow"/> 
 			<class
-				name="com.test.automation.FMSV12_Japan.loginpage.TC003_VerfyingSubmitButtonColorCode" />
+			    name="com.test.automation.FMSV12_Japan.dashboard.TC114_VerfiyCurrentFleet_ToolTipText"/> 
 			<class
-				name="com.test.automation.FMSV12_Japan.loginpage.TC004_VerfiyForgotPassword" />
-			<class
-				name="com.test.automation.FMSV12_Japan.loginpage.TC005_VerifyingSubmitButtonColorAfterClick" />	 
-			<class 
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC101_VerifyUserProfile_ChangePassword"/>  
-			<class 
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC102_VerifyUserprofile_ContactUs"/> 
-			<class 
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC103_VerifyUserProfile_Help"/>     	 
-			<class
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC105_VerifyingDashboardLogo"/> 
-			<class 
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC106_VerifyManangementDashboardCheckbox"/> 
-			<class
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC107_VerifyingVehicleStatusReport"/> 
-		    <class 
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC108_VerifyingStateOfVehicle_Moving"/>
-		    <class 
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC109_VerifyStateOfVehicle_Stopped"/> 
-			<class 
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC110_VerifyStateOfVehicle_Idle"/> 
-			<class 
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive"/> 
-	
-			
+			    name="com.test.automation.FMSV12_Japan.dashboard.TC107_VerifyingDashboardVehicleStatus"/> 
 			
 		</classes>
 
@@ -103,7 +75,7 @@
 		<classes>
 		<!--<class
 				name="com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin" /> 
-			 <class
+			<class
 				name="com.test.automation.FMSV12_Japan.loginpage.TC002_VerifyLoginPageMeikoLogo" /> 
 			<class
 				name="com.test.automation.FMSV12_Japan.loginpage.TC003_VerfyingSubmitButtonColorCode" />
@@ -133,38 +105,7 @@
 			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC203_VerifyIdleReport"/> 
 			<class
 			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC204_VerifyTotalDistanceReport"/> -->
-			<class
-				name="com.test.automation.FMSV12_Japan.loginpage.TC001_Verifylogin" />   
-	    	<class
-				name="com.test.automation.FMSV12_Japan.loginpage.TC002_VerifyLoginPageMeikoLogo" /> 
-			<class
-				name="com.test.automation.FMSV12_Japan.loginpage.TC003_VerfyingSubmitButtonColorCode" />
-			<class
-				name="com.test.automation.FMSV12_Japan.loginpage.TC004_VerfiyForgotPassword" />
-			<class
-				name="com.test.automation.FMSV12_Japan.loginpage.TC005_VerifyingSubmitButtonColorAfterClick" />	 
-			<class 
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC101_VerifyUserProfile_ChangePassword"/>  
-			<class 
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC102_VerifyUserprofile_ContactUs"/> 
-			<class 
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC103_VerifyUserProfile_Help"/>     	 
-			<class
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC105_VerifyingDashboardLogo"/> 
-			<class 
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC106_VerifyManangementDashboardCheckbox"/> 
-			<class
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC107_VerifyingVehicleStatusReport"/> 
-		    <class 
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC108_VerifyingStateOfVehicle_Moving"/>
-		    <class 
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC109_VerifyStateOfVehicle_Stopped"/> 
-			<class 
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC110_VerifyStateOfVehicle_Idle"/> 
-			<class 
-			    name="com.test.automation.FMSV12_Japan.dashboard.TC111_VerifyStateOfVehicle_Inactive"/> 
-	
-			    
+			
 			
 		</classes>
 	</test>
