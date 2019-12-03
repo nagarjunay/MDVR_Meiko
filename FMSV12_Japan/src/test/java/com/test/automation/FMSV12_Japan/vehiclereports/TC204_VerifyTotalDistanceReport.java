@@ -48,7 +48,7 @@ public class TC204_VerifyTotalDistanceReport extends TestBase {
 		loginpage.loginToApplication(loginid, password);
 		tds = new VehicleReports_TotalDistanceReport(driver);
 		tds.TotalDistance();
-		//tds.validation();
+		tds.validation();
 		tds.FromData();
 		tds.TODate();
 		tds.Drodown();

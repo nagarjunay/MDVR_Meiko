@@ -44,7 +44,7 @@ public class TC113_VerifyStateOfVehicle_NotPolling extends TestBase{
 	}
 
 	@Test(dataProvider = "getDataFromExcel")
-	public void a_notpollingState(String loginid, String password, String runMode) throws Exception {
+	public void Verify_notpollingState(String loginid, String password, String runMode) throws Exception {
 		if (runMode.equalsIgnoreCase("n")) {
 			throw new SkipException("User marked this not to run");
 		}

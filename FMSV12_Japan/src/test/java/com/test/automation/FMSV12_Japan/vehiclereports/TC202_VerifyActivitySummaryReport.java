@@ -47,7 +47,7 @@ public class TC202_VerifyActivitySummaryReport extends TestBase {
 		loginpage.loginToApplication(loginid, password);
 		asr = new VehicleReports_ActivitySummaryReport(driver);
 		asr.ActivitySummary();
-		//asr.validation();
+		asr.validation();
 		asr.FromData();
 		asr.TODate();
 		asr.Drodown();

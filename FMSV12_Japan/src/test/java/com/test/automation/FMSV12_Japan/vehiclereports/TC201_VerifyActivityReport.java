@@ -35,7 +35,7 @@ public class TC201_VerifyActivityReport extends TestBase {
 	}
 
 	@Test(dataProvider = "getDataFromExcel")
-	public void ActivityOption(String loginid, String password, String runMode) throws Exception {
+	public void a_ActivityOption(String loginid, String password, String runMode) throws Exception {
 		if (runMode.equalsIgnoreCase("n")) {
 			throw new SkipException("User marked this not to run");
 		}
@@ -44,7 +44,7 @@ public class TC201_VerifyActivityReport extends TestBase {
 		loginpage.loginToApplication(loginid, password);
 		vr = new VehicleReports_ActivityReport(driver);
 		vr.Activity();
-		// vr.validation();
+		vr.validation();
 		vr.FromData();
 		vr.TODate();
 		vr.Drodown();
@@ -52,4 +52,12 @@ public class TC201_VerifyActivityReport extends TestBase {
 		log("=========>Finished--->Activity Report Module");
 	}
 
+	@Test
+	public void b_AlertCount() throws Exception {
+		
+		vr.alertCount();
+		vr.Verifying_TotalNum_Of_Col_Rows();
+	}
+	
+	
 }

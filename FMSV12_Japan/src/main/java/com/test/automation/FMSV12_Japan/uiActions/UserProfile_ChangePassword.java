@@ -40,7 +40,6 @@ public class UserProfile_ChangePassword extends TestBase {
 	@FindBy(xpath = "//*[@id='hdResultChangePassword']/div")
 	WebElement ValidationMessage;
 	
-	
 
 	public UserProfile_ChangePassword(WebDriver driver) {
 

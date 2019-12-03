@@ -115,7 +115,7 @@ public class TestBase {
 			copts.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
 			driver = new ChromeDriver(copts);
 			log.info("Launching the Chrome browser");
-			//test.log(LogStatus.INFO, "Launching the Chrome browser");
+			
 
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			//WebDriverManager.firefoxdriver().setup();
@@ -141,9 +141,9 @@ public class TestBase {
 
 	/*This method will get url and maximizes browser window*/
 	public void getUrl(String url) {
-		log.info("navigating to: " + url);
+		log.info("Navigating to: " + url);
 		driver.get(url);
-		driver.manage().window().maximize();
+		driver.manage().window().fullscreen();
 		log.info("Window Maximized");
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 	}
@@ -318,7 +318,8 @@ public class TestBase {
 		String browserVersion = caps.getVersion();
 		test.log(LogStatus.INFO, "Browser Name: "+ browserName);
 		test.log(LogStatus.INFO, "Browser Version: "+browserVersion);
-		test.log(LogStatus.INFO, "Navigated to: http://itlfmsv12.infotracktelematics.com/Meiko/");
+		String Currenturl= driver.getCurrentUrl();
+		test.log(LogStatus.INFO, "Navigating to: "+Currenturl);
 		test.log(LogStatus.INFO, result.getName() + " Test is Started");
 	}
 

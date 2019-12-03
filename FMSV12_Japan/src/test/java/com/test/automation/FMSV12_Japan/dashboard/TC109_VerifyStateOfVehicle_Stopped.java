@@ -44,7 +44,7 @@ public class TC109_VerifyStateOfVehicle_Stopped extends TestBase{
 	}
 
 	@Test(dataProvider = "getDataFromExcel")
-	public void a_stoppedState(String loginid, String password, String runMode) throws Exception {
+	public void Verify_StoppedState(String loginid, String password, String runMode) throws Exception {
 		if (runMode.equalsIgnoreCase("n")) {
 			throw new SkipException("User marked this not to run");
 		}

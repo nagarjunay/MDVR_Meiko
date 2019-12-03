@@ -47,24 +47,26 @@ public class TC107_VerifyingDashboardVehicleStatus extends TestBase {
 		dashboard = new DashBoard_VehicleStatus(driver);
 		dashboard.VerifyVehicleStatusWindowText();
 		dashboard.Verifying_TotalNum_Of_Col_Rows();
-		
-		//
 		log("=========>Finished Master-->Fleet Tracking Vehicle Status");
 	}
 
 	
 	@Test
-	public void b_verifyDashboardLastStatusWindow() {
+	public void b_verifyDashboardLastStatusWindow() throws Exception {
 		
 		dashboard.VerifyLastDownloadstatuswindow();
 	}
 	
 
 	@Test
-	public void c_verifyDashboardMapWindow() {
+	public void b_verifyDashboardMapWindow() throws Exception {
 		
 		dashboard.VerifyMapIt();
 	}
 	
-	
+	@Test
+	public void c_verifyDashboardVideoWindow() {
+		
+		dashboard.VerifyLiveVideo();
+	}
 }

@@ -33,12 +33,36 @@ public class DashBoard_VehicleStatus extends TestBase {
 	@FindBy(css="#tblDSW > tbody > tr.odd > td:nth-child(14) > a")
 	WebElement MapItButton;
 	
-	@FindBy(xpath="//*[@id='form_modal13']/div/div/div[1]/button")
+	@FindBy(css="#videoclose")
+	WebElement MapitCloseButton;
+	
+	@FindBy(css="#form_modal2 > div > div > div.modal-header > h4")
+	WebElement MapitHeaderText;
+	
+	@FindBy(css="#form_modal13 > div > div > div:nth-child(1) > button")
 	WebElement LastdownloadwindowCloseButton;
+	
+	@FindBy(css="#form_modal13 > div > div > div:nth-child(1) > h4 > span")
+	WebElement VideoStatusWindowText;
 	
     @FindBy(css="#dswfleettrack > div.portlet-title > div.caption > span")
     WebElement VehicleStatusText;
 
+    @FindBy(css="#tblDSW > tbody > tr.odd > td:nth-child(13) > a")
+    WebElement VideoButton;
+    
+    @FindBy(css="#video_modal > div > div > div > div.modal-header > h4 > span")
+    WebElement VideoPopupWindowText;
+    
+    @FindBy(css="#txtDuration")
+    WebElement VideoDuration;
+    
+    @FindBy(css="#btnRecord > span")
+    WebElement VideoRecordButton;
+    
+    @FindBy(css="#msgbody > p")
+    WebElement VideoRecordValidationmsg;
+    
 	public DashBoard_VehicleStatus(WebDriver driver) {
 
 		this.driver = driver;
@@ -72,33 +96,63 @@ public class DashBoard_VehicleStatus extends TestBase {
 	}
 	
 	
-	public void VerifyLastDownloadstatuswindow() {
+	public void VerifyLastDownloadstatuswindow() throws Exception {
 		downloadStatusButton.click();
-		String actual_error= driver.findElement(By.cssSelector("#form_modal13 > div > div > div:nth-child(1) > h4 > span")).getAttribute("innerHTML");
+		String actual_error= VideoStatusWindowText.getAttribute("innerHTML");
 	    String expected_error="最終ダウンロードステータス";
 	    Assert.assertEquals(actual_error, expected_error);
-	    log("Verify Last Download Status Text: " + actual_error);
-		test.log(LogStatus.INFO, "Verify Last Download Status Text: " + actual_error);
+	    log("Verify Last Download Status Window Header Text: " + actual_error);
+		test.log(LogStatus.INFO, "Verify Last Download Status Window Header Text: " + actual_error);
 		log("Verify Last Download Status vehicle number: " + VehicleNum.getAttribute("innerHTML"));
 		test.log(LogStatus.INFO, "Verify Last Download Status vehicle number: " + VehicleNum.getAttribute("innerHTML"));
-		getScreenShot(actual_error);
+	    ((JavascriptExecutor)driver).executeScript("scroll(200,0)");
+	    expliciteWait(LastdownloadwindowCloseButton, 30);
 		LastdownloadwindowCloseButton.click();
 	}
 	
 	
 	
-	public void VerifyMapIt() {
+	public void VerifyMapIt() throws Exception {
 		MapItButton.click();
-		log("Clicked on Map It button " + downloadStatusButton.toString());
+		log("Clicked on Map It button");
 		test.log(LogStatus.INFO, "Clicked on Map It button");
-		String actual_error= driver.findElement(By.cssSelector("#form_modal2 > div > div > div.modal-header > h4")).getAttribute("innerHTML");
+		String actual_error= MapitHeaderText.getAttribute("innerHTML");
 	    //String expected_error=" 地図表示";
 	    //Assert.assertEquals(actual_error, expected_error);
 	    log("Verify Map Window Text: " + actual_error);
 		test.log(LogStatus.INFO, "Verify Map Window Text: " + actual_error);
+		expliciteWait(MapitCloseButton, 30);
+		MapitCloseButton.click();	
 	}
 	
-	
+	public void VerifyLiveVideo() {
+		if(VideoButton.isEnabled()){
+			VideoButton.click();
+			log("Clicked on Video button");
+			test.log(LogStatus.INFO, "Clicked on Video button");
+	  }else
+	  {
+	        System.out.print("Video button is disabled due to vehicle is Inactive.");
+	        log("Video button is disabled due to vehicle is Inactive ");
+			test.log(LogStatus.INFO, "Video button is disabled due to vehicle is Inactive");
+	  }
+		String actual_error = VideoPopupWindowText.getAttribute("innerHTML");
+	    String expected_error="ビデオビュー";
+	    Assert.assertEquals(actual_error, expected_error);
+	    log("Verify Video Window header Text: " + actual_error);
+		test.log(LogStatus.INFO, "Verify Video Window header Text: " + actual_error);
+		VideoDuration.sendKeys("12323223423423443");
+		log("Entered Video Duration: ");
+		test.log(LogStatus.INFO, "Entered Video Duration: ");
+	    VideoRecordButton.click();
+		log("Clicked on Record button: ");
+		test.log(LogStatus.INFO, "Clicked on Record button: ");
+		String actual_error1 = VideoRecordValidationmsg.getAttribute("innerHTML");
+		String expected_error1="please enter valid duration between 1-100 secs !!";
+	    Assert.assertEquals(actual_error1, expected_error1);
+	    log("Verify Video Record Validation Message: " + actual_error1);
+		test.log(LogStatus.INFO, "Verify Video Record Validation Message: " + actual_error1);
+	}
 	 
 	//*[@id="tblDSW"]/tbody/tr[1]/td[2]/span/img
 	/*public void Vehicle_Status() {

@@ -47,7 +47,7 @@ public class TC203_VerifyIdleReport extends TestBase {
 	    loginpage.loginToApplication(loginid, password);
 		ir = new VehicleReports_IdleReport(driver);
 		ir.Idle();
-		//ir.validation();
+		ir.validation();
 		ir.FromData();
 		ir.TODate();
 		ir.Drodown();

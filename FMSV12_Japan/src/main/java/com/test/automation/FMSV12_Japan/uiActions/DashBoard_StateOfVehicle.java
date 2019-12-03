@@ -168,7 +168,7 @@ public class DashBoard_StateOfVehicle extends TestBase {
 	public ArrayList<Object> verifyTools_dropdown() {
 
 		// RandomClick.click();
-		expliciteWait(Tools_Dropdown, 30);
+		expliciteWait(Tools_Dropdown, 40);
 		Tools_Dropdown.click();
 		log("Clicked on Tools Dropdown ====>>" + Tools_Dropdown + " and object is" + Tools_Dropdown.toString());
 		test.log(LogStatus.INFO, "Clicked on Tools Dropdown ====>>" + Tools_Dropdown);
@@ -180,7 +180,7 @@ public class DashBoard_StateOfVehicle extends TestBase {
 
 	public ArrayList<Object> verifyRecordesPerPage_dropdown() {
 
-		expliciteWait(RecordsPerPage_Dropdown, 20);
+		expliciteWait(RecordsPerPage_Dropdown, 30);
 		RecordsPerPage_Dropdown.click();
 		log("Clicked on Records Per Page Dropdown ====>>" + RecordsPerPage_Dropdown + " and object is"
 				+ RecordsPerPage_Dropdown.toString());
