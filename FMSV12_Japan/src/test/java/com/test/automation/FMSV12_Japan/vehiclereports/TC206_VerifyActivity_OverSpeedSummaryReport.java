@@ -64,7 +64,7 @@ public class TC206_VerifyActivity_OverSpeedSummaryReport extends TestBase {
 	
 	
 	@Test
-	public void c_OverSpeedSummary() throws Exception {
+	public void c_OverSpeedSummaryReport() throws Exception {
 		vr.overSpeedSummary();
 		vr.Verifying_TotalNum_Of_Col_Rows();
 	

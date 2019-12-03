@@ -63,7 +63,7 @@ public class TC207_VerifyActivity_HarshBreakReport extends TestBase {
 	}
 
 	@Test
-	public void c_HarshBreak() throws Exception {
+	public void c_HarshBreakReport() throws Exception {
 		vr.harshBreak();
 		vr.Verifying_TotalNum_Of_Col_Rows();
 	}
