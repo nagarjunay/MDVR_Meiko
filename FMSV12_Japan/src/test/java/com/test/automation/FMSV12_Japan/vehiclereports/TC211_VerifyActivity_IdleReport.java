@@ -20,7 +20,7 @@ import com.test.automation.FMSV12_Japan.uiActions.VehicleReports_ActivityReport;
  * @author nagarjuna
  *
  */
-public class TC206_VerifyActivity_OverSpeedSummaryReport extends TestBase {
+public class TC211_VerifyActivity_IdleReport extends TestBase{
 	
 	LoginPage loginpage;
 	VehicleReports_ActivityReport vr;
@@ -39,11 +39,11 @@ public class TC206_VerifyActivity_OverSpeedSummaryReport extends TestBase {
 	}
 
 	@Test(dataProvider = "getDataFromExcel")
-	public void ActivityOption_overSpeedSummaryReport(String loginid, String password, String runMode) throws Exception {
+	public void ActivityOption_idleReport(String loginid, String password, String runMode) throws Exception {
 		if (runMode.equalsIgnoreCase("n")) {
 			throw new SkipException("User marked this not to run");
 		}
-		log("=========>Started--->Verifying Activity Report->OverSpeed Summary Report");
+		log("=========>Started--->Verifying Activity Report->Idle Report");
 		loginpage = new LoginPage(driver);
 		loginpage.loginToApplication(loginid, password);
 		vr = new VehicleReports_ActivityReport(driver);
@@ -52,14 +52,10 @@ public class TC206_VerifyActivity_OverSpeedSummaryReport extends TestBase {
 		vr.TODate();
 		vr.VehicleDropdown();
 		vr.violationCount();
-		vr.overSpeedSummary();
+		vr.IdleReport();
+		vr.scrollPage();
 		vr.Verifying_TotalNum_Of_Col_Rows();
-		log("=========>Finished--->Verifying Activity Report->OverSpeed Summary Report");
+		log("=========>Finished--->Verifying Activity Report->Idle Report");
 	}
-
-	
-	
-	
-	
 
 }

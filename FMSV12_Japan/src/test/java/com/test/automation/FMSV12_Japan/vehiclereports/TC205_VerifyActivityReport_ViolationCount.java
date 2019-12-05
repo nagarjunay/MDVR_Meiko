@@ -48,7 +48,7 @@ public class TC205_VerifyActivityReport_ViolationCount extends TestBase {
 		vr.Activity();
 		vr.FromData();
 		vr.TODate();
-		vr.Drodown();
+		vr.VehicleDropdown();
 		vr.violationCount();
 		vr.Verifying_TotalNum_Of_Col_Rows();
 		log("=========>Finished--->Verifying Activity Report->Violation Count");

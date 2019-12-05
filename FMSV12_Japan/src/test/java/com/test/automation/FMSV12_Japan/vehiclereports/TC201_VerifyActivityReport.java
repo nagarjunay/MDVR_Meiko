@@ -50,7 +50,7 @@ public class TC201_VerifyActivityReport extends TestBase {
 		vr.validation3();
 		vr.FromData();
 		vr.TODate();
-		vr.Drodown();
+		vr.VehicleDropdown();
 		vr.scrollPage();
 		vr.Verifying_TotalNum_Of_Col_Rows();
 		log("=========>Finished--->Verifying Report Module");

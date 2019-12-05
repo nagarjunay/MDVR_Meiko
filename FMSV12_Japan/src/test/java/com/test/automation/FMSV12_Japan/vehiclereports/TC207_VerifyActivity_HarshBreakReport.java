@@ -50,7 +50,7 @@ public class TC207_VerifyActivity_HarshBreakReport extends TestBase {
 		vr.Activity();
 		vr.FromData();
 		vr.TODate();
-		vr.Drodown();
+		vr.VehicleDropdown();
 		vr.violationCount();
 		vr.harshBreak();
 		vr.scrollPage();

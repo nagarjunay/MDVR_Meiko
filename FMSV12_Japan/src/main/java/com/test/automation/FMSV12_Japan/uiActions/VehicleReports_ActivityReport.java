@@ -225,7 +225,7 @@ public class VehicleReports_ActivityReport extends TestBase {
 	}
 
 	
-	public void Drodown() throws Exception {
+	public void VehicleDropdown() throws Exception {
 
 		WebDriverWait wait = new WebDriverWait(driver, 30);
 		boolean invisiable = wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id("static")));
@@ -248,28 +248,7 @@ public class VehicleReports_ActivityReport extends TestBase {
 
 	}
 
-	public void Verifying_TotalNum_Of_Col_Rows() throws Exception {
-
-		List<WebElement> col = driver.findElements(By.xpath(
-				"//table[@class='table table-striped table-hover table-coluredheader dataTable']/thead/tr/th[string-length(text()) > 0] "));
-		int colCount = col.size();
-		log("Total Number of columns count in a table: " + colCount);
-		test.log(LogStatus.INFO, "Total Number of columns count in a table==>" + colCount);
-		Thread.sleep(2000);
-		List<WebElement> row = driver.findElements(By.cssSelector("#rptBody > tr"));
-		int rowCount = row.size();
-		log("Total Number of rows count in a table: " + rowCount);
-		test.log(LogStatus.INFO, "Total Number of rows count in a table==>" + rowCount);
-
-	}
-
-	public void scrollPage() {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("javascript:window.scrollBy(250,450)");
-		log("Scrolling page");
-		test.log(LogStatus.INFO, "Scrolling page");
-	}
-
+	
 	public void alertCount() throws Exception {
 
 		expliciteWait(AlertCount, 40);
@@ -373,6 +352,31 @@ public class VehicleReports_ActivityReport extends TestBase {
 		Thread.sleep(2000);
 	}
 
+	
+	public void Verifying_TotalNum_Of_Col_Rows() throws Exception {
+
+		List<WebElement> col = driver.findElements(By.xpath(
+				"//table[@class='table table-striped table-hover table-coluredheader dataTable']/thead/tr/th[string-length(text()) > 0] "));
+		int colCount = col.size();
+		log("Total Number of columns count in a table: " + colCount);
+		test.log(LogStatus.INFO, "Total Number of columns count in a table==>" + colCount);
+		Thread.sleep(2000);
+		List<WebElement> row = driver.findElements(By.cssSelector("#rptBody > tr"));
+		int rowCount = row.size();
+		log("Total Number of rows count in a table: " + rowCount);
+		test.log(LogStatus.INFO, "Total Number of rows count in a table==>" + rowCount);
+
+	}
+
+	public void scrollPage() {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("javascript:window.scrollBy(250,450)");
+		log("Scrolling page");
+		test.log(LogStatus.INFO, "Scrolling page");
+	}
+
+	
+	
 	public void switching2Tabs() {
 		Set<String> windows = driver.getWindowHandles();
 		Iterator<String> ids = windows.iterator();
