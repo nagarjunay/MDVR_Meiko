@@ -39,24 +39,30 @@ public class TC201_VerifyActivityReport extends TestBase {
 		if (runMode.equalsIgnoreCase("n")) {
 			throw new SkipException("User marked this not to run");
 		}
-		log("=========>Started--->Activity Report Module");
+		log("=========>Started--->Verifying Activity Report");
 		loginpage = new LoginPage(driver);
 		loginpage.loginToApplication(loginid, password);
 		vr = new VehicleReports_ActivityReport(driver);
 		vr.Activity();
 		vr.validation();
+		vr.validation1();
+		vr.validation2();
+		vr.validation3();
 		vr.FromData();
 		vr.TODate();
 		vr.Drodown();
+		vr.scrollPage();
 		vr.Verifying_TotalNum_Of_Col_Rows();
-		log("=========>Finished--->Activity Report Module");
+		log("=========>Finished--->Verifying Report Module");
 	}
 
 	@Test
 	public void b_AlertCount() throws Exception {
 		
+		log("=========>Started--->Verifying Alert Report");
 		vr.alertCount();
 		vr.Verifying_TotalNum_Of_Col_Rows();
+		log("=========>Finished--->Verifying Alert Report");
 	}
 	
 	

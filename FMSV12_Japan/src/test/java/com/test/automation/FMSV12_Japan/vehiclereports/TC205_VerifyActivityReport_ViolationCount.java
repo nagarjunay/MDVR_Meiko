@@ -37,31 +37,23 @@ public class TC205_VerifyActivityReport_ViolationCount extends TestBase {
 	}
 
 	@Test(dataProvider = "getDataFromExcel")
-	public void a_ActivityOption(String loginid, String password, String runMode) throws Exception {
+	public void ActivityOption_ViolationCount(String loginid, String password, String runMode) throws Exception {
 		if (runMode.equalsIgnoreCase("n")) {
 			throw new SkipException("User marked this not to run");
 		}
-		log("=========>Started--->Activity Report Module");
+		log("=========>Started--->Verifying Activity Report->Violation Count");
 		loginpage = new LoginPage(driver);
 		loginpage.loginToApplication(loginid, password);
 		vr = new VehicleReports_ActivityReport(driver);
 		vr.Activity();
-		vr.validation();
-		vr.validation1();
-		vr.validation2();
-		vr.validation3();
 		vr.FromData();
 		vr.TODate();
 		vr.Drodown();
-		vr.Verifying_TotalNum_Of_Col_Rows();
-		log("=========>Finished--->Activity Report Module");
-	}
-
-	@Test
-	public void b_ViolationCountReport() throws Exception {
-
 		vr.violationCount();
 		vr.Verifying_TotalNum_Of_Col_Rows();
+		log("=========>Finished--->Verifying Activity Report->Violation Count");
 	}
+
+	
 
 }

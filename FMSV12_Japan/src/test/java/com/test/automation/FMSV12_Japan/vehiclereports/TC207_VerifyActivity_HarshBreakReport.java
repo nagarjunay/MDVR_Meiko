@@ -39,11 +39,11 @@ public class TC207_VerifyActivity_HarshBreakReport extends TestBase {
 	}
 
 	@Test(dataProvider = "getDataFromExcel")
-	public void a_ActivityOption(String loginid, String password, String runMode) throws Exception {
+	public void ActivityOption_harshBreakReport(String loginid, String password, String runMode) throws Exception {
 		if (runMode.equalsIgnoreCase("n")) {
 			throw new SkipException("User marked this not to run");
 		}
-		log("=========>Started--->Activity Report Module");
+		log("=========>Started--->Verifying Activity Report->Harsh Break Report");
 		loginpage = new LoginPage(driver);
 		loginpage.loginToApplication(loginid, password);
 		vr = new VehicleReports_ActivityReport(driver);
@@ -51,20 +51,14 @@ public class TC207_VerifyActivity_HarshBreakReport extends TestBase {
 		vr.FromData();
 		vr.TODate();
 		vr.Drodown();
-		vr.Verifying_TotalNum_Of_Col_Rows();
-		log("=========>Finished--->Activity Report Module");
-	}
-
-	@Test
-	public void b_ViolationCountReport() throws Exception {
-
 		vr.violationCount();
+		vr.harshBreak();
+		vr.scrollPage();
 		vr.Verifying_TotalNum_Of_Col_Rows();
+		log("=========>Finished--->Verifying Activity Report->Harsh Break Report");
 	}
 
-	@Test
-	public void c_HarshBreakReport() throws Exception {
-		vr.harshBreak();
-		vr.Verifying_TotalNum_Of_Col_Rows();
-	}
+	
+
+		
 }

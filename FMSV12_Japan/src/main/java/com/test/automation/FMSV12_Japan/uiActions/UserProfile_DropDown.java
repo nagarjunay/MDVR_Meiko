@@ -5,8 +5,7 @@ package com.test.automation.FMSV12_Japan.uiActions;
  *
  */
 
-import java.util.ArrayList;
-
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
@@ -31,12 +30,18 @@ public class UserProfile_DropDown extends TestBase {
 		mouse_movement(driver, "//li[@class='dropdown user']");
 	}
 
-	public ArrayList<Object> verify_drop_down() {
+	public void verify_drop_down() {
 
 		log("Verifying dropdown list in user profile");
 		test.log(LogStatus.INFO, "Verifying dropdown list in user profile");
-		ArrayList<Object> values = dropdown("//ul[@class='dropdown-menu']/li/a[string-length(text()) > 0]");
-		return values;
+		String dropdownList = driver.findElement(By.xpath("//ul[@class='dropdown-menu']/li/a[string-length(text()) > 0]")).getText();
+		log("DropDown Contents: " + dropdownList);
+		test.log(LogStatus.INFO, "DropDown Contents: " + dropdownList);
+		/*String expected_error = "Current Password is wrong, Please Try again !!";
+		Assert.assertEquals(dropdownList, expected_error);*/
+		/*ArrayList<Object> values = dropdown("//ul[@class='dropdown-menu']/li/a[string-length(text()) > 0]");
+		return values;*/
+		
 	}
 
 	public void log(String data) {

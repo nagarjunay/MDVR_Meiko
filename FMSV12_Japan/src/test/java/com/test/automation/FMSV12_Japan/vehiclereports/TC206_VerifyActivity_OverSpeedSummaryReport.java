@@ -39,11 +39,11 @@ public class TC206_VerifyActivity_OverSpeedSummaryReport extends TestBase {
 	}
 
 	@Test(dataProvider = "getDataFromExcel")
-	public void a_ActivityOption(String loginid, String password, String runMode) throws Exception {
+	public void ActivityOption_overSpeedSummaryReport(String loginid, String password, String runMode) throws Exception {
 		if (runMode.equalsIgnoreCase("n")) {
 			throw new SkipException("User marked this not to run");
 		}
-		log("=========>Started--->Activity Report Module");
+		log("=========>Started--->Verifying Activity Report->OverSpeed Summary Report");
 		loginpage = new LoginPage(driver);
 		loginpage.loginToApplication(loginid, password);
 		vr = new VehicleReports_ActivityReport(driver);
@@ -51,24 +51,15 @@ public class TC206_VerifyActivity_OverSpeedSummaryReport extends TestBase {
 		vr.FromData();
 		vr.TODate();
 		vr.Drodown();
-		vr.Verifying_TotalNum_Of_Col_Rows();
-		log("=========>Finished--->Activity Report Module");
-	}
-
-	@Test
-	public void b_ViolationCountReport() throws Exception {
-		
 		vr.violationCount();
-		vr.Verifying_TotalNum_Of_Col_Rows();
-	}
-	
-	
-	@Test
-	public void c_OverSpeedSummaryReport() throws Exception {
 		vr.overSpeedSummary();
 		vr.Verifying_TotalNum_Of_Col_Rows();
-	
+		log("=========>Finished--->Verifying Activity Report->OverSpeed Summary Report");
 	}
+
+	
+	
+	
 	
 
 }

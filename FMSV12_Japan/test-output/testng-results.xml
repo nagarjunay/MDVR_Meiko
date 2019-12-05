@@ -1,133 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[Test is started:a_ActivityOption]]>
+      <![CDATA[Test is started:a_VerifyNotificationHeader1]]>
     </line>
     <line>
-      <![CDATA[=========>Started--->Activity Report Module]]>
+      <![CDATA[=========>Started Login]]>
     </line>
     <line>
-      <![CDATA[Entered login id====>>Meiko and object is[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //*[@id='username']]]]>
+      <![CDATA[Entered login id====>>Meiko and object is[[ChromeDriver: chrome on XP (8bd2e34e6dffd3f8107420c1e3a1da94)] -> xpath: //*[@id='username']]]]>
     </line>
     <line>
-      <![CDATA[Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //*[@id='password']]]]>
+      <![CDATA[Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (8bd2e34e6dffd3f8107420c1e3a1da94)] -> xpath: //*[@id='password']]]]>
     </line>
     <line>
       <![CDATA[Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']']]>
     </line>
     <line>
-      <![CDATA[Dashboard Window Title: FMS - Dashboard | General]]>
+      <![CDATA[=========>Login successful]]>
     </line>
     <line>
-      <![CDATA[Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //div[@class='sidebar-toggler hidden-phone']] and object is[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //div[@class='sidebar-toggler hidden-phone']]]]>
+      <![CDATA[Performing mouse over on header notification icon]]>
     </line>
     <line>
-      <![CDATA[Clicked on master id====>>[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //li[@id='lnk3']/a] and object is[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //li[@id='lnk3']/a]]]>
+      <![CDATA[Notification header text: 6 個の新しいアラートがあります]]>
     </line>
     <line>
-      <![CDATA[Clicked on general id====>>[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //li[@id='lnk24']/a] and object is[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //li[@id='lnk24']/a]]]>
+      <![CDATA[Notification header count: 6]]>
     </line>
     <line>
-      <![CDATA[Clicked on activity id====>>[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //li[@id='lnk30']/a] and object is[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //li[@id='lnk30']/a]]]>
+      <![CDATA[Clicked on See All Alerts Hyper link on Alert mouse over window====>>[[ChromeDriver: chrome on XP (8bd2e34e6dffd3f8107420c1e3a1da94)] -> xpath: //*[@id='header_notification_bar']/ul/li[3]/a] and object is[[ChromeDriver: chrome on XP (8bd2e34e6dffd3f8107420c1e3a1da94)] -> xpath: //*[@id='header_notification_bar']/ul/li[3]/a]]]>
     </line>
     <line>
-      <![CDATA[Entered from Date]]>
-    </line>
-    <line>
-      <![CDATA[Entered to Date]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on select Vehicle dropdow]]>
-    </line>
-    <line>
-      <![CDATA[Selected Vehicle from vehicle dropdown====>>Proxy element for: DefaultElementLocator 'By.cssSelector: #select2-drop > ul > li:nth-child(1) > div' and object isProxy element for: DefaultElementLocator 'By.cssSelector: #select2-drop > ul > li:nth-child(1) > div']]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Pagination id====>>[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //*[@id='pageassociated']/div] and object is[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //*[@id='pageassociated']/div]]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on generateReport id====>>[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //button[@id='generateReport']] and object is[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //button[@id='generateReport']]]]>
-    </line>
-    <line>
-      <![CDATA[Scrolling page]]>
-    </line>
-    <line>
-      <![CDATA[Total Number of columns count in a table: 9]]>
-    </line>
-    <line>
-      <![CDATA[Total Number of rows count in a table: 223]]>
-    </line>
-    <line>
-      <![CDATA[=========>Finished--->Activity Report Module]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_ActivityOption_03_12_2019_06_24_37.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_ActivityOption_03_12_2019_06_24_37.png' height='100' width='100'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-03_12_2019_06_24_37.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-03_12_2019_06_24_37.png' height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[Test is started:b_ViolationCount]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Violation count hyper link]]>
-    </line>
-    <line>
-      <![CDATA[Switching to Child Window: CDwindow-0F934D202F12C449B1B0305070849A67]]>
-    </line>
-    <line>
-      <![CDATA[Child Window Title: FMS - Reports|Daily Violation Report]]>
-    </line>
-    <line>
-      <![CDATA[Scrolling page]]>
-    </line>
-    <line>
-      <![CDATA[Total Number of columns count in a table: 19]]>
-    </line>
-    <line>
-      <![CDATA[Total Number of rows count in a table: 1]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_ViolationCount_03_12_2019_06_24_45.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_ViolationCount_03_12_2019_06_24_45.png' height='100' width='100'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-03_12_2019_06_24_46.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-03_12_2019_06_24_46.png' height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[Test is started:d_HarshBreak]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Harsh Break count hyper link]]>
-    </line>
-    <line>
-      <![CDATA[Switching to Sub Child Window: CDwindow-F60D0B685589DF657A9C06A558F494D7]]>
-    </line>
-    <line>
-      <![CDATA[Sub Child Window Title: FMS - Reports|Harsh Brake Report]]>
-    </line>
-    <line>
-      <![CDATA[Scrolling page]]>
+      <![CDATA[Alert Window Title: FMS - DSW|Alert Status]]>
     </line>
     <line>
       <![CDATA[Total Number of columns count in a table: 7]]>
     </line>
     <line>
-      <![CDATA[Total Number of rows count in a table: 34]]>
+      <![CDATA[Total Number of rows count in a table: 6]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\d_HarshBreak_03_12_2019_06_24_53.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\d_HarshBreak_03_12_2019_06_24_53.png' height='100' width='100'/> </a>]]>
+      <![CDATA[Scrolling page]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-03_12_2019_06_24_54.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-03_12_2019_06_24_54.png' height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_VerifyNotificationHeader1_05_12_2019_01_09_18.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_VerifyNotificationHeader1_05_12_2019_01_09_18.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-05_12_2019_01_09_18.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-05_12_2019_01_09_18.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[Test is started:b_VerifyNotificationHeader2]]>
+    </line>
+    <line>
+      <![CDATA[Performing mouse over on header notification icon]]>
+    </line>
+    <line>
+      <![CDATA[Notification header text: 合計65 個のアラートがあります]]>
+    </line>
+    <line>
+      <![CDATA[Notification header count: 65]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_VerifyNotificationHeader2_05_12_2019_01_09_19.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_VerifyNotificationHeader2_05_12_2019_01_09_19.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-05_12_2019_01_09_19.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-05_12_2019_01_09_19.png' height='100' width='100'/></a>]]>
     </line>
   </reporter-output>
-  <suite name="Regression suite 1" duration-ms="245887" started-at="2019-12-03T12:50:50Z" finished-at="2019-12-03T12:54:56Z">
+  <suite name="Regression suite 1" duration-ms="110098" started-at="2019-12-05T07:37:31Z" finished-at="2019-12-05T07:39:21Z">
     <groups>
     </groups>
-    <test name="ChromeBrowser" duration-ms="245647" started-at="2019-12-03T12:50:50Z" finished-at="2019-12-03T12:54:55Z">
-      <class name="com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport@4567f35d]" name="setUp" is-config="true" duration-ms="27494" started-at="2019-12-03T12:50:50Z" finished-at="2019-12-03T12:51:17Z">
+    <test name="ChromeBrowser" duration-ms="109935" started-at="2019-12-05T07:37:31Z" finished-at="2019-12-05T07:39:21Z">
+      <class name="com.test.automation.FMSV12_Japan.dashboard.TC116_VerifyDashboard_AlertNotification">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.dashboard.TC116_VerifyDashboard_AlertNotification@4567f35d]" name="setUp" is-config="true" duration-ms="27416" started-at="2019-12-05T07:37:31Z" finished-at="2019-12-05T07:37:58Z">
           <params>
             <param index="0">
               <value>
@@ -138,18 +84,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport@4567f35d]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2019-12-03T12:51:18Z" finished-at="2019-12-03T12:51:18Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.dashboard.TC116_VerifyDashboard_AlertNotification@4567f35d]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2019-12-05T07:37:59Z" finished-at="2019-12-05T07:37:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport.a_ActivityOption(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.dashboard.TC116_VerifyDashboard_AlertNotification.a_VerifyNotificationHeader1(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="a_ActivityOption(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport@4567f35d]" name="a_ActivityOption" duration-ms="199133" started-at="2019-12-03T12:51:18Z" data-provider="getDataFromExcel" finished-at="2019-12-03T12:54:37Z">
+        <test-method status="PASS" signature="a_VerifyNotificationHeader1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.dashboard.TC116_VerifyDashboard_AlertNotification@4567f35d]" name="a_VerifyNotificationHeader1" duration-ms="78840" started-at="2019-12-05T07:37:59Z" data-provider="getDataFromExcel" finished-at="2019-12-05T07:39:18Z">
           <params>
             <param index="0">
               <value>
@@ -169,199 +115,119 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Test is started:a_ActivityOption]]>
+              <![CDATA[Test is started:a_VerifyNotificationHeader1]]>
             </line>
             <line>
-              <![CDATA[=========>Started--->Activity Report Module]]>
+              <![CDATA[=========>Started Login]]>
             </line>
             <line>
-              <![CDATA[Entered login id====>>Meiko and object is[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //*[@id='username']]]]>
+              <![CDATA[Entered login id====>>Meiko and object is[[ChromeDriver: chrome on XP (8bd2e34e6dffd3f8107420c1e3a1da94)] -> xpath: //*[@id='username']]]]>
             </line>
             <line>
-              <![CDATA[Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //*[@id='password']]]]>
+              <![CDATA[Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (8bd2e34e6dffd3f8107420c1e3a1da94)] -> xpath: //*[@id='password']]]]>
             </line>
             <line>
               <![CDATA[Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']']]>
             </line>
             <line>
-              <![CDATA[Dashboard Window Title: FMS - Dashboard | General]]>
+              <![CDATA[=========>Login successful]]>
             </line>
             <line>
-              <![CDATA[Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //div[@class='sidebar-toggler hidden-phone']] and object is[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //div[@class='sidebar-toggler hidden-phone']]]]>
+              <![CDATA[Performing mouse over on header notification icon]]>
             </line>
             <line>
-              <![CDATA[Clicked on master id====>>[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //li[@id='lnk3']/a] and object is[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //li[@id='lnk3']/a]]]>
+              <![CDATA[Notification header text: 6 個の新しいアラートがあります]]>
             </line>
             <line>
-              <![CDATA[Clicked on general id====>>[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //li[@id='lnk24']/a] and object is[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //li[@id='lnk24']/a]]]>
+              <![CDATA[Notification header count: 6]]>
             </line>
             <line>
-              <![CDATA[Clicked on activity id====>>[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //li[@id='lnk30']/a] and object is[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //li[@id='lnk30']/a]]]>
+              <![CDATA[Clicked on See All Alerts Hyper link on Alert mouse over window====>>[[ChromeDriver: chrome on XP (8bd2e34e6dffd3f8107420c1e3a1da94)] -> xpath: //*[@id='header_notification_bar']/ul/li[3]/a] and object is[[ChromeDriver: chrome on XP (8bd2e34e6dffd3f8107420c1e3a1da94)] -> xpath: //*[@id='header_notification_bar']/ul/li[3]/a]]]>
             </line>
             <line>
-              <![CDATA[Entered from Date]]>
-            </line>
-            <line>
-              <![CDATA[Entered to Date]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on select Vehicle dropdow]]>
-            </line>
-            <line>
-              <![CDATA[Selected Vehicle from vehicle dropdown====>>Proxy element for: DefaultElementLocator 'By.cssSelector: #select2-drop > ul > li:nth-child(1) > div' and object isProxy element for: DefaultElementLocator 'By.cssSelector: #select2-drop > ul > li:nth-child(1) > div']]>
-            </line>
-            <line>
-              <![CDATA[Clicked on Pagination id====>>[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //*[@id='pageassociated']/div] and object is[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //*[@id='pageassociated']/div]]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on generateReport id====>>[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //button[@id='generateReport']] and object is[[ChromeDriver: chrome on XP (5acf37bed2f93a05477bb05bfcffcbe3)] -> xpath: //button[@id='generateReport']]]]>
-            </line>
-            <line>
-              <![CDATA[Scrolling page]]>
-            </line>
-            <line>
-              <![CDATA[Total Number of columns count in a table: 9]]>
-            </line>
-            <line>
-              <![CDATA[Total Number of rows count in a table: 223]]>
-            </line>
-            <line>
-              <![CDATA[=========>Finished--->Activity Report Module]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_ActivityOption_03_12_2019_06_24_37.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_ActivityOption_03_12_2019_06_24_37.png' height='100' width='100'/> </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- a_ActivityOption -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport@4567f35d]" name="afterMethod" is-config="true" duration-ms="372" started-at="2019-12-03T12:54:37Z" finished-at="2019-12-03T12:54:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=a_ActivityOption status=SUCCESS method=TC206_VerifyActivity_HarshBreakReport.a_ActivityOption(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport@4567f35d] output=Test is started:a_ActivityOption]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-03_12_2019_06_24_37.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-03_12_2019_06_24_37.png' height='100' width='100'/></a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport@4567f35d]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2019-12-03T12:54:38Z" finished-at="2019-12-03T12:54:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport.b_ViolationCount() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="b_ViolationCount()[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport@4567f35d]" name="b_ViolationCount" duration-ms="7539" started-at="2019-12-03T12:54:38Z" finished-at="2019-12-03T12:54:45Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Test is started:b_ViolationCount]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on Violation count hyper link]]>
-            </line>
-            <line>
-              <![CDATA[Switching to Child Window: CDwindow-0F934D202F12C449B1B0305070849A67]]>
-            </line>
-            <line>
-              <![CDATA[Child Window Title: FMS - Reports|Daily Violation Report]]>
-            </line>
-            <line>
-              <![CDATA[Scrolling page]]>
-            </line>
-            <line>
-              <![CDATA[Total Number of columns count in a table: 19]]>
-            </line>
-            <line>
-              <![CDATA[Total Number of rows count in a table: 1]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_ViolationCount_03_12_2019_06_24_45.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_ViolationCount_03_12_2019_06_24_45.png' height='100' width='100'/> </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- b_ViolationCount -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport@4567f35d]" name="afterMethod" is-config="true" duration-ms="361" started-at="2019-12-03T12:54:46Z" finished-at="2019-12-03T12:54:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=b_ViolationCount status=SUCCESS method=TC206_VerifyActivity_HarshBreakReport.b_ViolationCount()[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport@4567f35d] output=Test is started:b_ViolationCount]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-03_12_2019_06_24_46.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-03_12_2019_06_24_46.png' height='100' width='100'/></a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport@4567f35d]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2019-12-03T12:54:46Z" finished-at="2019-12-03T12:54:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport.d_HarshBreak() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="d_HarshBreak()[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport@4567f35d]" name="d_HarshBreak" duration-ms="7314" started-at="2019-12-03T12:54:46Z" finished-at="2019-12-03T12:54:53Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Test is started:d_HarshBreak]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on Harsh Break count hyper link]]>
-            </line>
-            <line>
-              <![CDATA[Switching to Sub Child Window: CDwindow-F60D0B685589DF657A9C06A558F494D7]]>
-            </line>
-            <line>
-              <![CDATA[Sub Child Window Title: FMS - Reports|Harsh Brake Report]]>
-            </line>
-            <line>
-              <![CDATA[Scrolling page]]>
+              <![CDATA[Alert Window Title: FMS - DSW|Alert Status]]>
             </line>
             <line>
               <![CDATA[Total Number of columns count in a table: 7]]>
             </line>
             <line>
-              <![CDATA[Total Number of rows count in a table: 34]]>
+              <![CDATA[Total Number of rows count in a table: 6]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\d_HarshBreak_03_12_2019_06_24_53.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\d_HarshBreak_03_12_2019_06_24_53.png' height='100' width='100'/> </a>]]>
+              <![CDATA[Scrolling page]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_VerifyNotificationHeader1_05_12_2019_01_09_18.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\a_VerifyNotificationHeader1_05_12_2019_01_09_18.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- d_HarshBreak -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport@4567f35d]" name="afterMethod" is-config="true" duration-ms="375" started-at="2019-12-03T12:54:54Z" finished-at="2019-12-03T12:54:54Z">
+        </test-method> <!-- a_VerifyNotificationHeader1 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.dashboard.TC116_VerifyDashboard_AlertNotification@4567f35d]" name="afterMethod" is-config="true" duration-ms="363" started-at="2019-12-05T07:39:18Z" finished-at="2019-12-05T07:39:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=d_HarshBreak status=SUCCESS method=TC206_VerifyActivity_HarshBreakReport.d_HarshBreak()[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport@4567f35d] output=Test is started:d_HarshBreak]]]>
+                <![CDATA[[TestResult name=a_VerifyNotificationHeader1 status=SUCCESS method=TC116_VerifyDashboard_AlertNotification.a_VerifyNotificationHeader1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.dashboard.TC116_VerifyDashboard_AlertNotification@4567f35d] output=Test is started:a_VerifyNotificationHeader1]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-03_12_2019_06_24_54.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-03_12_2019_06_24_54.png' height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-05_12_2019_01_09_18.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-05_12_2019_01_09_18.png' height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport@4567f35d]" name="endTest" is-config="true" duration-ms="1086" started-at="2019-12-03T12:54:54Z" finished-at="2019-12-03T12:54:55Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.dashboard.TC116_VerifyDashboard_AlertNotification@4567f35d]" name="beforeMethod" is-config="true" duration-ms="26" started-at="2019-12-05T07:39:19Z" finished-at="2019-12-05T07:39:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.dashboard.TC116_VerifyDashboard_AlertNotification.b_VerifyNotificationHeader2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b_VerifyNotificationHeader2()[pri:0, instance:com.test.automation.FMSV12_Japan.dashboard.TC116_VerifyDashboard_AlertNotification@4567f35d]" name="b_VerifyNotificationHeader2" duration-ms="135" started-at="2019-12-05T07:39:19Z" finished-at="2019-12-05T07:39:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test is started:b_VerifyNotificationHeader2]]>
+            </line>
+            <line>
+              <![CDATA[Performing mouse over on header notification icon]]>
+            </line>
+            <line>
+              <![CDATA[Notification header text: 合計65 個のアラートがあります]]>
+            </line>
+            <line>
+              <![CDATA[Notification header count: 65]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_VerifyNotificationHeader2_05_12_2019_01_09_19.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\b_VerifyNotificationHeader2_05_12_2019_01_09_19.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- b_VerifyNotificationHeader2 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.dashboard.TC116_VerifyDashboard_AlertNotification@4567f35d]" name="afterMethod" is-config="true" duration-ms="375" started-at="2019-12-05T07:39:19Z" finished-at="2019-12-05T07:39:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=b_VerifyNotificationHeader2 status=SUCCESS method=TC116_VerifyDashboard_AlertNotification.b_VerifyNotificationHeader2()[pri:0, instance:com.test.automation.FMSV12_Japan.dashboard.TC116_VerifyDashboard_AlertNotification@4567f35d] output=Test is started:b_VerifyNotificationHeader2]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-05_12_2019_01_09_19.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-05_12_2019_01_09_19.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.FMSV12_Japan.dashboard.TC116_VerifyDashboard_AlertNotification@4567f35d]" name="endTest" is-config="true" duration-ms="1172" started-at="2019-12-05T07:39:20Z" finished-at="2019-12-05T07:39:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_HarshBreakReport -->
+      </class> <!-- com.test.automation.FMSV12_Japan.dashboard.TC116_VerifyDashboard_AlertNotification -->
     </test> <!-- ChromeBrowser -->
-    <test name="FirefoxBrowser" duration-ms="3" started-at="2019-12-03T12:54:55Z" finished-at="2019-12-03T12:54:55Z">
+    <test name="FirefoxBrowser" duration-ms="3" started-at="2019-12-05T07:39:21Z" finished-at="2019-12-05T07:39:21Z">
     </test> <!-- FirefoxBrowser -->
-    <test name="IEBrowser" duration-ms="6" started-at="2019-12-03T12:54:56Z" finished-at="2019-12-03T12:54:56Z">
+    <test name="IEBrowser" duration-ms="3" started-at="2019-12-05T07:39:21Z" finished-at="2019-12-05T07:39:21Z">
     </test> <!-- IEBrowser -->
   </suite> <!-- Regression suite 1 -->
 </testng-results>
