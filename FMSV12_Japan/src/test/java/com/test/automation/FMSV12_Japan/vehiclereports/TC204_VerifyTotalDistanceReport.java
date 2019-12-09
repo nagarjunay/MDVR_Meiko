@@ -13,6 +13,8 @@ import com.test.automation.FMSV12_Japan.excelReader.Excel_Reader;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
 import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
 import com.test.automation.FMSV12_Japan.uiActions.VehicleReports_TotalDistanceReport;
+import com.test.automation.FMSV12_Japan.utility.DatePicker;
+import com.test.automation.FMSV12_Japan.utility.TotalNumOfRowsColumns;
 
 /**
  * @author nagarjuna
@@ -24,6 +26,9 @@ public class TC204_VerifyTotalDistanceReport extends TestBase {
 	
 	LoginPage loginpage;
 	VehicleReports_TotalDistanceReport tds;
+	DatePicker datepicker;
+	TotalNumOfRowsColumns table;
+
 
 	@DataProvider
 	public Object[][] getDataFromExcel() throws Exception {
@@ -49,10 +54,12 @@ public class TC204_VerifyTotalDistanceReport extends TestBase {
 		tds = new VehicleReports_TotalDistanceReport(driver);
 		tds.TotalDistance();
 		tds.validation();
-		tds.FromData();
-		tds.TODate();
-		tds.Drodown();
-		tds.Verifying_TotalNum_Of_Col_Rows();
+		datepicker = new DatePicker(driver);
+		datepicker.FromData();
+		datepicker.TODate();
+		tds.Vehicle_Dropdown();
+		table = new TotalNumOfRowsColumns(driver);
+		table.Verifying_TotalNum_Of_Col_Rows();
 		log("=========>Finished--->Total distance Report Module");
 	}
 

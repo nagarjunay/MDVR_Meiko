@@ -15,9 +15,9 @@ import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.LogStatus;
 import com.test.automation.FMSV12_Japan.excelReader.Excel_Reader;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
-import com.test.automation.FMSV12_Japan.uiActions.ColorCodeVerification;
 import com.test.automation.FMSV12_Japan.uiActions.DashBoard_ManagementDashboards;
 import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
+import com.test.automation.FMSV12_Japan.utility.ColorCodeVerification;
 
 /**
  * @author nagarjuna

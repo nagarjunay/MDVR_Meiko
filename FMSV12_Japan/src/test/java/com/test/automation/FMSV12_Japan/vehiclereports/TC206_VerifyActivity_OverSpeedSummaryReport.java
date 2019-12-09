@@ -15,6 +15,8 @@ import com.test.automation.FMSV12_Japan.excelReader.Excel_Reader;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
 import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
 import com.test.automation.FMSV12_Japan.uiActions.VehicleReports_ActivityReport;
+import com.test.automation.FMSV12_Japan.utility.DatePicker;
+import com.test.automation.FMSV12_Japan.utility.TotalNumOfRowsColumns;
 
 /**
  * @author nagarjuna
@@ -24,6 +26,8 @@ public class TC206_VerifyActivity_OverSpeedSummaryReport extends TestBase {
 	
 	LoginPage loginpage;
 	VehicleReports_ActivityReport vr;
+	DatePicker datepicker;
+	TotalNumOfRowsColumns table;
 
 	@DataProvider
 	public Object[][] getDataFromExcel() throws Exception {
@@ -48,12 +52,14 @@ public class TC206_VerifyActivity_OverSpeedSummaryReport extends TestBase {
 		loginpage.loginToApplication(loginid, password);
 		vr = new VehicleReports_ActivityReport(driver);
 		vr.Activity();
-		vr.FromData();
-		vr.TODate();
+		datepicker = new DatePicker(driver);
+		datepicker.FromData();
+		datepicker.TODate();
 		vr.VehicleDropdown();
 		vr.violationCount();
 		vr.overSpeedSummary();
-		vr.Verifying_TotalNum_Of_Col_Rows();
+		table = new TotalNumOfRowsColumns(driver);
+		table.Verifying_TotalNum_Of_Col_Rows();
 		log("=========>Finished--->Verifying Activity Report->OverSpeed Summary Report");
 	}
 

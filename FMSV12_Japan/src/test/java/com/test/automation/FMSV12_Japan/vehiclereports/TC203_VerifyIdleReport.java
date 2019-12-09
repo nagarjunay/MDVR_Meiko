@@ -13,6 +13,8 @@ import com.test.automation.FMSV12_Japan.excelReader.Excel_Reader;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
 import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
 import com.test.automation.FMSV12_Japan.uiActions.VehicleReports_IdleReport;
+import com.test.automation.FMSV12_Japan.utility.DatePicker;
+import com.test.automation.FMSV12_Japan.utility.TotalNumOfRowsColumns;
 
 /**
  * @author nagarjuna
@@ -23,6 +25,8 @@ public class TC203_VerifyIdleReport extends TestBase {
 	
 	LoginPage loginpage;
 	VehicleReports_IdleReport ir;
+	DatePicker datepicker;
+	TotalNumOfRowsColumns table;
 
 	@DataProvider
 	public Object[][] getDataFromExcel() throws Exception {
@@ -48,10 +52,12 @@ public class TC203_VerifyIdleReport extends TestBase {
 		ir = new VehicleReports_IdleReport(driver);
 		ir.Idle();
 		ir.validation();
-		ir.FromData();
-		ir.TODate();
-		ir.Drodown();
-		ir.Verifying_TotalNum_Of_Col_Rows();
+		datepicker = new DatePicker(driver);
+		datepicker.FromData();
+		datepicker.TODate();
+		ir.Vehicle_Dropdown();
+		table = new TotalNumOfRowsColumns(driver);
+		table.Verifying_TotalNum_Of_Col_Rows();
 		log("=========>Finished--->Idle Report Module");
 	}
 }

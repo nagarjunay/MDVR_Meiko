@@ -15,11 +15,17 @@ import com.test.automation.FMSV12_Japan.excelReader.Excel_Reader;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
 import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
 import com.test.automation.FMSV12_Japan.uiActions.VehicleReports_ActivityReport;
+import com.test.automation.FMSV12_Japan.utility.DatePicker;
+import com.test.automation.FMSV12_Japan.utility.ScrollingPage;
+import com.test.automation.FMSV12_Japan.utility.TotalNumOfRowsColumns;
 
 public class TC201_VerifyActivityReport extends TestBase {
 
 	LoginPage loginpage;
+	DatePicker datepicker;
 	VehicleReports_ActivityReport vr;
+	ScrollingPage scroll;
+	TotalNumOfRowsColumns table;
 
 	@DataProvider
 	public Object[][] getDataFromExcel() throws Exception {
@@ -48,11 +54,14 @@ public class TC201_VerifyActivityReport extends TestBase {
 		vr.validation1();
 		vr.validation2();
 		vr.validation3();
-		vr.FromData();
-		vr.TODate();
+		datepicker = new DatePicker(driver);
+		datepicker.FromData();
+		datepicker.TODate();
 		vr.VehicleDropdown();
-		vr.scrollPage();
-		vr.Verifying_TotalNum_Of_Col_Rows();
+		scroll = new ScrollingPage(driver);
+		scroll.scrollPage();
+		table = new TotalNumOfRowsColumns(driver);
+		table.Verifying_TotalNum_Of_Col_Rows();
 		log("=========>Finished--->Verifying Report Module");
 	}
 
@@ -61,7 +70,7 @@ public class TC201_VerifyActivityReport extends TestBase {
 		
 		log("=========>Started--->Verifying Alert Report");
 		vr.alertCount();
-		vr.Verifying_TotalNum_Of_Col_Rows();
+		table.Verifying_TotalNum_Of_Col_Rows();
 		log("=========>Finished--->Verifying Alert Report");
 	}
 	

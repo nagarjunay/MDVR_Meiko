@@ -13,6 +13,9 @@ import com.test.automation.FMSV12_Japan.excelReader.Excel_Reader;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
 import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
 import com.test.automation.FMSV12_Japan.uiActions.VehicleReports_ActivitySummaryReport;
+import com.test.automation.FMSV12_Japan.utility.DatePicker;
+import com.test.automation.FMSV12_Japan.utility.ScrollingPage;
+import com.test.automation.FMSV12_Japan.utility.TotalNumOfRowsColumns;
 
 /**
  * @author nagarjuna
@@ -23,6 +26,9 @@ public class TC202_VerifyActivitySummaryReport extends TestBase {
 
 	LoginPage loginpage;
 	VehicleReports_ActivitySummaryReport asr;
+	DatePicker datepicker;
+	TotalNumOfRowsColumns table;
+	
 
 	@DataProvider
 	public Object[][] getDataFromExcel() throws Exception {
@@ -48,10 +54,12 @@ public class TC202_VerifyActivitySummaryReport extends TestBase {
 		asr = new VehicleReports_ActivitySummaryReport(driver);
 		asr.ActivitySummary();
 		asr.validation();
-		asr.FromData();
-		asr.TODate();
-		asr.Drodown();
-		asr.Verifying_TotalNum_Of_Col_Rows();
+		datepicker = new DatePicker(driver);
+		datepicker.FromData();
+		datepicker.TODate();
+		asr.Vehicle_Dropdown();
+		table = new TotalNumOfRowsColumns(driver);
+		table.Verifying_TotalNum_Of_Col_Rows();
 		log("=========>Finished--->Activity Summary Report Module");
 	}
 	

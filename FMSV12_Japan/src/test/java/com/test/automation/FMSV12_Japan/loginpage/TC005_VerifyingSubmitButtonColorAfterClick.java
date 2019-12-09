@@ -10,8 +10,8 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.LogStatus;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
-import com.test.automation.FMSV12_Japan.uiActions.ColorCodeVerification;
 import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
+import com.test.automation.FMSV12_Japan.utility.ColorCodeVerification;
 
 /**
  * @author nagarjuna

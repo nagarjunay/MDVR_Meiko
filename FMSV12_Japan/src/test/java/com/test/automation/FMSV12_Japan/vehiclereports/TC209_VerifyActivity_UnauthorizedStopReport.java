@@ -15,6 +15,9 @@ import com.test.automation.FMSV12_Japan.excelReader.Excel_Reader;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
 import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
 import com.test.automation.FMSV12_Japan.uiActions.VehicleReports_ActivityReport;
+import com.test.automation.FMSV12_Japan.utility.DatePicker;
+import com.test.automation.FMSV12_Japan.utility.ScrollingPage;
+import com.test.automation.FMSV12_Japan.utility.TotalNumOfRowsColumns;
 
 /**
  * @author nagarjuna
@@ -24,6 +27,9 @@ public class TC209_VerifyActivity_UnauthorizedStopReport extends TestBase{
 	
 	LoginPage loginpage;
 	VehicleReports_ActivityReport vr;
+	DatePicker datepicker;
+	TotalNumOfRowsColumns table;
+	ScrollingPage scroll;
 
 	@DataProvider
 	public Object[][] getDataFromExcel() throws Exception {
@@ -48,13 +54,16 @@ public class TC209_VerifyActivity_UnauthorizedStopReport extends TestBase{
 		loginpage.loginToApplication(loginid, password);
 		vr = new VehicleReports_ActivityReport(driver);
 		vr.Activity();
-		vr.FromData();
-		vr.TODate();
+		datepicker = new DatePicker(driver);
+		datepicker.FromData();
+		datepicker.TODate();
 		vr.VehicleDropdown();
 		vr.violationCount();
 		vr.UnauthorizedStop();
-		vr.scrollPage();
-		vr.Verifying_TotalNum_Of_Col_Rows();
+		scroll = new ScrollingPage(driver);
+		scroll.scrollPage();
+		table = new TotalNumOfRowsColumns(driver);
+		table.Verifying_TotalNum_Of_Col_Rows();
 		log("=========>Finished--->Verifying Activity Report->Unauthorized Stop Report");
 	}
 

@@ -100,24 +100,8 @@ public class VehicleReports_TotalDistanceReport extends TestBase{
 		validationPopupClose.click();
 	}
 
-	public void FromData() {
-		
-		JavascriptExecutor js= (JavascriptExecutor) driver;
-		js.executeScript("document.getElementById('dtfrom').value='02/09/2019'");
-		log("Entered from Date");
-		test.log(LogStatus.INFO, "Entered from Date");
-	}
-
-	public void TODate() {
-		
-		JavascriptExecutor js= (JavascriptExecutor) driver;
-		js.executeScript("document.getElementById('dtto').value='02/09/2019'");
-		log("Entered to Date");
-		test.log(LogStatus.INFO, "Entered to Date");
-	}
 	
-	
-	public void Drodown() throws Exception {
+	public void Vehicle_Dropdown() throws Exception {
 		
 		/*expliciteWait(selectVehicle, 40);
 		selectVehicle.click();*/
@@ -139,19 +123,7 @@ public class VehicleReports_TotalDistanceReport extends TestBase{
 		
 	}
 	
-	public void Verifying_TotalNum_Of_Col_Rows() throws Exception {
-		List<WebElement> col = driver.findElements(By.xpath(
-				"//table[@class='table table-striped table-hover table-coluredheader dataTable']/thead/tr/th[string-length(text()) > 0] "));
-		int colCount = col.size();
-		log("Total Number of columns count in a table: " + colCount);
-		test.log(LogStatus.INFO, "Total Number of columns count in a table==>" + colCount);
-		List<WebElement> row = driver.findElements(By.cssSelector("#rptBody > tr"));
-		int rowCount = row.size();
-		log("Total Number of rows count in a table: " + rowCount);
-		test.log(LogStatus.INFO, "Total Number of rows count in a table==>" + rowCount);
-
-	}
-
+	
 	public void log(String data) {
 		
 		log.info(data);

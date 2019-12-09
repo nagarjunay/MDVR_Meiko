@@ -80,7 +80,7 @@
 			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC206_VerifyActivity_OverSpeedSummaryReport"/> 
 			<class
 			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC207_VerifyActivity_HarshBreakReport"/> -->    
-	        <class
+	       <!--  <class
 			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC208_VerifyActivity_HarshAccelerationReport"/> 
 		    <class
 			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC209_VerifyActivity_UnauthorizedStopReport"/>
@@ -89,7 +89,7 @@
 		    <class
 			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC211_VerifyActivity_IdleReport"/>
 		    <class
-			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC212_VerifyActivity_DynamicTripSummaryReport"/>
+			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC212_VerifyActivity_DynamicTripSummaryReport"/> -->
 		    <class
 			    name="com.test.automation.FMSV12_Japan.vehiclereports.TC213_VerifyActivity_WorkandDriveHourReport"/>
 		    

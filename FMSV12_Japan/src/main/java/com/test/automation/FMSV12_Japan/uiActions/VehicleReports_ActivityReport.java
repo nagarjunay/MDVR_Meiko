@@ -7,9 +7,7 @@ import java.util.Iterator;
  *
  */
 
-import java.util.List;
 import java.util.Set;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -18,16 +16,15 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.sikuli.script.Pattern;
-import org.sikuli.script.Screen;
-import org.sikuli.script.SikuliException;
 import org.testng.Reporter;
 import com.relevantcodes.extentreports.LogStatus;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
+import com.test.automation.FMSV12_Japan.utility.DatePicker;
 
 public class VehicleReports_ActivityReport extends TestBase {
 
 	WebDriver driver;
+	DatePicker datepicker;
 
 	@FindBy(xpath = "//div[@class='sidebar-toggler hidden-phone']")
 	WebElement hamburger;
@@ -148,7 +145,8 @@ public class VehicleReports_ActivityReport extends TestBase {
 
 	public void validation1() {
 
-		FromData();
+		datepicker = new DatePicker(driver);
+		datepicker.FromData();
 		WebDriverWait wait = new WebDriverWait(driver, 30);
 		boolean invisiable = wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id("static")));
 		if (invisiable) {
@@ -166,7 +164,7 @@ public class VehicleReports_ActivityReport extends TestBase {
 
 	public void validation2() {
 
-		FromData();
+		datepicker.FromData();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("document.getElementById('dtto').value='05/09/2019'");
 		log("Entered to Date");
@@ -188,7 +186,7 @@ public class VehicleReports_ActivityReport extends TestBase {
 
 	public void validation3() {
 
-		FromData();
+		datepicker.FromData();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("document.getElementById('dtto').value='01/09/2019'");
 		log("Entered to Date");
@@ -206,22 +204,6 @@ public class VehicleReports_ActivityReport extends TestBase {
 		log("Verifying Validation Messages: " + actual_error);
 		test.log(LogStatus.INFO, "Verifying Validation Messages: " + actual_error);
 		validationPopupClose.click();
-	}
-
-	public void FromData() {
-
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("document.getElementById('dtfrom').value='02/09/2019'");
-		log("Entered from Date");
-		test.log(LogStatus.INFO, "Entered from Date");
-	}
-
-	public void TODate() {
-
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("document.getElementById('dtto').value='02/09/2019'");
-		log("Entered to Date");
-		test.log(LogStatus.INFO, "Entered to Date");
 	}
 
 	
@@ -350,29 +332,6 @@ public class VehicleReports_ActivityReport extends TestBase {
 		test.log(LogStatus.INFO, "Clicked on Work and Drive Hour Report hyper link");
 		switching3Tabs();
 		Thread.sleep(2000);
-	}
-
-	
-	public void Verifying_TotalNum_Of_Col_Rows() throws Exception {
-
-		List<WebElement> col = driver.findElements(By.xpath(
-				"//table[@class='table table-striped table-hover table-coluredheader dataTable']/thead/tr/th[string-length(text()) > 0] "));
-		int colCount = col.size();
-		log("Total Number of columns count in a table: " + colCount);
-		test.log(LogStatus.INFO, "Total Number of columns count in a table==>" + colCount);
-		Thread.sleep(2000);
-		List<WebElement> row = driver.findElements(By.cssSelector("#rptBody > tr"));
-		int rowCount = row.size();
-		log("Total Number of rows count in a table: " + rowCount);
-		test.log(LogStatus.INFO, "Total Number of rows count in a table==>" + rowCount);
-
-	}
-
-	public void scrollPage() {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("javascript:window.scrollBy(250,450)");
-		log("Scrolling page");
-		test.log(LogStatus.INFO, "Scrolling page");
 	}
 
 	

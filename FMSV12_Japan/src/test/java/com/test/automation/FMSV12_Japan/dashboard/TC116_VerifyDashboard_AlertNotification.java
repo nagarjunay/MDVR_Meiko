@@ -10,13 +10,12 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
 import com.test.automation.FMSV12_Japan.excelReader.Excel_Reader;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
-import com.test.automation.FMSV12_Japan.uiActions.ColorCodeVerification;
 import com.test.automation.FMSV12_Japan.uiActions.DashBoard_ManagementDashboards;
 import com.test.automation.FMSV12_Japan.uiActions.LoginPage;
-import com.test.automation.FMSV12_Japan.uiActions.VehicleReports_ActivityReport;
+import com.test.automation.FMSV12_Japan.utility.ColorCodeVerification;
+import com.test.automation.FMSV12_Japan.utility.ScrollingPage;
 
 /**
  * @author nagarjuna
@@ -27,7 +26,7 @@ public class TC116_VerifyDashboard_AlertNotification extends TestBase{
 	LoginPage loginpage;
 	DashBoard_ManagementDashboards checkbox;
 	ColorCodeVerification color;
-	VehicleReports_ActivityReport vr;
+	ScrollingPage scroll;
 
 	@DataProvider
 	public Object[][] getDataFromExcel() throws Exception {
@@ -54,8 +53,8 @@ public class TC116_VerifyDashboard_AlertNotification extends TestBase{
 		log("=========>Login successful");
 		checkbox = new DashBoard_ManagementDashboards(driver);
 		checkbox.alert();
-		vr = new VehicleReports_ActivityReport(driver);
-		vr.scrollPage();
+		scroll = new ScrollingPage(driver);
+		scroll.scrollPage();
 				
 	}
 	
