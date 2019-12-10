@@ -39,4 +39,21 @@ public class DatePicker  extends TestBase{
 		log("Entered to Date");
 		test.log(LogStatus.INFO, "Entered to Date");
 	}
+	
+	
+	public void VideostatusFromData() {
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("document.getElementById('dtfrom').value='02/09/2019 00:00'");
+		log("Entered from Date");
+		test.log(LogStatus.INFO, "Entered from Date");
+	}
+
+	public void VideostatusTODate() {
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("document.getElementById('dtto').value='02/09/2019 23:59'");
+		log("Entered to Date");
+		test.log(LogStatus.INFO, "Entered to Date");
+	}
 }

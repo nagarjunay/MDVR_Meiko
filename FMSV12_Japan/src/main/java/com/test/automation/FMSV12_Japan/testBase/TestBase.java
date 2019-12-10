@@ -143,7 +143,7 @@ public class TestBase {
 	public void getUrl(String url) {
 		log.info("Navigating to: " + url);
 		driver.get(url);
-		driver.manage().window().fullscreen();
+		driver.manage().window().maximize();
 		log.info("Window Maximized");
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 	}

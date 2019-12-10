@@ -35,6 +35,7 @@ public class TotalNumOfRowsColumns extends TestBase {
 		test.log(LogStatus.INFO, "Total Number of columns count in a table==>" + colCount);
 		Thread.sleep(2000);
 		List<WebElement> row = driver.findElements(By.cssSelector("#rptBody > tr"));
+		Thread.sleep(1000);
 		int rowCount = row.size();
 		log("Total Number of rows count in a table: " + rowCount);
 		test.log(LogStatus.INFO, "Total Number of rows count in a table==>" + rowCount);
