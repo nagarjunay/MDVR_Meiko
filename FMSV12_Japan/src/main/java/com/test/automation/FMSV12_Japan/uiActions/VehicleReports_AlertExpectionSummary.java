@@ -9,10 +9,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 
 import com.relevantcodes.extentreports.LogStatus;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
+import com.test.automation.FMSV12_Japan.utility.DatePicker;
 
 /**
  * @author nagarjuna
@@ -22,6 +25,7 @@ public class VehicleReports_AlertExpectionSummary extends TestBase {
 
 	
 	WebDriver driver;
+	DatePicker datepicker;
 
 	@FindBy(xpath = "//div[@class='sidebar-toggler hidden-phone']")
 	WebElement hamburger;
@@ -66,19 +70,19 @@ public class VehicleReports_AlertExpectionSummary extends TestBase {
 	
 	public void AlertExceptionSummary() throws InterruptedException {
 		
-		expliciteWait(hamburger, 20);
+		expliciteWait(hamburger, 20, driver);
 		hamburger.click();
 		log("Clicked on hamburger icon id====>>" + hamburger + " and object is" + hamburger.toString());
 		test.log(LogStatus.INFO, "Clicked on hamburger icon" );
-		expliciteWait(vehiclereports, 20);
+		expliciteWait(vehiclereports, 20, driver);
 		vehiclereports.click();
 		log("Clicked on Vehicle Reorts id====>>" + vehiclereports + " and object is" + vehiclereports.toString());
 		test.log(LogStatus.INFO, "Clicked on vehicle reports option");
-		expliciteWait(alertException, 20);
+		expliciteWait(alertException, 20, driver);
 		alertException.click();
 		log("Clicked on Alert Exception id====>>" + alertException + " and object is" + alertException.toString());
 		test.log(LogStatus.INFO, "Clicked on Alert Exception option");
-		expliciteWait(alertExceptionSummary, 40);
+		expliciteWait(alertExceptionSummary, 40, driver);
 		alertExceptionSummary.click();
 		log("Clicked on Alert Exception Summary id====>>" + alertExceptionSummary + " and object is" + alertExceptionSummary.toString());
 		test.log(LogStatus.INFO, "Clicked on Alert Exception Summary option");
@@ -89,11 +93,11 @@ public class VehicleReports_AlertExpectionSummary extends TestBase {
 	
 	public void validation() {
 		
-		expliciteWait(generateReport, 20);
+		expliciteWait(generateReport, 20, driver);
 		generateReport.click();
 		log("Clicked on generateReport id====>>" + generateReport + " and object is" + generateReport.toString());
 		test.log(LogStatus.INFO, "Clicked on generateReport button");
-		expliciteWait(validationMessage, 40);
+		expliciteWait(validationMessage, 40, driver);
 		String actual_error= validationMessage.getText();
 		log("Verifying Validation Messages: " + actual_error);
 		test.log(LogStatus.INFO, "Verifying Validation Messages: " + actual_error);
@@ -102,6 +106,70 @@ public class VehicleReports_AlertExpectionSummary extends TestBase {
 		validationPopupClose.click();
 	}
 
+	public void validation1() {
+
+		datepicker = new DatePicker(driver);
+		datepicker.VideostatusFromData();
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		boolean invisiable = wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='static' or @class='modal-backdrop fade']")));
+		if (invisiable) {
+			WebElement ele = generateReport;
+			ele.click();
+		}
+		log("Clicked on generateReport id====>>" + generateReport + " and object is" + generateReport.toString());
+		test.log(LogStatus.INFO, "Clicked on generateReport button");
+		expliciteWait(validationMessage, 30, driver);
+		String actual_error = validationMessage.getText();
+		log("Verifying Validation Messages: " + actual_error);
+		test.log(LogStatus.INFO, "Verifying Validation Messages: " + actual_error);
+		validationPopupClose.click();
+	}
+
+	public void validation2() {
+
+		datepicker.VideostatusFromData();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("document.getElementById('dtto').value='05/09/2019 00:00'");
+		log("Entered to Date");
+		test.log(LogStatus.INFO, "Entered to Date");
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		boolean invisiable = wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='static' or @class='modal-backdrop fade']")));
+		if (invisiable) {
+			WebElement ele = generateReport;
+			ele.click();
+		}
+		log("Clicked on generateReport id====>>" + generateReport + " and object is" + generateReport.toString());
+		test.log(LogStatus.INFO, "Clicked on generateReport button");
+		expliciteWait(validationMessage, 30, driver);
+		String actual_error = validationMessage.getText();
+		log("Verifying Validation Messages: " + actual_error);
+		test.log(LogStatus.INFO, "Verifying Validation Messages: " + actual_error);
+		validationPopupClose.click();
+	}
+
+	public void validation3() {
+
+		datepicker.VideostatusFromData();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("document.getElementById('dtto').value='01/09/2019 00:00'");
+		log("Entered to Date");
+		test.log(LogStatus.INFO, "Entered to Date");
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		boolean invisiable = wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='static' or @class='modal-backdrop fade']")));
+		if (invisiable) {
+			WebElement ele = generateReport;
+			ele.click();
+		}
+		log("Clicked on generateReport id====>>" + generateReport + " and object is" + generateReport.toString());
+		test.log(LogStatus.INFO, "Clicked on generateReport button");
+		expliciteWait(validationMessage, 30, driver);
+		String actual_error = validationMessage.getText();
+		log("Verifying Validation Messages: " + actual_error);
+		test.log(LogStatus.INFO, "Verifying Validation Messages: " + actual_error);
+		validationPopupClose.click();
+	}
+
+	
 	
 	public void Vehicle_Dropdown() throws Exception {
 		
@@ -121,7 +189,7 @@ public class VehicleReports_AlertExpectionSummary extends TestBase {
 		Meiko299.click();
 		log("Selected dropdown value id====>>" + Meiko299 + " and object is" + Meiko299.toString());
 		test.log(LogStatus.INFO, "Selected vehicle from dropdown");
-		expliciteWait(generateReport, 20);
+		expliciteWait(generateReport, 20, driver);
 		generateReport.click();
 		log("Clicked on generateReport id====>>" + generateReport + " and object is" + generateReport.toString());
 		test.log(LogStatus.INFO, "Clicked on generateReport button");

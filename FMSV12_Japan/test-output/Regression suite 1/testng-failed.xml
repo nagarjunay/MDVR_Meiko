@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression suite 1]">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Regression suite 1]" parallel="tests">
   <listeners>
     <listener class-name="com.test.automation.FMSV12_Japan.customListener.Listener"/>
     <listener class-name="com.test.automation.FMSV12_Japan.customListener.RetryListener"/>
   </listeners>
-  <test thread-count="5" name="ChromeBrowser(failed)">
+  <test thread-count="2" name="ChromeBrowser(failed)" parallel="tests">
     <parameter name="Browser_Name" value="chrome"/>
     <classes>
-      <class name="com.test.automation.FMSV12_Japan.vehiclereports.TC216_AlertExceptionSummary">
+      <class name="com.test.automation.FMSV12_Japan.trackonmap.TC303_VerifyTrackOnMap">
         <methods>
-          <include name="alertExceptionSummaryOption" invocation-numbers="0"/>
           <include name="setUp"/>
           <include name="endTest"/>
           <include name="beforeMethod"/>
+          <include name="verifyVehicleStatus_Moving"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.test.automation.FMSV12_Japan.vehiclereports.TC216_AlertExceptionSummary -->
+      </class> <!-- com.test.automation.FMSV12_Japan.trackonmap.TC303_VerifyTrackOnMap -->
     </classes>
   </test> <!-- ChromeBrowser(failed) -->
 </suite> <!-- Failed suite [Regression suite 1] -->

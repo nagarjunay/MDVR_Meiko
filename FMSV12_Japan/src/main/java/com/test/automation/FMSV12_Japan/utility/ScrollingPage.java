@@ -16,7 +16,7 @@ import com.test.automation.FMSV12_Japan.testBase.TestBase;
  */
 public class ScrollingPage extends TestBase{
 
-	public static WebDriver driver;
+	 WebDriver driver;
 
 	public ScrollingPage(WebDriver driver) {
 

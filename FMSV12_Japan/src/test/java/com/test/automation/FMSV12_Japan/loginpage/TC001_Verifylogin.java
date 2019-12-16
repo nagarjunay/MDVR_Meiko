@@ -45,7 +45,7 @@ public class TC001_Verifylogin extends TestBase {
 		 * logininfo[]=lcs.split("_");
 		 */
 		loginpage.loginToApplication1(loginid, password, xpath, expected_message);
-		LoginPage.verify_error_message(xpath, expected_message);
+		loginpage.verify_error_message(xpath, expected_message);
 		log("=========>Finished verify login");
 	}
 

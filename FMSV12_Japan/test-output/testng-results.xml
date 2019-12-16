@@ -1,81 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[Test is started:alertExceptionSummaryOption]]>
+      <![CDATA[Test is Started:ChromeBrowser]]>
     </line>
     <line>
-      <![CDATA[=========>Started--->Speed Graph Report Module]]>
+      <![CDATA[Test is started:verifyTrackOnMapAlertStatus]]>
     </line>
     <line>
-      <![CDATA[Entered login id====>>Meiko and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //*[@id='username']]]]>
+      <![CDATA[=========>Started--->Track On Map Module]]>
     </line>
     <line>
-      <![CDATA[Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //*[@id='password']]]]>
+      <![CDATA[Entered login id====>>Meiko and object is[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //*[@id='username']]]]>
+    </line>
+    <line>
+      <![CDATA[Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //*[@id='password']]]]>
     </line>
     <line>
       <![CDATA[Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']']]>
     </line>
     <line>
-      <![CDATA[Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //div[@class='sidebar-toggler hidden-phone']] and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //div[@class='sidebar-toggler hidden-phone']]]]>
+      <![CDATA[Dashboard Window Title: FMS - Dashboard | General]]>
     </line>
     <line>
-      <![CDATA[Clicked on Vehicle Reorts id====>>[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //li[@id='lnk3']/a] and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //li[@id='lnk3']/a]]]>
+      <![CDATA[Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //div[@class='sidebar-toggler hidden-phone']] and object is[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //div[@class='sidebar-toggler hidden-phone']]]]>
     </line>
     <line>
-      <![CDATA[Clicked on Alert Exception id====>>[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> css selector: #lnk28 > a] and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> css selector: #lnk28 > a]]]>
+      <![CDATA[Clicked on Tracking id====>>[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //*[@id='lnk6']/a/span] and object is[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //*[@id='lnk6']/a/span]]]>
     </line>
     <line>
-      <![CDATA[Clicked on Alert Exception Summary id====>>[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> css selector: #lnk93 > a > span] and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> css selector: #lnk93 > a > span]]]>
+      <![CDATA[Clicked on Track On Map id====>>[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //*[@id='lnk65']/a/span] and object is[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //*[@id='lnk65']/a/span]]]>
     </line>
     <line>
-      <![CDATA[Parent Window Title: FMS - Reports|Alert Exception Summary Report]]>
+      <![CDATA[Clicked on Map filter criteria icon====>>[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //div[@class='sidebar-toggler hidden-phone']] and object is[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //div[@class='sidebar-toggler hidden-phone']]]]>
     </line>
     <line>
-      <![CDATA[Clicked on generateReport id====>>[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //button[@id='generateReport']] and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //button[@id='generateReport']]]]>
+      <![CDATA[Validating Track on Map popup window title: 地図上追跡]]>
     </line>
     <line>
-      <![CDATA[Verifying Validation Messages: 日付から選択
-現在まで選択
-車両番号を選択]]>
+      <![CDATA[Clicked on Track history button]]>
     </line>
     <line>
-      <![CDATA[Entered from Date]]>
+      <![CDATA[Validating popup window title: FMS - 地図上追跡| 警告情報]]>
     </line>
     <line>
-      <![CDATA[Entered to Date]]>
+      <![CDATA[Validating popup window messages: 車両を選択してください
+日付からを選択してください
+日付までを選択してください]]>
     </line>
     <line>
-      <![CDATA[Clicked on selectVehicle dropdown====>>[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> css selector: #s2id_lstVehicle > ul > li] and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> css selector: #s2id_lstVehicle > ul > li]]]>
+      <![CDATA[=========>Finished--->Track On Map Module]]>
     </line>
     <line>
-      <![CDATA[Selected dropdown value id====>>Proxy element for: DefaultElementLocator 'By.cssSelector: #select2-drop > ul > li.select2-results-dept-0.select2-result.select2-result-selectable.select2-highlighted > div' and object isProxy element for: DefaultElementLocator 'By.cssSelector: #select2-drop > ul > li.select2-results-dept-0.select2-result.select2-result-selectable.select2-highlighted > div']]>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyTrackOnMapAlertStatus_16_12_2019_04_00_57.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyTrackOnMapAlertStatus_16_12_2019_04_00_57.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
-      <![CDATA[Clicked on generateReport id====>>[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //button[@id='generateReport']] and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //button[@id='generateReport']]]]>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-16_12_2019_04_00_57.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-16_12_2019_04_00_57.png' height='100' width='100'/></a>]]>
     </line>
     <line>
-      <![CDATA[Total Number of columns count in a table: 6]]>
+      <![CDATA[Test is started:verifyVehicleStatus_Moving]]>
     </line>
     <line>
-      <![CDATA[Total Number of rows count in a table: 34]]>
+      <![CDATA[Clicked on vehicle status dropdown====>>[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> css selector: #s2id_lstStatus] and object is[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> css selector: #s2id_lstStatus]]]>
     </line>
     <line>
-      <![CDATA[=========>Finished--->Speed Graph Report Module]]>
+      <![CDATA[Selected moving vehicle from status dropdown====>>Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='select2-drop']/ul/li[2]/div' and object isProxy element for: DefaultElementLocator 'By.xpath: //*[@id='select2-drop']/ul/li[2]/div']]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\alertExceptionSummaryOption_10_12_2019_06_12_18.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\alertExceptionSummaryOption_10_12_2019_06_12_18.png' height='100' width='100'/> </a>]]>
+      <![CDATA[Validating popup window title: FMS - 地図上追跡| 警告情報]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-10_12_2019_06_12_19.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-10_12_2019_06_12_19.png' height='100' width='100'/></a>]]>
+      <![CDATA[Validating popup window messages: 選択したユーザーと選択したステータスに車両が存在しません]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyVehicleStatus_Moving_16_12_2019_04_02_59.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyVehicleStatus_Moving_16_12_2019_04_02_59.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-16_12_2019_04_02_59.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-16_12_2019_04_02_59.png' height='100' width='100'/></a>]]>
     </line>
   </reporter-output>
-  <suite name="Regression suite 1" duration-ms="225025" started-at="2019-12-10T12:38:35Z" finished-at="2019-12-10T12:42:20Z">
+  <suite name="Regression suite 1" duration-ms="222809" started-at="2019-12-16T10:29:18Z" finished-at="2019-12-16T10:33:01Z">
     <groups>
     </groups>
-    <test name="ChromeBrowser" duration-ms="224755" started-at="2019-12-10T12:38:35Z" finished-at="2019-12-10T12:42:20Z">
-      <class name="com.test.automation.FMSV12_Japan.vehiclereports.TC216_AlertExceptionSummary">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC216_AlertExceptionSummary@4567f35d]" name="setUp" is-config="true" duration-ms="25821" started-at="2019-12-10T12:38:35Z" finished-at="2019-12-10T12:39:01Z">
+    <test name="FirefoxBrowser" duration-ms="30" started-at="2019-12-16T10:29:18Z" finished-at="2019-12-16T10:29:18Z">
+    </test> <!-- FirefoxBrowser -->
+    <test name="IEBrowser" duration-ms="3" started-at="2019-12-16T10:29:19Z" finished-at="2019-12-16T10:29:19Z">
+    </test> <!-- IEBrowser -->
+    <test name="ChromeBrowser" duration-ms="222809" started-at="2019-12-16T10:29:18Z" finished-at="2019-12-16T10:33:01Z">
+      <class name="com.test.automation.FMSV12_Japan.trackonmap.TC303_VerifyTrackOnMap">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.trackonmap.TC303_VerifyTrackOnMap@4567f35d]" name="setUp" is-config="true" duration-ms="26465" started-at="2019-12-16T10:29:18Z" finished-at="2019-12-16T10:29:45Z">
           <params>
             <param index="0">
               <value>
@@ -86,18 +99,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC216_AlertExceptionSummary@4567f35d]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2019-12-10T12:39:02Z" finished-at="2019-12-10T12:39:02Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.trackonmap.TC303_VerifyTrackOnMap@4567f35d]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2019-12-16T10:29:45Z" finished-at="2019-12-16T10:29:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.test.automation.FMSV12_Japan.vehiclereports.TC216_AlertExceptionSummary.alertExceptionSummaryOption(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.trackonmap.TC303_VerifyTrackOnMap.verifyTrackOnMapAlertStatus(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="alertExceptionSummaryOption(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC216_AlertExceptionSummary@4567f35d]" name="alertExceptionSummaryOption" duration-ms="196297" started-at="2019-12-10T12:39:02Z" data-provider="getDataFromExcel" finished-at="2019-12-10T12:42:18Z">
+        <test-method status="PASS" signature="verifyTrackOnMapAlertStatus(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.test.automation.FMSV12_Japan.trackonmap.TC303_VerifyTrackOnMap@4567f35d]" name="verifyTrackOnMapAlertStatus" duration-ms="71329" started-at="2019-12-16T10:29:45Z" data-provider="getDataFromExcel" finished-at="2019-12-16T10:30:57Z">
           <params>
             <param index="0">
               <value>
@@ -117,95 +130,123 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Test is started:alertExceptionSummaryOption]]>
+              <![CDATA[Test is started:verifyTrackOnMapAlertStatus]]>
             </line>
             <line>
-              <![CDATA[=========>Started--->Speed Graph Report Module]]>
+              <![CDATA[=========>Started--->Track On Map Module]]>
             </line>
             <line>
-              <![CDATA[Entered login id====>>Meiko and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //*[@id='username']]]]>
+              <![CDATA[Entered login id====>>Meiko and object is[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //*[@id='username']]]]>
             </line>
             <line>
-              <![CDATA[Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //*[@id='password']]]]>
+              <![CDATA[Entered password====>>welcome and object is[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //*[@id='password']]]]>
             </line>
             <line>
               <![CDATA[Clicked on submit button isProxy element for: DefaultElementLocator 'By.cssSelector: button[type='submit']']]>
             </line>
             <line>
-              <![CDATA[Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //div[@class='sidebar-toggler hidden-phone']] and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //div[@class='sidebar-toggler hidden-phone']]]]>
+              <![CDATA[Dashboard Window Title: FMS - Dashboard | General]]>
             </line>
             <line>
-              <![CDATA[Clicked on Vehicle Reorts id====>>[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //li[@id='lnk3']/a] and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //li[@id='lnk3']/a]]]>
+              <![CDATA[Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //div[@class='sidebar-toggler hidden-phone']] and object is[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //div[@class='sidebar-toggler hidden-phone']]]]>
             </line>
             <line>
-              <![CDATA[Clicked on Alert Exception id====>>[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> css selector: #lnk28 > a] and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> css selector: #lnk28 > a]]]>
+              <![CDATA[Clicked on Tracking id====>>[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //*[@id='lnk6']/a/span] and object is[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //*[@id='lnk6']/a/span]]]>
             </line>
             <line>
-              <![CDATA[Clicked on Alert Exception Summary id====>>[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> css selector: #lnk93 > a > span] and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> css selector: #lnk93 > a > span]]]>
+              <![CDATA[Clicked on Track On Map id====>>[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //*[@id='lnk65']/a/span] and object is[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //*[@id='lnk65']/a/span]]]>
             </line>
             <line>
-              <![CDATA[Parent Window Title: FMS - Reports|Alert Exception Summary Report]]>
+              <![CDATA[Clicked on Map filter criteria icon====>>[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //div[@class='sidebar-toggler hidden-phone']] and object is[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> xpath: //div[@class='sidebar-toggler hidden-phone']]]]>
             </line>
             <line>
-              <![CDATA[Clicked on generateReport id====>>[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //button[@id='generateReport']] and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //button[@id='generateReport']]]]>
+              <![CDATA[Validating Track on Map popup window title: 地図上追跡]]>
             </line>
             <line>
-              <![CDATA[Verifying Validation Messages: 日付から選択
-現在まで選択
-車両番号を選択]]>
+              <![CDATA[Clicked on Track history button]]>
             </line>
             <line>
-              <![CDATA[Entered from Date]]>
+              <![CDATA[Validating popup window title: FMS - 地図上追跡| 警告情報]]>
             </line>
             <line>
-              <![CDATA[Entered to Date]]>
+              <![CDATA[Validating popup window messages: 車両を選択してください
+日付からを選択してください
+日付までを選択してください]]>
             </line>
             <line>
-              <![CDATA[Clicked on selectVehicle dropdown====>>[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> css selector: #s2id_lstVehicle > ul > li] and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> css selector: #s2id_lstVehicle > ul > li]]]>
+              <![CDATA[=========>Finished--->Track On Map Module]]>
             </line>
             <line>
-              <![CDATA[Selected dropdown value id====>>Proxy element for: DefaultElementLocator 'By.cssSelector: #select2-drop > ul > li.select2-results-dept-0.select2-result.select2-result-selectable.select2-highlighted > div' and object isProxy element for: DefaultElementLocator 'By.cssSelector: #select2-drop > ul > li.select2-results-dept-0.select2-result.select2-result-selectable.select2-highlighted > div']]>
-            </line>
-            <line>
-              <![CDATA[Clicked on generateReport id====>>[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //button[@id='generateReport']] and object is[[ChromeDriver: chrome on XP (93b97c4cbaaaa80fa0716eeb0517f394)] -> xpath: //button[@id='generateReport']]]]>
-            </line>
-            <line>
-              <![CDATA[Total Number of columns count in a table: 6]]>
-            </line>
-            <line>
-              <![CDATA[Total Number of rows count in a table: 34]]>
-            </line>
-            <line>
-              <![CDATA[=========>Finished--->Speed Graph Report Module]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\alertExceptionSummaryOption_10_12_2019_06_12_18.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\alertExceptionSummaryOption_10_12_2019_06_12_18.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyTrackOnMapAlertStatus_16_12_2019_04_00_57.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyTrackOnMapAlertStatus_16_12_2019_04_00_57.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- alertExceptionSummaryOption -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC216_AlertExceptionSummary@4567f35d]" name="afterMethod" is-config="true" duration-ms="377" started-at="2019-12-10T12:42:19Z" finished-at="2019-12-10T12:42:19Z">
+        </test-method> <!-- verifyTrackOnMapAlertStatus -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.trackonmap.TC303_VerifyTrackOnMap@4567f35d]" name="afterMethod" is-config="true" duration-ms="360" started-at="2019-12-16T10:30:57Z" finished-at="2019-12-16T10:30:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=alertExceptionSummaryOption status=SUCCESS method=TC216_AlertExceptionSummary.alertExceptionSummaryOption(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC216_AlertExceptionSummary@4567f35d] output=Test is started:alertExceptionSummaryOption]]]>
+                <![CDATA[[TestResult name=verifyTrackOnMapAlertStatus status=SUCCESS method=TC303_VerifyTrackOnMap.verifyTrackOnMapAlertStatus(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.test.automation.FMSV12_Japan.trackonmap.TC303_VerifyTrackOnMap@4567f35d] output=Test is started:verifyTrackOnMapAlertStatus]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-10_12_2019_06_12_19.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-10_12_2019_06_12_19.png' height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-16_12_2019_04_00_57.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-16_12_2019_04_00_57.png' height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.FMSV12_Japan.vehiclereports.TC216_AlertExceptionSummary@4567f35d]" name="endTest" is-config="true" duration-ms="1078" started-at="2019-12-10T12:42:19Z" finished-at="2019-12-10T12:42:20Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.FMSV12_Japan.trackonmap.TC303_VerifyTrackOnMap@4567f35d]" name="beforeMethod" is-config="true" duration-ms="17" started-at="2019-12-16T10:30:58Z" finished-at="2019-12-16T10:30:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.FMSV12_Japan.trackonmap.TC303_VerifyTrackOnMap.verifyVehicleStatus_Moving()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyVehicleStatus_Moving()[pri:2, instance:com.test.automation.FMSV12_Japan.trackonmap.TC303_VerifyTrackOnMap@4567f35d]" name="verifyVehicleStatus_Moving" duration-ms="121281" started-at="2019-12-16T10:30:58Z" finished-at="2019-12-16T10:32:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test is started:verifyVehicleStatus_Moving]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on vehicle status dropdown====>>[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> css selector: #s2id_lstStatus] and object is[[ChromeDriver: chrome on XP (28586faec907edb27c91ddedc2ee4ecc)] -> css selector: #s2id_lstStatus]]]>
+            </line>
+            <line>
+              <![CDATA[Selected moving vehicle from status dropdown====>>Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='select2-drop']/ul/li[2]/div' and object isProxy element for: DefaultElementLocator 'By.xpath: //*[@id='select2-drop']/ul/li[2]/div']]>
+            </line>
+            <line>
+              <![CDATA[Validating popup window title: FMS - 地図上追跡| 警告情報]]>
+            </line>
+            <line>
+              <![CDATA[Validating popup window messages: 選択したユーザーと選択したステータスに車両が存在しません]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyVehicleStatus_Moving_16_12_2019_04_02_59.png'> <img src='C:\Users\nagarjuna\git\MDVR_Meiko\FMSV12_Japan\src\main\java\com\test\automation\FMSV12_Japan\failure_screenshots\verifyVehicleStatus_Moving_16_12_2019_04_02_59.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyVehicleStatus_Moving -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.FMSV12_Japan.trackonmap.TC303_VerifyTrackOnMap@4567f35d]" name="afterMethod" is-config="true" duration-ms="402" started-at="2019-12-16T10:32:59Z" finished-at="2019-12-16T10:33:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyVehicleStatus_Moving status=SUCCESS method=TC303_VerifyTrackOnMap.verifyVehicleStatus_Moving()[pri:2, instance:com.test.automation.FMSV12_Japan.trackonmap.TC303_VerifyTrackOnMap@4567f35d] output=Test is started:verifyVehicleStatus_Moving]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-16_12_2019_04_02_59.png'><img src='C:\src\main\java\com\test\automation\FMSV12_Japan\screenshot\Screenshot-16_12_2019_04_02_59.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.FMSV12_Japan.trackonmap.TC303_VerifyTrackOnMap@4567f35d]" name="endTest" is-config="true" duration-ms="1203" started-at="2019-12-16T10:33:00Z" finished-at="2019-12-16T10:33:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.test.automation.FMSV12_Japan.vehiclereports.TC216_AlertExceptionSummary -->
+      </class> <!-- com.test.automation.FMSV12_Japan.trackonmap.TC303_VerifyTrackOnMap -->
     </test> <!-- ChromeBrowser -->
-    <test name="FirefoxBrowser" duration-ms="3" started-at="2019-12-10T12:42:20Z" finished-at="2019-12-10T12:42:20Z">
-    </test> <!-- FirefoxBrowser -->
-    <test name="IEBrowser" duration-ms="7" started-at="2019-12-10T12:42:20Z" finished-at="2019-12-10T12:42:20Z">
-    </test> <!-- IEBrowser -->
   </suite> <!-- Regression suite 1 -->
 </testng-results>

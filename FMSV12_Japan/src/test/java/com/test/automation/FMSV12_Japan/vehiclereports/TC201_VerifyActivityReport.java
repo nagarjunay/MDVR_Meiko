@@ -41,7 +41,7 @@ public class TC201_VerifyActivityReport extends TestBase {
 	}
 
 	@Test(dataProvider = "getDataFromExcel")
-	public void a_ActivityOption(String loginid, String password, String runMode) throws Exception {
+	public void verifyActivityOption(String loginid, String password, String runMode) throws Exception {
 		if (runMode.equalsIgnoreCase("n")) {
 			throw new SkipException("User marked this not to run");
 		}
@@ -65,14 +65,7 @@ public class TC201_VerifyActivityReport extends TestBase {
 		log("=========>Finished--->Verifying Report Module");
 	}
 
-	@Test
-	public void b_AlertCount() throws Exception {
-		
-		log("=========>Started--->Verifying Alert Report");
-		vr.alertCount();
-		table.Verifying_TotalNum_Of_Col_Rows();
-		log("=========>Finished--->Verifying Alert Report");
-	}
+	
 	
 	
 }

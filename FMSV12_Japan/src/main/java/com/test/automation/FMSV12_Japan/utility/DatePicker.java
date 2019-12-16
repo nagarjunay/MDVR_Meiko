@@ -16,7 +16,7 @@ import com.test.automation.FMSV12_Japan.testBase.TestBase;
  */
 public class DatePicker  extends TestBase{
 
-	public static WebDriver driver;
+	 WebDriver driver;
 
 	public DatePicker(WebDriver driver) {
 

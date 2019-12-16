@@ -13,8 +13,10 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Properties;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -48,16 +50,21 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 
-public class TestBase {
-
+public class TestBase 
+{
+	
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
 
-	public static WebDriver driver;
+	public WebDriver driver;
 	public Properties OR = new Properties();
 	public static ExtentReports extent;
 	public static ExtentTest test;
 	File file;
 
+	public WebDriver getDriver()
+	{
+		return driver;
+	}
 	/* This method is to select browser and url from the config file */
 	@Parameters("Browser_Name")
 	public void init(String Browser_Name) throws IOException {
@@ -80,7 +87,7 @@ public class TestBase {
 		 false);*/
 		 
 		extent = new ExtentReports(
-				System.getProperty("user.dir") + "/src/main/java/com/test/automation/FMSV12_Japan/report/FMSV12_Japan_"
+				System.getProperty("user.dir") + "/src/main/java/com/test/automation/FMSV12_Japan/report/Meiko_"
 						+ formater.format(calendar.getTime()) + ".html",
 				true);
 	}
@@ -149,7 +156,7 @@ public class TestBase {
 	}
 
 	/* This method is used for wait until element found */
-	public void expliciteWait(WebElement element, int timeToWaitInSec) {
+	public void expliciteWait(WebElement element, int timeToWaitInSec, WebDriver driver) {
 		WebDriverWait wait = new WebDriverWait(driver, timeToWaitInSec);
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
@@ -246,7 +253,7 @@ public class TestBase {
 	 */
 
 	/* This method is used for dynamic list to store values and compare */
-	public static ArrayList<Object> dropdown(String xpathExpression) {
+	public  ArrayList<Object> dropdown(String xpathExpression) {
 		List<WebElement> li = driver.findElements(By.xpath(xpathExpression));
 		ArrayList<Object> array_list = new ArrayList<Object>();
 
@@ -262,6 +269,34 @@ public class TestBase {
 		WebElement target = driver.findElement(By.xpath(xpathExpression));
 		act.moveToElement(target).build().perform();
 	}
+	
+	
+	public void switching2Tabs(WebDriver driver) {
+		Set<String> windows = driver.getWindowHandles();
+		Iterator<String> ids = windows.iterator();
+		String ParentId = ids.next();
+		String ChildId = ids.next();
+		log("Switching to Child Window: " + ChildId);
+		test.log(LogStatus.INFO, "Switching to Child Window: " + ChildId);
+		driver.switchTo().window(ChildId);
+		log("Child Window Title: " + driver.getTitle());
+		test.log(LogStatus.INFO, "Child Window Title: " + driver.getTitle());
+	}
+
+	public void switching3Tabs(WebDriver driver) throws Exception {
+
+		Set<String> windows = driver.getWindowHandles();
+		Iterator<String> ids = windows.iterator();
+		String ParentId = ids.next();
+		String ChildId = ids.next();
+		Thread.sleep(3000);
+		String SubChildId = ids.next();
+		log("Switching to Sub Child Window: " + SubChildId);
+		test.log(LogStatus.INFO, "Switching to Sub Child Window: " + SubChildId);
+		driver.switchTo().window(SubChildId);
+		log("Sub Child Window Title: " + driver.getTitle());
+		test.log(LogStatus.INFO, "Sub Child Window Title: " + driver.getTitle());
+	}
 
 	/*public static String ColorVerify(WebDriver driver, String cssSelector, String cssValue)
 	{
@@ -273,7 +308,7 @@ public class TestBase {
 	
 	
 	/* This method is used for List Selection */
-	public static void list_selection_and_click(String xpathExpression, String string) {
+	public  void list_selection_and_click(String xpathExpression, String string, WebDriver driver) {
 		List<WebElement> li = driver.findElements(By.xpath(xpathExpression));
 		for (WebElement element : li) {
 			if (element.getText().equalsIgnoreCase(string)) {
@@ -284,7 +319,7 @@ public class TestBase {
 	}
 
 	/* This method is used for handling Alert/pop-up */
-	public static void handling_alert_popup() throws Exception {
+	public  void handling_alert_popup(WebDriver driver ) throws Exception {
 
 		Alert alert = driver.switchTo().alert();
 		// Capturing alert message
@@ -298,7 +333,7 @@ public class TestBase {
 	}
 
 	/* This method is used for handling frames */
-	public static void handling_frame(int index_number) {
+	public  void handling_frame(int index_number) {
 		driver.switchTo().frame(index_number);
 	}
 

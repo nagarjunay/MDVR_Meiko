@@ -17,7 +17,7 @@ import com.test.automation.FMSV12_Japan.testBase.TestBase;
 
 public class LoginPage extends TestBase {
 	
-	static WebDriver driver;
+	 WebDriver driver;
 
 	/*
 	 * @FindBys({
@@ -71,7 +71,7 @@ public class LoginPage extends TestBase {
 		loginPassword.sendKeys(password);
 		log("Entered password====>>" + password + " and object is" + loginPassword.toString());
 		test.log(LogStatus.INFO, "Entered password is====>>" + password);
-		expliciteWait(submitButton, 20);
+		expliciteWait(submitButton, 40, driver);
 		submitButton.click();
 		log("Clicked on submit button is" + submitButton.toString());
 		test.log(LogStatus.INFO, "Clicked on submit button");
@@ -81,7 +81,7 @@ public class LoginPage extends TestBase {
 
 	}
 
-	public void loginToApplication(String loginid, String password) throws InterruptedException {
+	public void loginToApplication(String loginid, String password) throws Exception {
 
 		loginId.clear();
 		loginId.sendKeys(loginid);
@@ -91,7 +91,7 @@ public class LoginPage extends TestBase {
 		loginPassword.sendKeys(password);
 		log("Entered password====>>" + password + " and object is" + loginPassword.toString());
 		test.log(LogStatus.INFO, "Entered password is====>>" + password);
-		expliciteWait(submitButton, 20);
+		expliciteWait(submitButton, 40, driver);
 		submitButton.click();
 		log("Clicked on submit button is" + submitButton.toString());
 		test.log(LogStatus.INFO, "Clicked on submit button");
@@ -151,7 +151,7 @@ public class LoginPage extends TestBase {
 	
 	}
 
-	public static void verify_error_message(String xpathExpression, String expected_message) {
+	public void verify_error_message(String xpathExpression, String expected_message) {
 		String actual_msg = driver.findElement(By.xpath(xpathExpression)).getText();
 		Assert.assertEquals(actual_msg, expected_message);
 	}

@@ -44,7 +44,7 @@ public class TC204_VerifyTotalDistanceReport extends TestBase {
 	}
 
 	@Test(dataProvider = "getDataFromExcel")
-	public void TotaldistanceOption(String loginid, String password, String runMode) throws Exception {
+	public void verifyTotaldistanceOption(String loginid, String password, String runMode) throws Exception {
 		if (runMode.equalsIgnoreCase("n")) {
 			throw new SkipException("User marked this not to run");
 		}
@@ -54,6 +54,9 @@ public class TC204_VerifyTotalDistanceReport extends TestBase {
 		tds = new VehicleReports_TotalDistanceReport(driver);
 		tds.TotalDistance();
 		tds.validation();
+		tds.validation1();
+		tds.validation2();
+		tds.validation3();
 		datepicker = new DatePicker(driver);
 		datepicker.FromData();
 		datepicker.TODate();

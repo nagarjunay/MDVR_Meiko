@@ -165,37 +165,43 @@ public class DashBoard_StateOfVehicle extends TestBase {
 		test.log(LogStatus.INFO, "Total Number of rows count in a Out Of Service Vehicles table: " + rowCount);
 	}
 	
-	public ArrayList<Object> verifyTools_dropdown() {
+	public void verifyTools_dropdown() {
 
 		// RandomClick.click();
-		expliciteWait(Tools_Dropdown, 40);
+		expliciteWait(Tools_Dropdown, 40, driver);
 		Tools_Dropdown.click();
 		log("Clicked on Tools Dropdown ====>>" + Tools_Dropdown + " and object is" + Tools_Dropdown.toString());
 		test.log(LogStatus.INFO, "Clicked on Tools Dropdown ====>>" + Tools_Dropdown);
 		log("Verifying Tools dropdown");
 		test.log(LogStatus.INFO, "Verifying Tools dropdown");
-		ArrayList<Object> values = dropdown("//*[@class='dropdown-menu pull-right']/li/a");
-		return values;
+		/*ArrayList<Object> values = dropdown("//*[@class='dropdown-menu pull-right']/li/a");
+		return values;*/
+		String dropdownList = driver.findElement(By.xpath("//*[@id='mainreportsection']/div[1]/div[3]/div[1]/ul/li")).getText();
+		log("Tools Drop down Contents: " + dropdownList);
+		test.log(LogStatus.INFO, "Tools Drop down Contents: " + dropdownList);
 	}
 
-	public ArrayList<Object> verifyRecordesPerPage_dropdown() {
+	public void verifyRecordesPerPage_dropdown() {
 
-		expliciteWait(RecordsPerPage_Dropdown, 30);
+		expliciteWait(RecordsPerPage_Dropdown, 30, driver);
 		RecordsPerPage_Dropdown.click();
 		log("Clicked on Records Per Page Dropdown ====>>" + RecordsPerPage_Dropdown + " and object is"
 				+ RecordsPerPage_Dropdown.toString());
 		test.log(LogStatus.INFO, "Clicked on Records Per Page Dropdown ====>>" + RecordsPerPage_Dropdown);
 		log("Verifying dropdown list in Records Per Page Dropdown");
 		test.log(LogStatus.INFO, "Verifying dropdown list in Records Per Page Dropdown");
-		ArrayList<Object> values = dropdown("//*[@id='select2-drop']/ul/li");
-		return values;
+		/*ArrayList<Object> values = dropdown("//*[@id='select2-drop']/ul/li");
+		return values;*/
+		String dropdownList = driver.findElement(By.xpath("//*[@id='select2-drop']/ul/li")).getText();
+		log("Records per page Drop down Contents: " + dropdownList);
+		test.log(LogStatus.INFO, "Tools Drop down Contents: " + dropdownList);
 	}
 
 	
 		
 	public ArrayList<Object> verifyCloumns_Dropdown() {
 
-		expliciteWait(Columns_Dropdown, 30);
+		expliciteWait(Columns_Dropdown, 30, driver);
 		Columns_Dropdown.click();
 		log("Clicked on Columns Dropdown ====>>" + Columns_Dropdown + " and object is"
 				+ Columns_Dropdown.toString());

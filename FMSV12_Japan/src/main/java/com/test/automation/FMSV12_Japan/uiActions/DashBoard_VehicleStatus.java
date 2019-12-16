@@ -106,7 +106,7 @@ public class DashBoard_VehicleStatus extends TestBase {
 		log("Verify Last Download Status vehicle number: " + VehicleNum.getAttribute("innerHTML"));
 		test.log(LogStatus.INFO, "Verify Last Download Status vehicle number: " + VehicleNum.getAttribute("innerHTML"));
 	    ((JavascriptExecutor)driver).executeScript("scroll(200,0)");
-	    expliciteWait(LastdownloadwindowCloseButton, 30);
+	    expliciteWait(LastdownloadwindowCloseButton, 30, driver);
 		LastdownloadwindowCloseButton.click();
 	}
 	
@@ -121,7 +121,7 @@ public class DashBoard_VehicleStatus extends TestBase {
 	    //Assert.assertEquals(actual_error, expected_error);
 	    log("Verify Map Window Text: " + actual_error);
 		test.log(LogStatus.INFO, "Verify Map Window Text: " + actual_error);
-		expliciteWait(MapitCloseButton, 30);
+		expliciteWait(MapitCloseButton, 30, driver);
 		MapitCloseButton.click();	
 	}
 	
@@ -130,7 +130,8 @@ public class DashBoard_VehicleStatus extends TestBase {
 			VideoButton.click();
 			log("Clicked on Video button");
 			test.log(LogStatus.INFO, "Clicked on Video button");
-	  }else
+	  }
+		else
 	  {
 	        System.out.print("Video button is disabled due to vehicle is Inactive.");
 	        log("Video button is disabled due to vehicle is Inactive ");

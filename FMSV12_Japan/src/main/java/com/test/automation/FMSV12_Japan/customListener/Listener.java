@@ -44,6 +44,8 @@ public class Listener extends TestBase implements ITestListener {
 		 * result.getName()); } catch (Exception e) { // TODO Auto-generated catch block
 		 * e.printStackTrace(); }
 		 */
+		Object res=result.getInstance(); 
+		 driver=((TestBase)res).getDriver();
 		if (result.isSuccess()) {
 			Calendar calendar = Calendar.getInstance();
 			SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
@@ -69,7 +71,10 @@ public class Listener extends TestBase implements ITestListener {
 
 	}
 
-	public void onTestFailure(ITestResult result) {
+	public void onTestFailure(ITestResult result)
+	{
+		Object res=result.getInstance(); 
+		 driver=((TestBase)res).getDriver();
 		if (!result.isSuccess()) {
 			Calendar calendar = Calendar.getInstance();
 			SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
@@ -100,12 +105,11 @@ public class Listener extends TestBase implements ITestListener {
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		// TODO Auto-generated method stub
-
+		Reporter.log("Test is Success Percentage:" + result.getMethod().getMethodName());
 	}
 
 	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
+		Reporter.log("Test is Started:" + context.getName());
 
 	}
 

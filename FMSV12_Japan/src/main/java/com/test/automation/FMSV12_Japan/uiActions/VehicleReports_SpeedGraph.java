@@ -4,6 +4,7 @@
 package com.test.automation.FMSV12_Japan.uiActions;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,6 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 import com.relevantcodes.extentreports.LogStatus;
 import com.test.automation.FMSV12_Japan.testBase.TestBase;
+import com.test.automation.FMSV12_Japan.utility.DatePicker;
 
 /**
  * @author nagarjuna
@@ -22,6 +24,7 @@ public class VehicleReports_SpeedGraph extends TestBase{
 
 	
 	WebDriver driver;
+	DatePicker datepicker;
 
 	@FindBy(xpath = "//div[@class='sidebar-toggler hidden-phone']")
 	WebElement hamburger;
@@ -66,19 +69,19 @@ public class VehicleReports_SpeedGraph extends TestBase{
 	
 	public void SpeedGraph() throws InterruptedException {
 		
-		expliciteWait(hamburger, 20);
+		expliciteWait(hamburger, 20, driver);
 		hamburger.click();
 		log("Clicked on hamburger icon id====>>" + hamburger + " and object is" + hamburger.toString());
 		test.log(LogStatus.INFO, "Clicked on hamburger icon" );
-		expliciteWait(vehiclereports, 20);
+		expliciteWait(vehiclereports, 20, driver);
 		vehiclereports.click();
 		log("Clicked on master id====>>" + vehiclereports + " and object is" + vehiclereports.toString());
 		test.log(LogStatus.INFO, "Clicked on vehiclereports option");
-		expliciteWait(general, 20);
+		expliciteWait(general, 20, driver);
 		general.click();
 		log("Clicked on general id====>>" + general + " and object is" + general.toString());
 		test.log(LogStatus.INFO, "Clicked on general option");
-		expliciteWait(speedGraph, 40);
+		expliciteWait(speedGraph, 40, driver);
 		speedGraph.click();
 		log("Clicked on Speed Graph id====>>" + speedGraph + " and object is" + speedGraph.toString());
 		test.log(LogStatus.INFO, "Clicked on Speed Graph option");
@@ -89,11 +92,11 @@ public class VehicleReports_SpeedGraph extends TestBase{
 	
 	public void validation() {
 		
-		expliciteWait(generateReport, 20);
+		expliciteWait(generateReport, 20, driver);
 		generateReport.click();
 		log("Clicked on generateReport id====>>" + generateReport + " and object is" + generateReport.toString());
 		test.log(LogStatus.INFO, "Clicked on generateReport button");
-		expliciteWait(validationMessage, 40);
+		expliciteWait(validationMessage, 40, driver);
 		String actual_error= validationMessage.getText();
 		log("Verifying Validation Messages: " + actual_error);
 		test.log(LogStatus.INFO, "Verifying Validation Messages: " + actual_error);
@@ -102,13 +105,76 @@ public class VehicleReports_SpeedGraph extends TestBase{
 		validationPopupClose.click();
 	}
 
+	public void validation1() {
+
+		datepicker = new DatePicker(driver);
+		datepicker.FromData();
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		boolean invisiable = wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='static' or @class='modal-backdrop fade']")));
+		if (invisiable) {
+			WebElement ele = generateReport;
+			ele.click();
+		}
+		log("Clicked on generateReport id====>>" + generateReport + " and object is" + generateReport.toString());
+		test.log(LogStatus.INFO, "Clicked on generateReport button");
+		expliciteWait(validationMessage, 30, driver);
+		String actual_error = validationMessage.getText();
+		log("Verifying Validation Messages: " + actual_error);
+		test.log(LogStatus.INFO, "Verifying Validation Messages: " + actual_error);
+		validationPopupClose.click();
+	}
+
+	public void validation2() {
+
+		datepicker.FromData();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("document.getElementById('dtto').value='05/09/2019'");
+		log("Entered to Date");
+		test.log(LogStatus.INFO, "Entered to Date");
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		boolean invisiable = wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='static' or @class='modal-backdrop fade']")));
+		if (invisiable) {
+			WebElement ele = generateReport;
+			ele.click();
+		}
+		log("Clicked on generateReport id====>>" + generateReport + " and object is" + generateReport.toString());
+		test.log(LogStatus.INFO, "Clicked on generateReport button");
+		expliciteWait(validationMessage, 30, driver);
+		String actual_error = validationMessage.getText();
+		log("Verifying Validation Messages: " + actual_error);
+		test.log(LogStatus.INFO, "Verifying Validation Messages: " + actual_error);
+		validationPopupClose.click();
+	}
+
+	public void validation3() {
+
+		datepicker.FromData();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("document.getElementById('dtto').value='01/09/2019'");
+		log("Entered to Date");
+		test.log(LogStatus.INFO, "Entered to Date");
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		boolean invisiable = wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='static' or @class='modal-backdrop fade']")));
+		if (invisiable) {
+			WebElement ele = generateReport;
+			ele.click();
+		}
+		log("Clicked on generateReport id====>>" + generateReport + " and object is" + generateReport.toString());
+		test.log(LogStatus.INFO, "Clicked on generateReport button");
+		expliciteWait(validationMessage, 30, driver);
+		String actual_error = validationMessage.getText();
+		log("Verifying Validation Messages: " + actual_error);
+		test.log(LogStatus.INFO, "Verifying Validation Messages: " + actual_error);
+		validationPopupClose.click();
+	}
+	
 	
 	public void Vehicle_Dropdown() throws Exception {
 		
 		/*expliciteWait(selectVehicle, 40);
 		selectVehicle.click();*/
 		WebDriverWait wait = new WebDriverWait(driver, 30);
-		boolean invisiable = wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id("static")));
+		boolean invisiable = wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='static' or @class='modal-backdrop fade']")));
 		if (invisiable) {
 			WebElement ele = driver.findElement(By.xpath("//div[@id='s2id_lstVehicle']/a/span[1]"));
 			ele.click();
@@ -118,7 +184,7 @@ public class VehicleReports_SpeedGraph extends TestBase{
 		Meiko299.click();
 		log("Selected dropdown value id====>>" + Meiko299 + " and object is" + Meiko299.toString());
 		test.log(LogStatus.INFO, "Selected vehicle from dropdown");
-		expliciteWait(generateReport, 20);
+		expliciteWait(generateReport, 20, driver);
 		generateReport.click();
 		log("Clicked on generateReport id====>>" + generateReport + " and object is" + generateReport.toString());
 		test.log(LogStatus.INFO, "Clicked on generateReport button");

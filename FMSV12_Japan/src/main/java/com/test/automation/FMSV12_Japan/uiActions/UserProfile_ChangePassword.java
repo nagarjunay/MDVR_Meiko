@@ -20,7 +20,7 @@ import com.test.automation.FMSV12_Japan.testBase.TestBase;
 
 public class UserProfile_ChangePassword extends TestBase {
 
-	public static WebDriver driver;
+	public WebDriver driver;
 
 	@FindBy(xpath = "//*[@id='currentpassword']")
 	WebElement CurrentPassword;
@@ -67,7 +67,7 @@ public class UserProfile_ChangePassword extends TestBase {
 
 	public void VerifyChangePassword_Validation(String Currentpassword, String Newpassword, String Confirmpassword)
 			throws Exception {
-		expliciteWait(CurrentPassword, 60);
+		expliciteWait(CurrentPassword, 60, driver);
 		CurrentPassword.clear();
 		CurrentPassword.sendKeys(Currentpassword);
 		log("Entered Current Password is====>>" + Currentpassword);

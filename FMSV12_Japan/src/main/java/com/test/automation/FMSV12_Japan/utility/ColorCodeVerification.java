@@ -17,7 +17,7 @@ import com.test.automation.FMSV12_Japan.testBase.TestBase;
 public class ColorCodeVerification extends TestBase {
 	
 
-	public static WebDriver driver;
+	public WebDriver driver;
 
 	public ColorCodeVerification(WebDriver driver) {
 
