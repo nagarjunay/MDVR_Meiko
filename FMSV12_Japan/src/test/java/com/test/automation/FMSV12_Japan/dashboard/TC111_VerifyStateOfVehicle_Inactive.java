@@ -96,21 +96,21 @@ public class TC111_VerifyStateOfVehicle_Inactive extends TestBase{
 		log("=========>Finished Verifying Columns dropdown color Code");
 	}
 
-	@Test()
+	/*@Test()
 	public void b_InactiveVehiclesReport_VerifyRecordsperpageDropdown() throws Exception {
 		
 		log("=========>Started Verifying Records per page Dropdown options");
 		moving.verifyRecordesPerPage_dropdown();
-		/*ArrayList<Object> list = new ArrayList<Object>();
+		ArrayList<Object> list = new ArrayList<Object>();
 		list.add("100");
 		list.add("200");
 		list.add("300");
 		list.add("All");
 		ArrayList<Object> drop_down_values = moving.verifyRecordesPerPage_dropdown();
 		System.out.println("List Values are " + drop_down_values);
-		Assert.assertEquals(drop_down_values, list);*/
+		Assert.assertEquals(drop_down_values, list);
 		log("=========>Finished Verifying Records per page Dropdown options");
-	}
+	}*/
 
 
 }

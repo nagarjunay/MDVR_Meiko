@@ -64,9 +64,9 @@ public class TC107_VerifyingDashboardVehicleStatus extends TestBase {
 		dashboard.VerifyMapIt();
 	}
 	
-	@Test
+	/*@Test
 	public void c_verifyDashboardVideoWindow() {
 		
 		dashboard.VerifyLiveVideo();
-	}
+	}*/
 }

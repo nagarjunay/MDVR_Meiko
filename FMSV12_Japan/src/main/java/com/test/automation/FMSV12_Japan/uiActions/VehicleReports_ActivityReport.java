@@ -190,7 +190,7 @@ public class VehicleReports_ActivityReport extends TestBase {
 		js.executeScript("document.getElementById('dtto').value='01/09/2019'");
 		log("Entered to Date");
 		test.log(LogStatus.INFO, "Entered to Date");
-		WebDriverWait wait = new WebDriverWait(driver, 30);
+		WebDriverWait wait = new WebDriverWait(driver, 40);
 		boolean invisiable = wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='static' or @class='modal-backdrop fade']")));
 		if (invisiable) {
 			WebElement ele = generateReport;
@@ -232,7 +232,7 @@ public class VehicleReports_ActivityReport extends TestBase {
 	
 	public void alertCount() throws Exception {
 
-		expliciteWait(AlertCount, 40, driver);
+		expliciteWait(AlertCount, 20, driver);
 		AlertCount.click();
 		log("Clicked on Alert count hyper link");
 		test.log(LogStatus.INFO, "Clicked on Alert count hyper link");
@@ -244,7 +244,7 @@ public class VehicleReports_ActivityReport extends TestBase {
 
 	public void violationCount() throws Exception {
 
-		expliciteWait(AlertCount, 40, driver);
+		expliciteWait(ViolationCount, 20, driver);
 		ViolationCount.click();
 		log("Clicked on Violation count hyper link");
 		test.log(LogStatus.INFO, "Clicked on Violation count hyper link");
@@ -255,7 +255,7 @@ public class VehicleReports_ActivityReport extends TestBase {
 	}
 
 	public void overSpeedSummary() throws Exception {
-		expliciteWait(violation_overSpeedSummary, 40, driver);
+		expliciteWait(violation_overSpeedSummary, 20, driver);
 		violation_overSpeedSummary.click();
 		log("Clicked on Over Speed Summary Report hyper link");
 		test.log(LogStatus.INFO, "Clicked on Over Speed Summary Report hyper link");
@@ -267,7 +267,7 @@ public class VehicleReports_ActivityReport extends TestBase {
 
 	public void harshBreak() throws Exception {
 
-		expliciteWait(violation_harshBreak, 40, driver);
+		expliciteWait(violation_harshBreak, 20, driver);
 		violation_harshBreak.click();
 		log("Clicked on Harsh Break Report hyper link");
 		test.log(LogStatus.INFO, "Clicked on Harsh Break Report hyper link");

@@ -183,7 +183,7 @@ public class DashBoard_StateOfVehicle extends TestBase {
 
 	public void verifyRecordesPerPage_dropdown() {
 
-		expliciteWait(RecordsPerPage_Dropdown, 30, driver);
+		//expliciteWait(RecordsPerPage_Dropdown, 30, driver);
 		RecordsPerPage_Dropdown.click();
 		log("Clicked on Records Per Page Dropdown ====>>" + RecordsPerPage_Dropdown + " and object is"
 				+ RecordsPerPage_Dropdown.toString());

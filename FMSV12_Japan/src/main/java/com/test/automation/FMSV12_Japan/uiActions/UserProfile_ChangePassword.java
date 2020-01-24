@@ -54,15 +54,13 @@ public class UserProfile_ChangePassword extends TestBase {
 		mouse_movement(driver, "//li[@class='dropdown user']");
 	}
 
-	public ArrayList<Object> Click_ChangePassword() throws Exception {
+	public void click_ChangePassword()  {
 
 		log("Clicking on Change password from user profile dropdown");
 		test.log(LogStatus.INFO, "Clicking on Change password from user profile dropdown");
-		ArrayList<Object> values = dropdown("//ul[@class='dropdown-menu']/li/a[string-length(text()) > 0]");
-		if (values.contains(" パスワード変更")) {
-			driver.findElement(By.xpath("//a[@href='#ChangePassword']")).click();
-		}
-		return values;
+		
+		driver.findElement(By.xpath("//a[@href='#ChangePassword']")).click();
+			
 	}
 
 	public void VerifyChangePassword_Validation(String Currentpassword, String Newpassword, String Confirmpassword)

@@ -39,7 +39,11 @@ public class UserProfile_Help extends TestBase{
 		mouse_movement(driver, "//li[@class='dropdown user']");
 	}
 
-	public ArrayList<Object> Click_Help() throws Exception {
+	
+	public void clickHelp() {
+		driver.findElement(By.xpath("//*[@id='Help']/span")).click();
+	}
+	/*public ArrayList<Object> Click_Help() throws Exception {
 
 		log("Clicking on Help from user profile dropdown");
 		test.log(LogStatus.INFO, "Clicking on Help from user profile dropdown");
@@ -48,9 +52,13 @@ public class UserProfile_Help extends TestBase{
 			driver.findElement(By.xpath("//*[@id='Help']/span")).click();
 		}
 		return values;
+	}*/
+	
+	public void contactus() {
+		driver.findElement(By.xpath("//*[@id='About']/span")).click();
 	}
 	
-	public ArrayList<Object> ContantUs() throws Exception {
+	/*public ArrayList<Object> ContantUs() throws Exception {
 
 		log("Clicking on Contact Us from user profile dropdown");
 		test.log(LogStatus.INFO, "Clicking on Contact Us from user profile dropdown");
@@ -59,7 +67,7 @@ public class UserProfile_Help extends TestBase{
 			driver.findElement(By.xpath("//*[@id='About']/span")).click();
 		}
 		return values;
-	}
+	}*/
 
 
 	public void VerifyHelpHeader() {

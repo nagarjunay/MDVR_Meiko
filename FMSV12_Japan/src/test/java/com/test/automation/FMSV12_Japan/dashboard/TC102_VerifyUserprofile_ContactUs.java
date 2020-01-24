@@ -44,7 +44,7 @@ public class TC102_VerifyUserprofile_ContactUs extends TestBase {
 		log("=========>Finished verify login");
 		User_Help = new UserProfile_Help(driver);
 		User_Help.Mouse_over();
-		ArrayList<Object> list = new ArrayList<Object>();
+	/*	ArrayList<Object> list = new ArrayList<Object>();
 		list.add(" English");
 		list.add(" 日本語");
 		list.add(" パスワード変更 ");
@@ -59,7 +59,8 @@ public class TC102_VerifyUserprofile_ContactUs extends TestBase {
 		list.add(" Separated link");
 		log("=========>Started to click on Contact Us option");
 		@SuppressWarnings("unused")
-		ArrayList<Object> drop_down_values = User_Help.ContantUs();
+		ArrayList<Object> drop_down_values = User_Help.ContantUs();*/
+		User_Help.contactus();
 		log("=========>Clicked on Contact Us option");
 		User_Help.VerifyContactUs();
 		

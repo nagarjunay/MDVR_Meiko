@@ -46,8 +46,6 @@ public class LoginPage extends TestBase {
 	@FindBy(css = "body > div.content > form.forget-form > div.form-actions > button.btn.green.pull-right")
 	WebElement forgotpassSubmitButton;
 	
-	//div[@class='alert alert-danger ']/span
-	
 	@FindBy(css = "body > div.content > form.forget-form > div.form-group.has-error > span")
 	WebElement emailisrequired;
 	
@@ -82,7 +80,6 @@ public class LoginPage extends TestBase {
 	}
 
 	public void loginToApplication(String loginid, String password) throws Exception {
-
 		loginId.clear();
 		loginId.sendKeys(loginid);
 		log("Entered login id====>>" + loginid + " and object is" + loginId.toString());
@@ -95,8 +92,6 @@ public class LoginPage extends TestBase {
 		submitButton.click();
 		log("Clicked on submit button is" + submitButton.toString());
 		test.log(LogStatus.INFO, "Clicked on submit button");
-		
-
 	}
 
 	public void remeberMe() {
@@ -147,8 +142,7 @@ public class LoginPage extends TestBase {
 		Thread.sleep(2000);
 	    String actual_error2= driver.findElement(By.cssSelector("body > div.content > form.login-form > div.alert.alert-danger > span")).getText();
 	    String expected_error2="メールID（nagarjuna@infotracktelematics.com）が設定されていません";
-	    Assert.assertEquals(actual_error2, expected_error2);
-	
+	    Assert.assertEquals(actual_error2, expected_error2);	
 	}
 
 	public void verify_error_message(String xpathExpression, String expected_message) {

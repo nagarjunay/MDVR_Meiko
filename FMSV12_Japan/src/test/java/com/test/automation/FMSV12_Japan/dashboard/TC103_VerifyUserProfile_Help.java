@@ -45,7 +45,7 @@ public class TC103_VerifyUserProfile_Help extends TestBase {
 		log("=========>Finished verify login");
 		User_Help = new UserProfile_Help(driver);
 		User_Help.Mouse_over();
-		ArrayList<Object> list = new ArrayList<Object>();
+		/*ArrayList<Object> list = new ArrayList<Object>();
 		list.add(" English");
 		list.add(" 日本語");
 		list.add(" パスワード変更 ");
@@ -60,7 +60,8 @@ public class TC103_VerifyUserProfile_Help extends TestBase {
 		list.add(" Separated link");
 		log("=========>Started to click on Help option");
 		@SuppressWarnings("unused")
-		ArrayList<Object> drop_down_values = User_Help.Click_Help();
+		ArrayList<Object> drop_down_values = User_Help.Click_Help();*/
+		User_Help.clickHelp();
 		log("=========>Clicked on Help option");
 		User_Help.VerifyHelpHeader();
 		/*User_Help.VerifyUserManualContent();*/

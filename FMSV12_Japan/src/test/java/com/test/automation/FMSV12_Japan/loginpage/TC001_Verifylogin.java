@@ -41,8 +41,8 @@ public class TC001_Verifylogin extends TestBase {
 		log("=========>Started verify login");
 		loginpage = new LoginPage(driver);
 		/*
-		 * String lcs=LoginData.credentials().get("LoginCredentials1"); String
-		 * logininfo[]=lcs.split("_");
+		 * String lcs=LoginData.credentials().get("LoginCredentials1"); 
+		 * String logininfo[]=lcs.split("_");
 		 */
 		loginpage.loginToApplication1(loginid, password, xpath, expected_message);
 		loginpage.verify_error_message(xpath, expected_message);

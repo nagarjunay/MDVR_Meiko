@@ -46,12 +46,29 @@ public class TC303_VerifyTrackOnMap extends TestBase {
 		loginpage.loginToApplication(loginid, password);
 		tnm = new TrackOnMap(driver);
 		tnm.TrakonMap();
-		tnm.validation();
+		tnm.TrackonMapValidation();
 		log("=========>Finished--->Track On Map Module");
 	}
 	
 	@Test(priority=2)
 	public void verifyVehicleStatus_Moving() {
-		tnm.selectingStatusDropdownMoving();
+		tnm.TrackonMapValidation1();
 	}
+	
+	@Test(priority=3)
+	public void verifyAllDropdowns(){
+		tnm.validatingAllDropdowns();
+	}
+	
+	@Test(priority=4)
+	public void verifyFromDate() {
+		tnm.validationFromDate();
+	}
+	
+	@Test(priority=5)
+    public void verifyTrackHistoryOnMap() throws Exception {
+		tnm.Trackonmaphistory();
+		tnm.AnimateButton();	
+	}
+	
 }

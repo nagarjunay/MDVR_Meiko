@@ -40,7 +40,7 @@ public class TC101_VerifyUserProfile_ChangePassword extends TestBase {
 		log("=========>Finished verify login");
 		cp = new UserProfile_ChangePassword(driver);
 		cp.Mouse_over();
-		ArrayList<Object> list = new ArrayList<Object>();
+		/*ArrayList<Object> list = new ArrayList<Object>();
 		list.add(" English");
 		list.add(" 日本語");
 		list.add(" パスワード変更 ");
@@ -55,7 +55,8 @@ public class TC101_VerifyUserProfile_ChangePassword extends TestBase {
 		list.add(" Separated link");
 		log("=========>Started to click on Change Password option");
 		@SuppressWarnings("unused")
-		ArrayList<Object> drop_down_values = cp.Click_ChangePassword();
+		ArrayList<Object> drop_down_values = */
+		cp.click_ChangePassword();
 		log("=========>Clicked on Change password option");
 		cp.VerifyChangePassword_Validation("demo", "", "");
 	}

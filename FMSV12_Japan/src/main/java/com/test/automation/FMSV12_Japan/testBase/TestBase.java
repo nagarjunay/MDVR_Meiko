@@ -1,3 +1,4 @@
+
 package com.test.automation.FMSV12_Japan.testBase;
 
 /**
@@ -49,10 +50,8 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
+public class TestBase {
 
-public class TestBase 
-{
-	
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
 
 	public WebDriver driver;
@@ -61,10 +60,10 @@ public class TestBase
 	public static ExtentTest test;
 	File file;
 
-	public WebDriver getDriver()
-	{
+	public WebDriver getDriver() {
 		return driver;
 	}
+
 	/* This method is to select browser and url from the config file */
 	@Parameters("Browser_Name")
 	public void init(String Browser_Name) throws IOException {
@@ -82,10 +81,13 @@ public class TestBase
 	static {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyy_hh_mm_ss");
-		
-		/* extent = new ExtentReports(System.getProperty("user.dir")+"/src/main/java/com/test/automation/FMSV12_Japan/report/Meiko_Report.html",
-		 false);*/
-		 
+
+		/*
+		 * extent = new ExtentReports(System.getProperty("user.dir")+
+		 * "/src/main/java/com/test/automation/FMSV12_Japan/report/Meiko_Report.html",
+		 * false);
+		 */
+
 		extent = new ExtentReports(
 				System.getProperty("user.dir") + "/src/main/java/com/test/automation/FMSV12_Japan/report/Meiko_"
 						+ formater.format(calendar.getTime()) + ".html",
@@ -104,15 +106,15 @@ public class TestBase
 	 * This Method will select the different browsers as mentioned in config
 	 * properties file
 	 */
-//
+	//
 	@Parameters("Browser_Name")
 	public void selectBrowser(String browser) {
 		if (browser.equalsIgnoreCase("chrome")) {
-			//WebDriverManager.chromedriver().setup();
+			// WebDriverManager.chromedriver().setup();
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 			log.info("creating object of " + browser);
 			ChromeOptions copts = new ChromeOptions();
-			/*copts.addArguments("--disable-infobars");*/
+			/* copts.addArguments("--disable-infobars"); */
 			copts.addArguments("notifications");
 			copts.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
 			copts.setExperimentalOption("useAutomationExtension", false);
@@ -122,10 +124,9 @@ public class TestBase
 			copts.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
 			driver = new ChromeDriver(copts);
 			log.info("Launching the Chrome browser");
-			
 
 		} else if (browser.equalsIgnoreCase("firefox")) {
-			//WebDriverManager.firefoxdriver().setup();
+			// WebDriverManager.firefoxdriver().setup();
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriverr.exe");
 			log.info("creating object of " + browser);
 			FirefoxOptions opts = new FirefoxOptions();
@@ -136,9 +137,9 @@ public class TestBase
 			opts.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
 			driver = new FirefoxDriver(opts);
 			log.info("Launching the Firefox browser");
-			
+
 		} else if (browser.equalsIgnoreCase("IE")) {
-			//WebDriverManager.iedriver().setup();
+			// WebDriverManager.iedriver().setup();
 			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "/drivers/IEDriverServerr.exe");
 			log.info("creating object of " + browser);
 			driver = new InternetExplorerDriver();
@@ -146,7 +147,7 @@ public class TestBase
 		}
 	}
 
-	/*This method will get url and maximizes browser window*/
+	/* This method will get url and maximizes browser window */
 	public void getUrl(String url) {
 		log.info("Navigating to: " + url);
 		driver.get(url);
@@ -253,7 +254,7 @@ public class TestBase
 	 */
 
 	/* This method is used for dynamic list to store values and compare */
-	public  ArrayList<Object> dropdown(String xpathExpression) {
+	public ArrayList<Object> dropdown(String xpathExpression) {
 		List<WebElement> li = driver.findElements(By.xpath(xpathExpression));
 		ArrayList<Object> array_list = new ArrayList<Object>();
 
@@ -269,8 +270,7 @@ public class TestBase
 		WebElement target = driver.findElement(By.xpath(xpathExpression));
 		act.moveToElement(target).build().perform();
 	}
-	
-	
+
 	public void switching2Tabs(WebDriver driver) {
 		Set<String> windows = driver.getWindowHandles();
 		Iterator<String> ids = windows.iterator();
@@ -284,7 +284,6 @@ public class TestBase
 	}
 
 	public void switching3Tabs(WebDriver driver) throws Exception {
-
 		Set<String> windows = driver.getWindowHandles();
 		Iterator<String> ids = windows.iterator();
 		String ParentId = ids.next();
@@ -298,17 +297,16 @@ public class TestBase
 		test.log(LogStatus.INFO, "Sub Child Window Title: " + driver.getTitle());
 	}
 
-	/*public static String ColorVerify(WebDriver driver, String cssSelector, String cssValue)
-	{
-		WebElement target = driver.findElement(By.cssSelector(cssSelector));
-		String colorCode= target.getCssValue(cssValue);
-		String hexacolor = Color.fromString(colorCode).asHex();
-		return hexacolor;
-	}*/
-	
-	
+	/*
+	 * public static String ColorVerify(WebDriver driver, String cssSelector, String
+	 * cssValue) { WebElement target =
+	 * driver.findElement(By.cssSelector(cssSelector)); String colorCode=
+	 * target.getCssValue(cssValue); String hexacolor =
+	 * Color.fromString(colorCode).asHex(); return hexacolor; }
+	 */
+
 	/* This method is used for List Selection */
-	public  void list_selection_and_click(String xpathExpression, String string, WebDriver driver) {
+	public void list_selection_and_click(String xpathExpression, String string, WebDriver driver) {
 		List<WebElement> li = driver.findElements(By.xpath(xpathExpression));
 		for (WebElement element : li) {
 			if (element.getText().equalsIgnoreCase(string)) {
@@ -319,7 +317,7 @@ public class TestBase
 	}
 
 	/* This method is used for handling Alert/pop-up */
-	public  void handling_alert_popup(WebDriver driver ) throws Exception {
+	public void handling_alert_popup(WebDriver driver) throws Exception {
 
 		Alert alert = driver.switchTo().alert();
 		// Capturing alert message
@@ -333,7 +331,7 @@ public class TestBase
 	}
 
 	/* This method is used for handling frames */
-	public  void handling_frame(int index_number) {
+	public void handling_frame(int index_number) {
 		driver.switchTo().frame(index_number);
 	}
 
@@ -351,10 +349,10 @@ public class TestBase
 		Capabilities caps = ((RemoteWebDriver) driver).getCapabilities();
 		String browserName = caps.getBrowserName();
 		String browserVersion = caps.getVersion();
-		test.log(LogStatus.INFO, "Browser Name: "+ browserName);
-		test.log(LogStatus.INFO, "Browser Version: "+browserVersion);
-		String Currenturl= driver.getCurrentUrl();
-		test.log(LogStatus.INFO, "Navigating to: "+Currenturl);
+		test.log(LogStatus.INFO, "Browser Name: " + browserName);
+		test.log(LogStatus.INFO, "Browser Version: " + browserVersion);
+		String Currenturl = driver.getCurrentUrl();
+		test.log(LogStatus.INFO, "Navigating to: " + Currenturl);
 		test.log(LogStatus.INFO, result.getName() + " Test is Started");
 	}
 
